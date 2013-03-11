@@ -1,0 +1,41 @@
+GetBoo contains/has been inspired by the code from the following applications,
+without those GetBoo wouldn't be what it is today!
+
+------------
+GPL Licenced
+------------
+
+Scuttle (Web-based bookmarking manager)
+http://www.scuttle.org/
+
+php-gettext
+Danilo Segan <danilo@kvota.net>
+http://savannah.nongnu.org/projects/php-gettext/
+
+Standardista (Javascript table sorting)
+Neil Crosby
+http://www.workingwith.me.uk/articles/scripting/standardista_table_sorting
+
+phpBB (Database import for install script)
+http://www.phpbb.com/
+
+PhpCaptcha - A visual and audio CAPTCHA generation library
+Edward Eliot
+http://www.ejeliot.com/pages/2
+
+Browser detection (includes/browser.php)
+Gary White
+
+cURL (retrieve urls)
+http://curl.haxx.se/
+
+jQuery (jquery.com)
+John Resig
++ Interface (http://interface.eyecon.ro)
++ Form Plugin (http://malsup.com/jquery/form/)
+
+/images/icons: Silk icons (http://www.famfamfam.com/lab/icons/silk/)
+
+Design has been in part inspired by these websites:
+http://www.bewelcome.org/ (main page)
+http://wiki.splitbrain.org/ (configuration values page)

@@ -1,0 +1,2970 @@
+# GetBoo fr_FR Translation
+# Copyright (C) 2007 GetBoo project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GetBoo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-07 08:00-0400\n"
+"PO-Revision-Date: 2008-04-07 08:02-0500\n"
+"Last-Translator: Maxime Chartrand-Dumas <maxime@getboo.com>\n"
+"Language-Team: en-US <maxime@getboo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Bookmarks: 46,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: ..\..\..\about.php:25
+#: ..\..\..\header.php:150
+#: ..\..\..\header.php:168
+msgid "About"
+msgstr "À propos"
+
+#: ..\..\..\about.php:28
+msgid "New"
+msgstr "Nouveau"
+
+#: ..\..\..\about.php:28
+msgid "Learn more about the project"
+msgstr "En apprendre plus à propos du projet"
+
+#: ..\..\..\about.php:28
+msgid "Donations"
+msgstr "Dons"
+
+#: ..\..\..\about.php:30
+msgid "What is"
+msgstr "Qu'est-ce"
+
+#: ..\..\..\about.php:32
+msgid "is both a social and private bookmarking website which can be used to"
+msgstr "est autant un site de signets sociaux et privés qui peut servir à"
+
+#: ..\..\..\about.php:34
+#, php-format
+msgid "<b>Keep</b> links to your favorite news, blogs, music, games, and more on %s and access them from any computer on the web"
+msgstr "<b>Gardez</b> vos liens à vos nouvelles favorites, blogues, musique, jeux et plus sur %s et accédez les de n'importe quel ordinateur sur Internet"
+
+#: ..\..\..\about.php:35
+msgid "<b>Import/Export</b> these links from your browser's bookmarks and view them with the same hierarchy"
+msgstr "<b>Importer/Exporter</b> ces liens dans les signets de votre navigateur et regardez-les avec la même hiérarchie"
+
+#: ..\..\..\about.php:36
+msgid "<b>Share</b> favorites with friends, family, and colleagues."
+msgstr "<b>Partager</b> des signets avec des amis, famille et collègues."
+
+#: ..\..\..\about.php:37
+#, php-format
+msgid "<b>Find</b> new things. Everything on %s is someone's favorite - they've already done the work of finding it. Explore and enjoy"
+msgstr "<b>Trouver</b> de nouvelles choses. Tout ce qui est sur %s est le site préféré de quelqu'un - ils ont déjà fait le travail de le trouver. Explorer et amusez-vous"
+
+#: ..\..\..\about.php:40
+msgid "Why"
+msgstr "Pourquoi"
+
+#: ..\..\..\about.php:43
+msgid "You can import and export your bookmarks from your browser, and keep the same hierarchy of folders that you have in your browser"
+msgstr "Vous pouvez importer et exporter vos signets depuis votre navigateur, et conserver la même structure de dossiers que vous avez dans votre navigateur"
+
+#: ..\..\..\about.php:44
+msgid "You can create and join groups, either public or private, enabling you to share bookmarks for a school research/game strategy/etc"
+msgstr "Vous pouvez créer et adhérer à des groupes, soit publiques ou privés, vous permettant de partager vos signets pour une recherche d'école / stratégie de jeu / etc"
+
+#: ..\..\..\about.php:45
+msgid "And you get all the social bookmarking advantages, with public bookmarks and tags"
+msgstr "Et vous obtenez tous les avantages des signets sociaux, avec des signets publiques et des étiquettes"
+
+#: ..\..\..\about.php:48
+msgid "What to do?"
+msgstr "Quoi faire?"
+
+#: ..\..\..\about.php:50
+msgid "Navigate and discover new urls that users found interesting!"
+msgstr "Naviguez et découvrez de nouveaux liens que les utilisateurs ont trouvés intéressant!"
+
+#: ..\..\..\about.php:51
+#, php-format
+msgid "Add your own urls and share them with the world by <a href=\"%s\">creating an account</a>!"
+msgstr "Ajoutez vos propres urls et partagez-les avec le monde en <a href=\"%s\">enregistrant un compte</a>!"
+
+#: ..\..\..\about.php:53
+msgid "Developers"
+msgstr "Développeurs"
+
+#: ..\..\..\about.php:55
+#, php-format
+msgid "GetBoo is an open-source project (hosted on <a href=\"%s\">SourceForge.net</a>), licensed under the <a href=\"%s\">General Public Licence</a>."
+msgstr "GetBoo est un projet open-source (hébergé sur <a href=\"%s\">SourceForge.net</a>), sous la license <a href=\"%s\">General Public Licence</a>."
+
+#: ..\..\..\about.php:56
+#, php-format
+msgid "Please visit <a href=\"%s\">GetBoo's wiki</a> for more information about the project."
+msgstr "Veillez visiter la <a href=\"%s\">wiki de GetBoo</a> pour plus d'informations à propos du projet."
+
+#: ..\..\..\about.php:60
+msgid "Contact"
+msgstr "Contact"
+
+#: ..\..\..\about.php:61
+#: ..\..\..\modifyaccount.php:145
+#: ..\..\..\newuser.php:285
+#: ..\..\..\umodifyaccount.php:138
+msgid "Email"
+msgstr "Courriel"
+
+#: ..\..\..\about.php:64
+#: ..\..\..\newuser.php:186
+msgid "Registration"
+msgstr "Inscription"
+
+#: ..\..\..\about.php:65
+msgid "Support"
+msgstr "Support"
+
+#: ..\..\..\about.php:66
+msgid "Abuse"
+msgstr "Abus"
+
+#: ..\..\..\access.php:51
+#: ..\..\..\access.php:55
+msgid "Protected Area"
+msgstr "Endroit Protégé"
+
+#: ..\..\..\access.php:51
+#: ..\..\..\comment.php:86
+msgid "You are not logged in, or your session has expired"
+msgstr "Vous n'êtes pas connecté, ou votre session est expirée"
+
+#: ..\..\..\access.php:52
+msgid "Only registered users can access this page"
+msgstr "Seulement les utilisateurs enregistrés peuvent accèder à cette page"
+
+#: ..\..\..\access.php:53
+#: ..\..\..\access.php:57
+#, php-format
+msgid "Please <a href=\"%s\">login</a> into your account from the login page"
+msgstr "Veuillez vous <a href=\"%s\">connecter</a> à votre compte depuis la page connexion"
+
+#: ..\..\..\access.php:55
+msgid "This is a protected area"
+msgstr "Cet un endroit protégé"
+
+#: ..\..\..\access.php:56
+msgid "Only admin users can access this page"
+msgstr "Seulement les administrateurs peuvent accèder à cette page"
+
+#: ..\..\..\accessaccount.php:44
+#: ..\..\..\accessaccount.php:63
+#: ..\..\..\controlpanel.php:50
+#: ..\..\..\manageusers.php:52
+msgid "Manage Users"
+msgstr "Gérer les utilisateurs"
+
+#: ..\..\..\accessaccount.php:44
+#: ..\..\..\accessaccount.php:63
+msgid "Access Accounts"
+msgstr "Accèder des comptes"
+
+#: ..\..\..\accessaccount.php:45
+msgid "You are now back into your account"
+msgstr "Vous êtes maintenant de retour dans votre compte"
+
+#: ..\..\..\accessaccount.php:56
+#, php-format
+msgid "You are now in %s's account.</p><p>Access this user again to get back into your admin account"
+msgstr ""
+
+#: ..\..\..\accessaccount.php:64
+msgid "Cannot access the user's account"
+msgstr ""
+
+#: ..\..\..\activate.php:36
+msgid "Activation"
+msgstr "Activation"
+
+#: ..\..\..\activate.php:90
+#: ..\..\..\activate.php:139
+msgid "Account Activation"
+msgstr "Activation de compte"
+
+#: ..\..\..\activate.php:91
+msgid "Your account is now activated"
+msgstr "Votre compte est maintenant activé"
+
+#: ..\..\..\activate.php:91
+msgid "Thank you for registering an account with us"
+msgstr "Merci d'avoir enregistré un compte avec nous"
+
+#: ..\..\..\activate.php:92
+#, php-format
+msgid "You can now access your account %sbookmarks</a>"
+msgstr "Vous pouvez maintenant accéder vos %ssignets</a> de votre compte"
+
+#: ..\..\..\activate.php:103
+msgid "or add the bookmarklets in your browser"
+msgstr ""
+
+#: ..\..\..\activate.php:110
+#: ..\..\..\activate.php:115
+msgid "An error occured while activating your accont"
+msgstr ""
+
+#: ..\..\..\activate.php:121
+msgid "Your account is already activated"
+msgstr "Votre compte est déjà activé"
+
+#: ..\..\..\activate.php:122
+#, php-format
+msgid "You can access it from the <a href=\"%s\">login</a> page"
+msgstr ""
+
+#: ..\..\..\activate.php:126
+msgid "The username and activation code don't match, or the user does not exist"
+msgstr ""
+
+#: ..\..\..\activate.php:132
+msgid "Both the username and activation code are required"
+msgstr ""
+
+#: ..\..\..\activate.php:144
+msgid "You must enter your username <b>and</b> your activation code (the one you received at your email address) to get your account activated"
+msgstr ""
+
+#: ..\..\..\activate.php:148
+#: ..\..\..\forgotpass.php:89
+#: ..\..\..\gmembers.php:91
+#: ..\..\..\login.php:169
+#: ..\..\..\newuser.php:255
+#: ..\..\user.php:554
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ..\..\..\activate.php:149
+#: ..\..\..\activate.php:153
+#: ..\..\..\add.php:250
+#: ..\..\..\add.php:254
+#: ..\..\..\changepass.php:79
+#: ..\..\..\changepass.php:83
+#: ..\..\..\changepass.php:87
+#: ..\..\..\forgotpass.php:90
+#: ..\..\..\forgotpass.php:94
+#: ..\..\..\gcreate.php:136
+#: ..\..\..\gcreate.php:140
+#: ..\..\..\gcreate.php:144
+#: ..\..\..\gcreate.php:148
+#: ..\..\..\gedit.php:169
+#: ..\..\..\gedit.php:173
+#: ..\..\..\gedit.php:177
+#: ..\..\..\gedit.php:195
+#: ..\..\..\modifyfav.php:209
+#: ..\..\..\modifyfav.php:213
+#: ..\..\..\modifyfav.php:225
+#: ..\..\..\modifyfolder.php:99
+#: ..\..\..\modifyfolder.php:103
+#: ..\..\..\newuser.php:256
+#: ..\..\..\newuser.php:260
+#: ..\..\..\newuser.php:264
+#: ..\..\..\newuser.php:268
+#: ..\..\..\newuser.php:272
+#: ..\..\..\newuser.php:285
+#: ..\..\..\umodifyaccount.php:139
+#: ..\..\..\umodifyaccount.php:143
+#: ..\..\..\umodifyaccount.php:159
+msgid "chars max"
+msgstr "caractères maximum"
+
+#: ..\..\..\activate.php:152
+msgid "Activation code"
+msgstr "Code d'activation"
+
+#: ..\..\..\activate.php:157
+msgid "Activate"
+msgstr "Activer"
+
+#: ..\..\..\add.php:27
+#: ..\..\..\add.php:61
+msgid "Add a bookmark"
+msgstr "Ajouter un signet"
+
+#: ..\..\..\add.php:73
+#: ..\..\..\login.php:46
+msgid "A session security token is missing"
+msgstr "Un jeton de sécurité de la session est manquant"
+
+#: ..\..\..\add.php:75
+#: ..\..\..\login.php:48
+msgid "A form security token is missing"
+msgstr "Un jeton de sécurité du formulaire est manquant"
+
+#: ..\..\..\add.php:77
+#: ..\..\..\login.php:50
+msgid "The security token is invalid"
+msgstr "Le jeton de sécurité est invalide"
+
+#: ..\..\..\add.php:175
+msgid "The bookmark was added"
+msgstr "Le signet a été ajouté"
+
+#: ..\..\..\add.php:186
+msgid "There has been a problem when adding the new bookmark"
+msgstr "Il y a eu un problème lors de l'ajout du signet"
+
+#: ..\..\..\add.php:190
+#: ..\..\..\modifyfav.php:150
+msgid "A bookmark with the same url has already been submitted"
+msgstr ""
+
+#: ..\..\..\add.php:193
+#: ..\..\..\modifyfav.php:150
+msgid "Edit Original Bookmark"
+msgstr "Editer le signet original"
+
+#: ..\..\..\add.php:198
+#: ..\..\..\comment.php:83
+#: ..\..\..\forgotpass.php:78
+#: ..\..\..\gcreate.php:109
+#: ..\..\..\managenews.php:72
+#: ..\..\..\modifyaccount.php:72
+#: ..\..\..\modifyfav.php:155
+#: ..\..\..\modifyfolder.php:71
+#: ..\..\..\modifyfolder.php:117
+#: ..\..\..\newsmodify.php:65
+#: ..\..\..\newuser.php:179
+#: ..\..\f_deleteaccount.php:101
+#: ..\..\user.php:478
+msgid "The form is incomplete"
+msgstr "Le formulaire est incomplet"
+
+#: ..\..\..\add.php:224
+#: ..\..\..\books_nojs.php:224
+#: ..\..\..\books_nojs.php:242
+msgid "Folder"
+msgstr "Dossier"
+
+#: ..\..\..\add.php:231
+msgid "Optional - Add a new folder under the previous one"
+msgstr "Optionnel - Ajouter un nouveau dossier en dessous du précédent"
+
+#: ..\..\..\add.php:234
+msgid "New Folder"
+msgstr "Nouveau dossier"
+
+#: ..\..\..\add.php:235
+msgid "chars max, folder added under parent folder"
+msgstr "caractères maximum, dossier ajouté en dessous du dossier parent"
+
+#: ..\..\..\add.php:238
+#: ..\..\..\add.php:253
+#: ..\..\..\gcreate.php:147
+#: ..\..\..\gedit.php:194
+#: ..\..\..\modifyfav.php:212
+#: ..\..\..\modifyfolder.php:102
+#: ..\..\gdetails_body.php:35
+msgid "Description"
+msgstr "Description"
+
+#: ..\..\..\add.php:239
+msgid "chars max, description of the new folder"
+msgstr "caractères maximum, description du nouveau dossier"
+
+#: ..\..\..\add.php:245
+#: ..\..\..\modifyfav.php:204
+msgid "Url"
+msgstr "Url"
+
+#: ..\..\..\add.php:246
+#: ..\..\..\modifyfav.php:205
+#: ..\..\..\umodifyaccount.php:167
+msgid "No chars limit"
+msgstr "Pas de limite de caractères"
+
+#: ..\..\..\add.php:249
+#: ..\..\..\comment.php:149
+#: ..\..\..\managenews.php:85
+#: ..\..\..\managenews.php:100
+#: ..\..\..\modifyfav.php:208
+#: ..\..\..\modifyfolder.php:98
+#: ..\..\..\newsmodify.php:91
+msgid "Title"
+msgstr "Titre"
+
+#: ..\..\..\add.php:261
+#: ..\..\..\bheader.php:40
+#: ..\..\..\modifyfav.php:220
+msgid "Public"
+msgstr "Publique"
+
+#: ..\..\..\add.php:262
+#, php-format
+msgid "For new users, they will appear in recent bookmarks %s days after the date you registered"
+msgstr ""
+
+#: ..\..\..\add.php:265
+#: ..\..\..\header.php:95
+#: ..\..\..\modifyfav.php:224
+#: ..\..\..\tags.php:74
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: ..\..\..\add.php:266
+#, php-format
+msgid "chars max, %s chars per tag max. Tags are keywords"
+msgstr ""
+
+#: ..\..\..\add.php:266
+#: ..\..\..\modifyfav.php:225
+msgid "space separated"
+msgstr "séparé pas des espaces"
+
+#: ..\..\..\add.php:273
+msgid "Add Bookmark"
+msgstr "Ajouter un signet"
+
+#: ..\..\..\alltags.php:50
+msgid "All tags"
+msgstr "Toutes les étiquettes"
+
+#: ..\..\..\alltags.php:64
+#: ..\..\..\populartags.php:64
+msgid "Sort by"
+msgstr "Trier par"
+
+#: ..\..\..\alltags.php:64
+#: ..\..\..\populartags.php:64
+msgid "Alphabet"
+msgstr "Alphabète"
+
+#: ..\..\..\alltags.php:66
+#: ..\..\..\populartags.php:66
+msgid "Popularity"
+msgstr "Popularité"
+
+#: ..\..\..\bheader.php:24
+#: ..\..\..\bheader.php:40
+#: ..\..\..\header.php:160
+#: ..\..\..\spamcenter.php:53
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: ..\..\..\bheader.php:41
+#: ..\..\..\books_nojs.php:309
+#: ..\..\..\gheader.php:29
+#: ..\..\..\groups.php:36
+#: ..\..\..\psearch.php:65
+#: ..\..\..\search.php:152
+#: ..\..\..\search.php:170
+msgid "Search"
+msgstr "Rechercher"
+
+#: ..\..\..\bheader.php:42
+#: ..\..\..\import.php:31
+#: ..\..\..\import.php:52
+#: ..\..\..\importDelicious.php:93
+#: ..\..\..\netscape_import.php:259
+msgid "Import"
+msgstr "Importer"
+
+#: ..\..\..\bheader.php:42
+msgid "Import Delicious"
+msgstr "Importer depuis Delicious"
+
+#: ..\..\..\bheader.php:42
+#: ..\..\..\export.php:31
+msgid "Export"
+msgstr "Exporter"
+
+#: ..\..\..\bheader.php:43
+#: ..\..\..\sbheader.php:25
+#: ..\..\..\sbmostused.php:30
+#: ..\..\..\sbsearches.php:31
+#: ..\..\..\statsb.php:31
+#: ..\..\..\statsexportimport.php:31
+msgid "Stats"
+msgstr "Statistiques"
+
+#: ..\..\..\bheader.php:43
+#: ..\..\easybook_content.php:24
+#: ..\..\easybook_content.php:52
+msgid "EasyBook"
+msgstr "EasyBook"
+
+#: ..\..\..\bheader.php:44
+msgid "Layout"
+msgstr "Mise en page"
+
+#: ..\..\..\bheader.php:45
+msgid "Original"
+msgstr "Originale"
+
+#: ..\..\..\bheader.php:45
+msgid "Tree"
+msgstr "Arbre"
+
+#: ..\..\..\books.php:45
+msgid "My Bookmarks"
+msgstr "Mes Signets"
+
+#: ..\..\..\books.php:69
+msgid "You have successfully deleted this bookmark"
+msgstr "Vous avez effacé avec succès ce signet"
+
+#: ..\..\..\books.php:72
+msgid "There has been a problem when deleting the bookmark"
+msgstr "Il y a eu un problème lors de l'effacement du signet"
+
+#: ..\..\..\books_js.php:29
+#: ..\..\folders.php:84
+#: ..\..\folders.php:135
+msgid "Main"
+msgstr "Principal"
+
+#: ..\..\..\books_js.php:223
+#: ..\..\..\books_nojs.php:313
+msgid "Delete All Your Bookmarks"
+msgstr "Effacer tous vos signets"
+
+#: ..\..\..\books_nojs.php:36
+msgid "You have successfully copied this bookmark"
+msgstr "Vous avez copié avec succès ce signet"
+
+#: ..\..\..\books_nojs.php:41
+msgid "There has been a problem when pasting the bookmark"
+msgstr "Il y a eu un problème lors du collage de ce signet"
+
+#: ..\..\..\books_nojs.php:52
+msgid "You have successfully moved this bookmark"
+msgstr "Vous avez déplacé avec succès ce signet"
+
+#: ..\..\..\books_nojs.php:57
+msgid "There has been a problem when moving the bookmark"
+msgstr "Il y a eu un problème lors du déplacement de ce signet"
+
+#: ..\..\..\books_nojs.php:66
+msgid "You have successfully copied this folder"
+msgstr "Vous avez copié avec succès ce dossier"
+
+#: ..\..\..\books_nojs.php:71
+msgid "There has been a problem when pasting the folder"
+msgstr "Il y a eu un problème lors du collage du dossier"
+
+#: ..\..\..\books_nojs.php:82
+msgid "You have successfully moved this folder"
+msgstr "Vous avez déplacé avec succès ce dossier"
+
+#: ..\..\..\books_nojs.php:87
+msgid "There has been a problem when moving the folder"
+msgstr "Il y a eu un problème lors du déplacement du dossier"
+
+#: ..\..\..\books_nojs.php:180
+#: ..\..\..\books_nojs.php:196
+msgid "Copy Here"
+msgstr "Copier ici"
+
+#: ..\..\..\books_nojs.php:180
+#: ..\..\..\books_nojs.php:196
+msgid "Move Here"
+msgstr "Déplacer ici"
+
+#: ..\..\..\books_nojs.php:180
+#: ..\..\..\books_nojs.php:196
+#: ..\..\..\modifyfav.php:197
+#: ..\..\..\modifyfolder.php:91
+#: ..\..\..\newsmodify.php:85
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ..\..\..\books_nojs.php:224
+#: ..\..\..\gheader.php:24
+#: ..\..\..\header.php:162
+#: ..\..\folders.php:80
+#: ..\..\folders.php:82
+msgid "Groups"
+msgstr "Groupes"
+
+#: ..\..\..\books_nojs.php:224
+#: ..\..\folders.php:94
+msgid "Group folders"
+msgstr "Dossier Groupes"
+
+#: ..\..\..\books_nojs.php:240
+#: ..\..\..\books_nojs.php:272
+#: ..\..\..\books_nojs.php:291
+#: ..\..\..\gmanage.php:55
+#: ..\..\..\gmembers.php:93
+#: ..\..\..\gmembers.php:122
+#: ..\..\..\managenews.php:86
+#: ..\..\..\manageusers.php:132
+#: ..\..\..\modifyaccount.php:193
+#: ..\..\bookmarks.php:378
+#: ..\..\bookmarks.php:409
+#: ..\..\jquery\bookmarksjs.php:9
+#: ..\..\jquery\bookmarksjs.php:18
+msgid "Delete"
+msgstr "Effacer"
+
+#: ..\..\..\books_nojs.php:240
+#: ..\..\..\books_nojs.php:272
+#: ..\..\..\books_nojs.php:291
+#: ..\..\..\managenews.php:86
+#: ..\..\..\manageusers.php:132
+#: ..\..\..\modifyaccount.php:188
+msgid "Modify"
+msgstr "Modifier"
+
+#: ..\..\..\books_nojs.php:240
+#: ..\..\..\books_nojs.php:272
+#: ..\..\..\books_nojs.php:291
+msgid "Move"
+msgstr "Déplacer"
+
+#: ..\..\..\books_nojs.php:252
+msgid "Your account has been disabled for this group"
+msgstr "Votre compte a été désactivé pour ce groupe"
+
+#: ..\..\..\books_nojs.php:272
+msgid "By"
+msgstr "Par"
+
+#: ..\..\..\books_nojs.php:299
+#: ..\..\..\index.php:33
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Bienvenue sur %s!"
+
+#: ..\..\..\books_nojs.php:299
+msgid "It appears that you don't have any bookmarks yet"
+msgstr ""
+
+#: ..\..\..\books_nojs.php:299
+#, php-format
+msgid "In order to add bookmarks and folders, go to <a href=\"%s\">Add</a> from the top menu or <a href=\"%s\">Import</a> your bookmarks from your browser"
+msgstr ""
+
+#: ..\..\..\books_nojs.php:307
+msgid "Search Bookmarks"
+msgstr "Rechercher signets"
+
+#: ..\..\..\changepass.php:34
+#: ..\..\..\changepass.php:64
+#: ..\..\..\controlpanel.php:34
+#: ..\..\..\deleteaccount.php:30
+#: ..\..\..\header.php:183
+#: ..\..\..\managenews.php:33
+#: ..\..\..\manageusers.php:52
+#: ..\..\..\manageusers.php:162
+#: ..\..\..\modifyaccount.php:46
+#: ..\..\..\newuser.php:190
+#: ..\..\..\onlineusers.php:30
+#: ..\..\..\removeactivations.php:33
+#: ..\..\..\removeactivations_delete.php:25
+#: ..\..\..\spamcenter.php:34
+#: ..\..\..\umodifyaccount.php:63
+#: ..\..\..\umodifyaccount.php:190
+#: ..\..\..\manageconfig.php:111
+#: ..\..\..\manageconfig.php:143
+#: ..\..\..\manageconfig.php:165
+msgid "Settings"
+msgstr "Configurations"
+
+#: ..\..\..\changepass.php:34
+#: ..\..\..\gedit.php:161
+msgid "Change password"
+msgstr "Changer mot de passe"
+
+#: ..\..\..\changepass.php:41
+#: ..\..\..\deleteaccount.php:39
+#: ..\..\..\deleteallbooks.php:101
+msgid "This is the demo account"
+msgstr "Ce compte est en mode démo"
+
+#: ..\..\..\changepass.php:64
+#: ..\..\..\manageusers.php:162
+#: ..\..\..\umodifyaccount.php:190
+#: ..\..\..\manageconfig.php:165
+msgid "Back to"
+msgstr "Retourner à"
+
+#: ..\..\..\changepass.php:74
+msgid "In order to change your password, enter the current one and then type the new\tone twice to confirm"
+msgstr ""
+
+#: ..\..\..\changepass.php:78
+#: ..\..\..\gedit.php:168
+msgid "Current Password"
+msgstr "Mot de passe actuel"
+
+#: ..\..\..\changepass.php:82
+#: ..\..\..\forgotpass.php:65
+#: ..\..\..\gedit.php:172
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: ..\..\..\changepass.php:86
+#: ..\..\..\gedit.php:176
+msgid "Retype New Password"
+msgstr "Retapez nouveau mot de passe"
+
+#: ..\..\..\changepass.php:91
+#: ..\..\..\controlpanel.php:40
+#: ..\..\..\gedit.php:181
+msgid "Change Password"
+msgstr "Changer votre mot de passe"
+
+#: ..\..\..\changepass.php:96
+#: ..\..\..\deleteaccount.php:84
+#: ..\..\..\managenews.php:114
+#: ..\..\..\onlineusers.php:57
+#: ..\..\..\spamcenter.php:66
+msgid "Back to Settings"
+msgstr "Retour à la configuration"
+
+#: ..\..\..\checkGroup.php:29
+msgid "Check Group Name"
+msgstr "Vérifier nom de groupe"
+
+#: ..\..\..\checkGroup.php:50
+#: ..\..\..\gcreate.php:102
+msgid "This group name is already taken"
+msgstr ""
+
+#: ..\..\..\checkGroup.php:52
+msgid "This group name is available"
+msgstr "Ce nom de groupe est disponible"
+
+#: ..\..\..\checkGroup.php:55
+msgid "Incorrect group format"
+msgstr "Format de groupe incorrect"
+
+#: ..\..\..\checkGroup.php:59
+#: ..\..\..\checkUsername.php:59
+msgid "Close Window"
+msgstr "Fermer la fenêtre"
+
+#: ..\..\..\checkUsername.php:29
+msgid "Check Username"
+msgstr "Vérifier nom d'utilisateur"
+
+#: ..\..\..\checkUsername.php:50
+#: ..\..\..\newuser.php:172
+msgid "This username is already taken"
+msgstr ""
+
+#: ..\..\..\checkUsername.php:52
+msgid "This username is available"
+msgstr "Ce nom d'utilisateur est disponible"
+
+#: ..\..\..\checkUsername.php:55
+msgid "Incorrect username format"
+msgstr "Format de nom d'utilisateur incorrect"
+
+#: ..\..\..\comment.php:106
+msgid "Comments on bookmark:"
+msgstr "Commentaires pour le signet:"
+
+#: ..\..\..\comment.php:113
+msgid "Your comment has been added"
+msgstr "Votre commentaire a été ajouté"
+
+#: ..\..\..\comment.php:117
+msgid "Error when adding the comment"
+msgstr "Erreur lors de l'ajout du commentaire"
+
+#: ..\..\..\comment.php:134
+msgid "Comments"
+msgstr "Commentaires"
+
+#: ..\..\..\comment.php:136
+msgid "No comments for this bookmark"
+msgstr "Soumettre commentaire"
+
+#: ..\..\..\comment.php:146
+msgid "Submit a comment"
+msgstr "Soumettre un commentaire"
+
+#: ..\..\..\comment.php:151
+#: ..\..\..\managenews.php:104
+#: ..\..\..\newsmodify.php:95
+msgid "Message"
+msgstr "Message"
+
+#: ..\..\..\comment.php:153
+msgid "Submit Comment"
+msgstr "Soumettre commentaire"
+
+#: ..\..\..\comment.php:160
+#, php-format
+msgid "Please <a href=\"%s\">login</a> in order to comment this bookmark"
+msgstr ""
+
+#: ..\..\..\controlpanel.php:24
+msgid "My Settings"
+msgstr "Ma Configuration"
+
+#: ..\..\..\controlpanel.php:36
+#, php-format
+msgid "Hello <b>%s</b>. You are in your control panel area where you can change your settings"
+msgstr "Bonjour <b>%s</b>. Vous êtes dans votre paneau de configuration où vous pouvez changer vos paramètres de configuration"
+
+#: ..\..\..\controlpanel.php:37
+#: ..\..\..\managenews.php:85
+#: ..\..\..\manageusers.php:108
+msgid "Options"
+msgstr "Options"
+
+#: ..\..\..\controlpanel.php:42
+#: ..\..\..\umodifyaccount.php:63
+msgid "Modify account information"
+msgstr "Modifier informations de compte"
+
+#: ..\..\..\controlpanel.php:48
+msgid "Admin Options"
+msgstr "Options administateur"
+
+#: ..\..\..\controlpanel.php:51
+#: ..\..\..\manageconfig.php:111
+msgid "Manage Configuration"
+msgstr "Gérer la configuration"
+
+#: ..\..\..\controlpanel.php:53
+#: ..\..\..\spamcenter.php:34
+msgid "Spam Center"
+msgstr "Centre de Spam"
+
+#: ..\..\..\controlpanel.php:56
+#: ..\..\..\managenews.php:33
+msgid "Manage News"
+msgstr "Gérer nouvelles"
+
+#: ..\..\..\controlpanel.php:58
+#: ..\..\..\onlineusers.php:30
+msgid "Online Users"
+msgstr "Utilisateurs en ligne"
+
+#: ..\..\..\controlpanel.php:67
+msgid "Version Check"
+msgstr "Vérification de version"
+
+#: ..\..\..\controlpanel.php:106
+msgid "Your installation is up to date"
+msgstr "Votre installation est à jour"
+
+#: ..\..\..\controlpanel.php:110
+#, php-format
+msgid "Your installation does not seem to be up to date (you currently use version %s)"
+msgstr "Votre installation ne semble pas être à jour (vous utilisez présentement la version %s)"
+
+#: ..\..\..\controlpanel.php:111
+#, php-format
+msgid "You can visit <a href=\"%s\">SourceForge.net project's page</a> to download and upgrade to the latest version (%s)"
+msgstr ""
+
+#: ..\..\..\controlpanel.php:132
+#: ..\..\..\deleteaccount.php:30
+msgid "Delete Account"
+msgstr "Effacer compte"
+
+#: ..\..\..\deleteaccount.php:65
+#: ..\..\..\deleteallbooks.php:89
+#: ..\..\..\gdelete.php:111
+msgid "The password is incorrect"
+msgstr "Le mot de passe est incorrect"
+
+#: ..\..\..\deleteaccount.php:68
+msgid "Please enter your password in order to delete your account"
+msgstr ""
+
+#: ..\..\..\deleteaccount.php:77
+msgid "Are you sure you want to delete your account"
+msgstr "Êtes-vous certain de vouloir effacer votre compte"
+
+#: ..\..\..\deleteaccount.php:78
+#: ..\..\..\deleteallbooks.php:111
+#: ..\..\..\gdelete.php:128
+#: ..\..\..\gjoin.php:145
+msgid "Enter Password"
+msgstr "Entre mot de passe"
+
+#: ..\..\..\deleteaccount.php:80
+msgid "Yes, I want to delete my account"
+msgstr "Oui, je vous effacer mon compte"
+
+#: ..\..\..\deleteallbooks.php:35
+msgid "Delete Bookmarks"
+msgstr "Effacer signets"
+
+#: ..\..\..\deleteallbooks.php:79
+msgid "You have successfully deleted all your folders and bookmarks"
+msgstr "Vous avez effacé avec succès tous vos signets et dossiers"
+
+#: ..\..\..\deleteallbooks.php:79
+#, php-format
+msgid "You can <a href=\"%s\">go back</a> to your bookmarks"
+msgstr ""
+
+#: ..\..\..\deleteallbooks.php:83
+msgid "There has been a problem with deleting bookmarks"
+msgstr ""
+
+#: ..\..\..\deleteallbooks.php:86
+msgid "There has been a problem with deleting folders"
+msgstr ""
+
+#: ..\..\..\deleteallbooks.php:93
+msgid "Please enter your password"
+msgstr "Veillez entrer votre mot de passe"
+
+#: ..\..\..\deleteallbooks.php:108
+msgid "Are you sure you want to delete all your bookmarks and folders in your account"
+msgstr ""
+
+#: ..\..\..\deleteallbooks.php:109
+msgid "All the bookmarks in your groups will also be deleted"
+msgstr ""
+
+#: ..\..\..\deleteallbooks.php:113
+msgid "Yes, I want to delete them all"
+msgstr "Oui, je veux les effacer au complet"
+
+#: ..\..\..\emailpass.php:31
+#: ..\..\..\forgotpass.php:31
+#: ..\..\..\login.php:189
+msgid "Forgot password"
+msgstr "Mot de passe oublié"
+
+#: ..\..\..\emailpass.php:57
+#, php-format
+msgid "New password for your %s account"
+msgstr "Nouveau mot de passe pour votre compte %s"
+
+#: ..\..\..\emailpass.php:57
+#: ..\..\user.php:560
+msgid "Could not send the email: Here is a copy of the email"
+msgstr ""
+
+#: ..\..\..\emailpass.php:58
+msgid "New password generated"
+msgstr "Nouveau mot de passe généré"
+
+#: ..\..\..\emailpass.php:58
+msgid "Please check your email and log in with the new password"
+msgstr ""
+
+#: ..\..\..\emailpass.php:58
+msgid "The email is already sent, but with some free email providers, it might take a few hours"
+msgstr ""
+
+#: ..\..\..\emailpass.php:63
+msgid "Could not store the new password"
+msgstr ""
+
+#: ..\..\..\emailpass.php:68
+msgid "Error"
+msgstr "Erreur"
+
+#: ..\..\..\export.php:32
+msgid "Here you can export your bookmarks to your internet browser"
+msgstr ""
+
+#: ..\..\..\export.php:33
+msgid "You can check the tutorial for the browser where you want to import your bookmarks into"
+msgstr ""
+
+#: ..\..\..\export.php:34
+#: ..\..\..\import.php:34
+msgid "Browsers supported"
+msgstr "Navigateurs supportés"
+
+#: ..\..\..\export.php:37
+#: ..\..\..\export.php:38
+#: ..\..\..\export.php:39
+#: ..\..\..\export.php:40
+#: ..\..\..\export.php:41
+#: ..\..\..\export.php:42
+#: ..\..\..\import.php:37
+#: ..\..\..\import.php:38
+#: ..\..\..\import.php:39
+#: ..\..\..\import.php:40
+#: ..\..\..\import.php:41
+#: ..\..\easybook_content.php:32
+#: ..\..\easybook_content.php:33
+#: ..\..\easybook_content.php:34
+#: ..\..\easybook_content.php:35
+#: ..\..\easybook_content.php:36
+msgid "Tutorial"
+msgstr "Tutoriel"
+
+#: ..\..\..\export.php:47
+msgid "Generate Export File"
+msgstr "Générer le fichier d'exportation"
+
+#: ..\..\..\export.php:51
+msgid "It generates the file containing your bookmarks"
+msgstr "Cela génère le fichier contenant vos signets"
+
+#: ..\..\..\export.php:51
+msgid "Store the file on your computer in order to access it from your browser"
+msgstr ""
+
+#: ..\..\..\feed.php:26
+msgid "Available feed"
+msgstr "Fils disponibles"
+
+#: ..\..\..\feed.php:28
+#, php-format
+msgid "The feed below enables you to read the news on %s with any feed reading software"
+msgstr ""
+
+#: ..\..\..\feed.php:29
+#, php-format
+msgid "Because %s has a feed available, people can subscribe to it using software for reading syndicated content called a \"newsreader.\" Currently, %s News feed is written in RSS only"
+msgstr ""
+
+#: ..\..\..\feed.php:37
+msgid "Feed-reading software"
+msgstr ""
+
+#: ..\..\..\feed.php:43
+msgid "Web-based"
+msgstr ""
+
+#: ..\..\..\feed.php:48
+msgid "Cross platform"
+msgstr ""
+
+#: ..\..\..\feed.php:62
+msgid "Source"
+msgstr "Source"
+
+#: ..\..\..\feed.php:68
+msgid "Other than usign these softwares to read the feed, some browser support feeds such as"
+msgstr ""
+
+#: ..\..\..\feed.php:69
+#, php-format
+msgid "Look for the %s icon in the browser"
+msgstr ""
+
+#: ..\..\..\feed.php:69
+#: ..\..\..\news.php:80
+#: ..\..\..\recent_tags.php:94
+#: ..\..\..\tags.php:130
+#: ..\..\..\userb.php:202
+msgid "RSS icon"
+msgstr "Icône RSS"
+
+#: ..\..\..\feed.php:72
+msgid "[Valid RSS]"
+msgstr ""
+
+#: ..\..\..\feed.php:72
+msgid "Validate my RSS feed"
+msgstr ""
+
+#: ..\..\..\publicfooter.php:59
+msgid "user"
+msgid_plural "users"
+msgstr[0] "utilisateur"
+msgstr[1] "utilisateurs"
+
+#: ..\..\..\publicfooter.php:60
+msgid "There is"
+msgid_plural "There are"
+msgstr[0] "Il y a"
+msgstr[1] "Il y a"
+
+#: ..\..\..\publicfooter.php:61
+#, php-format
+msgid "registered on %s"
+msgstr "enregistrés sur %s"
+
+#: ..\..\..\publicfooter.php:62
+#, php-format
+msgid "There are <b>%s bookmarks</b> stored on %s"
+msgstr "Il y a <b>%s signets</b> stockés sur %s"
+
+#: ..\..\..\forgotpass.php:54
+msgid "Your password hint question is"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:56
+msgid "You didn't provide any hint question"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:60
+msgid "If this hint doesn't help you, we can email you a new password"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:72
+msgid "The username and the email don't match, or the user does not exist"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:78
+msgid "You must provide both fields, the username and email (either provided during registration or updated after)"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:84
+msgid "You must enter your username <b>and</b> your email to get your password hint question"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:85
+msgid "If it doesn't help you recover your password, you will get the possibility to receive a new password"
+msgstr ""
+
+#: ..\..\..\forgotpass.php:93
+#: ..\..\..\newuser.php:267
+msgid "Email address"
+msgstr "Courriel"
+
+#: ..\..\..\forgotpass.php:98
+msgid "Hint question"
+msgstr "Question rappel"
+
+#: ..\..\..\forgotpass.php:102
+#: ..\..\..\login.php:189
+msgid "New User"
+msgstr "Nouvel Utilisateur"
+
+#: ..\..\..\gcreate.php:56
+msgid "Check for invalid characters or length"
+msgstr "Vérifiez pour les caractères invalides ou la longueur des chams"
+
+#: ..\..\..\gcreate.php:62
+#: ..\..\..\newuser.php:78
+msgid "Both passwords have to match"
+msgstr "Les deux mots de passe doivent correspondre"
+
+#: ..\..\..\gcreate.php:93
+msgid "The group was successfully created"
+msgstr ""
+
+#: ..\..\..\gcreate.php:96
+#: ..\..\..\gjoin.php:110
+msgid "A problem occured when creating the folder of this group"
+msgstr ""
+
+#: ..\..\..\gcreate.php:99
+msgid "A problem occured when creating your group information"
+msgstr ""
+
+#: ..\..\..\gcreate.php:102
+msgid "Please choose a different group name"
+msgstr ""
+
+#: ..\..\..\gcreate.php:128
+msgid "Enter the group name in the field"
+msgstr ""
+
+#: ..\..\..\gcreate.php:135
+#: ..\..\gdetails_body.php:35
+msgid "Group name"
+msgstr "Nom de groupe"
+
+#: ..\..\..\gcreate.php:136
+#: ..\..\..\newuser.php:256
+msgid "Check availability"
+msgstr "Vérifier la disponibilité"
+
+#: ..\..\..\gcreate.php:139
+#: ..\..\..\login.php:173
+#: ..\..\..\modifyaccount.php:141
+#: ..\..\..\newuser.php:259
+#: ..\..\user.php:554
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ..\..\..\gcreate.php:143
+#: ..\..\..\newuser.php:263
+msgid "Retype password"
+msgstr "Retapez mot de passe"
+
+#: ..\..\..\gcreate.php:152
+msgid "Add Group"
+msgstr "Ajouter groupe"
+
+#: ..\..\..\gcreate.php:156
+#: ..\..\..\newuser.php:292
+msgid "All fields in bold are mandatory, and they can only contain letters, digits, '-' and '_' (except for the email)"
+msgstr "Tous les champs en gras sont mandatoires, et ils ne peuvent contenir que des lettres, chiffres,  '-' et '_' (sauf pour le courriel)"
+
+#: ..\..\..\gcreate.php:157
+msgid "Leave blank if you want to make the group public"
+msgstr ""
+
+#: ..\..\..\gdelete.php:53
+msgid "Only the manager of this group can delete his group"
+msgstr ""
+
+#: ..\..\..\gdelete.php:102
+msgid "Your group has been deleted"
+msgstr ""
+
+#: ..\..\..\gdelete.php:105
+msgid "A problem occured when deleting the group folders and bookmarks"
+msgstr ""
+
+#: ..\..\..\gdelete.php:108
+msgid "A problem occured when deleting the group information"
+msgstr ""
+
+#: ..\..\..\gdelete.php:115
+msgid "Please enter your password in order to delete your group"
+msgstr ""
+
+#: ..\..\..\gdelete.php:125
+#, php-format
+msgid "Are you sure you want to delete the group <b>%s</b> along with all the bookmarks and users"
+msgstr ""
+
+#: ..\..\..\gdelete.php:125
+msgid "Please enter your own password"
+msgstr ""
+
+#: ..\..\..\gdelete.php:130
+msgid "Yes, I want to delete this group"
+msgstr ""
+
+#: ..\..\..\gdetails.php:57
+#: ..\..\..\gjoin.php:135
+msgid "Join this group"
+msgstr ""
+
+#: ..\..\..\gdetails.php:66
+#: ..\..\..\gjoin.php:51
+#: ..\..\..\gunsubs.php:136
+msgid "Unsubscribe from this group"
+msgstr ""
+
+#: ..\..\..\gedit.php:55
+#: ..\..\..\gedit.php:99
+#: ..\..\..\gedit.php:143
+#: ..\..\..\gmembers.php:70
+msgid "You must be the manager of this group"
+msgstr ""
+
+#: ..\..\..\gedit.php:66
+msgid "You have changed the description of this group"
+msgstr ""
+
+#: ..\..\..\gedit.php:69
+msgid "Make sure you don't write the same description as it was before"
+msgstr ""
+
+#: ..\..\..\gedit.php:72
+msgid "Please enter the description in the corresponding field"
+msgstr ""
+
+#: ..\..\..\gedit.php:117
+#: ..\..\user.php:403
+msgid "The actual password is incorrect"
+msgstr ""
+
+#: ..\..\..\gedit.php:121
+#: ..\..\user.php:407
+msgid "The new password does not match in both fields"
+msgstr ""
+
+#: ..\..\..\gedit.php:129
+msgid "You have successfully changed the password"
+msgstr ""
+
+#: ..\..\..\gedit.php:129
+msgid "Please notify the members subscribing to your group"
+msgstr ""
+
+#: ..\..\..\gedit.php:131
+msgid "There has been a problem while updating the password"
+msgstr ""
+
+#: ..\..\..\gedit.php:131
+msgid "Make sure you don't type the same password as the actual one"
+msgstr ""
+
+#: ..\..\..\gedit.php:135
+msgid "Missing values or invalid length for the password"
+msgstr ""
+
+#: ..\..\..\gedit.php:141
+msgid "Edit information for group"
+msgstr ""
+
+#: ..\..\..\gedit.php:163
+msgid "In order to change the group password, enter the current one and then type the new one twice to confirm"
+msgstr ""
+
+#: ..\..\..\gedit.php:189
+msgid "Change description"
+msgstr "Changer description"
+
+#: ..\..\..\gedit.php:199
+msgid "Change Description"
+msgstr "Changer description"
+
+#: ..\..\..\gheader.php:29
+msgid "Create"
+msgstr "Créer"
+
+#: ..\..\..\gheader.php:29
+msgid "Manage"
+msgstr "Gérer"
+
+#: ..\..\..\gjoin.php:46
+#: ..\..\..\gjoin.php:80
+msgid "You are already a member of this group"
+msgstr ""
+
+#: ..\..\..\gjoin.php:73
+#: ..\..\..\gjoin.php:116
+msgid "The password you entered is invalid"
+msgstr ""
+
+#: ..\..\..\gjoin.php:106
+msgid "Your are now a member of this group"
+msgstr ""
+
+#: ..\..\..\gjoin.php:106
+msgid "Details of the group"
+msgstr ""
+
+#: ..\..\..\gjoin.php:113
+msgid "A problem occured when adding you to this group"
+msgstr ""
+
+#: ..\..\..\gjoin.php:139
+msgid "Private group (password required)"
+msgstr ""
+
+#: ..\..\..\gjoin.php:150
+#: ..\..\..\gjoin.php:162
+msgid "Join Group"
+msgstr "Joindre le groupe"
+
+#: ..\..\..\gjoin.php:158
+msgid "Public group (no password required)"
+msgstr ""
+
+#: ..\..\..\gjoin.php:169
+msgid "Go Back to Group Details"
+msgstr ""
+
+#: ..\..\..\gmanage.php:31
+msgid "Groups I manage"
+msgstr ""
+
+#: ..\..\..\gmanage.php:49
+#: ..\..\..\gmanage.php:81
+#: ..\..\..\groups.php:81
+msgid "Private group"
+msgstr "Groupe privé"
+
+#: ..\..\..\gmanage.php:51
+#: ..\..\..\gmanage.php:83
+#: ..\..\..\groups.php:83
+#: ..\..\gdetails_body.php:39
+msgid "Public group"
+msgstr "Groupe public"
+
+#: ..\..\..\gmanage.php:52
+#: ..\..\..\gmanage.php:84
+#: ..\..\..\groups.php:85
+msgid "Details"
+msgstr "Détails"
+
+#: ..\..\..\gmanage.php:53
+#: ..\..\bookmarks.php:375
+#: ..\..\bookmarks.php:406
+msgid "Edit"
+msgstr "Éditer"
+
+#: ..\..\..\gmanage.php:54
+#: ..\..\..\gunsubs.php:114
+msgid "Members"
+msgstr "Membres"
+
+#: ..\..\..\gmanage.php:59
+msgid "You do not manage any groups"
+msgstr ""
+
+#: ..\..\..\gmanage.php:61
+msgid "Create</a> a <b>new group"
+msgstr ""
+
+#: ..\..\..\gmanage.php:65
+msgid "Groups I am a member"
+msgstr ""
+
+#: ..\..\..\gmanage.php:85
+#: ..\..\..\groups.php:100
+msgid "Unsubscribe"
+msgstr ""
+
+#: ..\..\..\gmanage.php:89
+msgid "You are not part of any groups"
+msgstr ""
+
+#: ..\..\..\gmanage.php:91
+msgid "Search</a> a <b>group"
+msgstr ""
+
+#: ..\..\..\gmembers.php:68
+msgid "Members of group"
+msgstr ""
+
+#: ..\..\..\gmembers.php:91
+#: ..\..\..\modifyaccount.php:157
+msgid "Date Joined"
+msgstr ""
+
+#: ..\..\..\gmembers.php:91
+msgid "Privilege"
+msgstr "Privilège"
+
+#: ..\..\..\gmembers.php:93
+msgid "Select the checkbox to remove all his bookmarks"
+msgstr ""
+
+#: ..\..\..\gmembers.php:128
+msgid "You have no users subscribed to your group yet"
+msgstr ""
+
+#: ..\..\..\gmembers.php:132
+msgid "Management section"
+msgstr ""
+
+#: ..\..\..\gmembers.php:134
+#: ..\..\..\gunsubs.php:146
+msgid "Group Details"
+msgstr "Détails du groupe"
+
+#: ..\..\..\groups.php:24
+msgid "My Groups"
+msgstr "Mes groupes"
+
+#: ..\..\..\groups.php:62
+msgid "Not"
+msgstr ""
+
+#: ..\..\..\groups.php:96
+msgid "Join"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:70
+msgid "Since you are the manager of this group, you cannot unsubscribe from it. You can only delete the group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:110
+msgid "You have unsubscribed from this group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:113
+msgid "You have unsubscribed the user from your group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:119
+msgid "A problem occured when deleting the folder of this group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:122
+msgid "A problem occured when deleting you from this group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:122
+msgid "If you are the manager of this group, you cannot unsubscribe from it"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:126
+msgid "Missing infomation"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:126
+msgid "Make sure you don't resubmit the form"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:137
+msgid "Are you sure you want to unsubscribe from this group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:140
+msgid "Remove my bookmarks in this group"
+msgstr ""
+
+#: ..\..\..\gunsubs.php:142
+msgid "Yes, I want to unsubscribe"
+msgstr ""
+
+#: ..\..\..\header.php:90
+#: ..\..\..\header.php:93
+#: ..\..\..\header.php:149
+#: ..\..\..\news.php:29
+#: ..\..\..\newsdetails.php:39
+#: ..\..\..\newsdetails.php:79
+msgid "News"
+msgstr "Nouvelles"
+
+#: ..\..\..\header.php:92
+msgid "Recent bookmarks"
+msgstr "Signets récents"
+
+#: ..\..\..\header.php:94
+#: ..\..\..\manageusers.php:108
+#: ..\..\..\modifyaccount.php:162
+#: ..\..\..\onlineusers.php:41
+msgid "User"
+msgstr "Nom d'utilisateur"
+
+#: ..\..\..\header.php:102
+msgid "Get your bookmarks!"
+msgstr "Accédez vos signets!"
+
+#: ..\..\..\header.php:149
+msgid "Read the news"
+msgstr ""
+
+#: ..\..\..\header.php:150
+#: ..\..\..\header.php:168
+#, php-format
+msgid "What is %s about?"
+msgstr "Qu'est-ce %s?"
+
+#: ..\..\..\header.php:152
+#, php-format
+msgid "Download a copy of the lastest version on %s!"
+msgstr "Téléchargez une copie de la dernière version sur %s!"
+
+#: ..\..\..\header.php:152
+#, php-format
+msgid "Download GetBoo %s"
+msgstr "Téléchargez GetBoo %s"
+
+#: ..\..\..\header.php:160
+msgid "Manage your bookmarks"
+msgstr "Gérer vos signets"
+
+#: ..\..\..\header.php:161
+msgid "Add bookmarks and folders"
+msgstr "Ajouter des signets et des dossiers"
+
+#: ..\..\..\header.php:161
+msgid "Add"
+msgstr "Ajouter"
+
+#: ..\..\..\header.php:162
+msgid "Manage your groups"
+msgstr ""
+
+#: ..\..\..\header.php:169
+#, php-format
+msgid "Get help with %s"
+msgstr "Obtenez de l'aide pour %s"
+
+#: ..\..\..\header.php:169
+msgid "Help"
+msgstr "Aide"
+
+#: ..\..\..\header.php:175
+msgid "Register an account"
+msgstr "Enregister un compte"
+
+#: ..\..\..\header.php:175
+#: ..\..\..\newuser.php:287
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: ..\..\..\header.php:176
+msgid "Login into your account"
+msgstr "Se connecter à son compte"
+
+#: ..\..\..\header.php:176
+#: ..\..\..\login.php:111
+#: ..\..\..\login.php:153
+#: ..\..\..\login.php:183
+msgid "Log In"
+msgstr "Se connecter"
+
+#: ..\..\..\header.php:183
+msgid "Manage your account settings"
+msgstr "Gérer les configurations de son compte"
+
+#: ..\..\..\header.php:184
+msgid "Exit your session"
+msgstr "Terminer sa session"
+
+#: ..\..\..\header.php:184
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: ..\..\..\import.php:32
+msgid "Here you can import your bookmarks from your internet browser"
+msgstr ""
+
+#: ..\..\..\import.php:33
+#, php-format
+msgid "You can check the tutorial for the browser from which you want to import your bookmarks to %s"
+msgstr ""
+
+#: ..\..\..\import.php:46
+#: ..\..\..\importDelicious.php:87
+#: ..\..\..\netscape_import.php:253
+msgid "Select the file you want to import your bookmarks from"
+msgstr ""
+
+#: ..\..\..\import.php:50
+#: ..\..\..\importDelicious.php:91
+#: ..\..\..\netscape_import.php:257
+msgid "Remove duplicates"
+msgstr "Effacer les duplicats"
+
+#: ..\..\..\importDelicious.php:45
+msgid "Could not open XML input"
+msgstr "Ne peut ouvrir le fichier XML"
+
+#: ..\..\..\importDelicious.php:49
+#, php-format
+msgid "XML error: %s at line %d"
+msgstr "Erreur XML: %s à la ligne %d"
+
+#: ..\..\..\importDelicious.php:55
+msgid "The bookmarks have been imported from the XML file"
+msgstr "Le signets ont été importés depuis le fichier XML"
+
+#: ..\..\..\importDelicious.php:66
+msgid "No file has been selected"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:73
+msgid "Import from Delicious"
+msgstr "Importer depuis Delicious"
+
+#: ..\..\..\importDelicious.php:74
+#, php-format
+msgid "Here you can import your bookmarks from your <a href=\"%s\">del.icio.us</a> account.<br>Scuttle also supports the same API, so it can also be done with your Scuttle installation."
+msgstr ""
+
+#: ..\..\..\importDelicious.php:76
+#: ..\..\easybook_content.php:29
+msgid "Instructions"
+msgstr "Instructions"
+
+#: ..\..\..\importDelicious.php:78
+#, php-format
+msgid "Log in to the <a href=\"%s\">export page at del.icio.us</a>, or the %s page from your Scuttle installation"
+msgstr "Connectez-vous à la page <a href=\"%s\"> d'exportation à del.icio.us</a>, ou la page %s de votre installation Scuttle"
+
+#: ..\..\..\importDelicious.php:79
+msgid "Save the resulting <abbr title=\"Extensible Markup Language\">XML</abbr> file to your computer"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:80
+msgid "Click Browse... to find this file on your computer"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:83
+msgid "Click Import to start importing the bookmarks; it may take a minute"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:124
+msgid "You have already submitted this bookmark."
+msgstr ""
+
+#: ..\..\..\importDelicious.php:136
+msgid "Bookmark imported."
+msgstr "Signets importés"
+
+#: ..\..\..\importDelicious.php:138
+msgid "There was an error saving your bookmark. Please try again or contact the administrator."
+msgstr ""
+
+#: ..\..\..\index.php:34
+msgid "The social bookmarking open-source platform."
+msgstr "La plateforme sociale d'échange de signets à source ouverte."
+
+#: ..\..\..\login.php:87
+msgid "Redirecting"
+msgstr "Redirection"
+
+#: ..\..\..\login.php:137
+#: ..\..\..\newuser.php:229
+msgid "Processing"
+msgstr "En cours de traitement"
+
+#: ..\..\..\login.php:159
+#: ..\..\..\newuser.php:249
+msgid "Javascript should be enabled to access all functionality"
+msgstr ""
+
+#: ..\..\..\login.php:177
+msgid "Remember me"
+msgstr "Mémoriser accès"
+
+#: ..\..\..\login.php:188
+#, php-format
+msgid "Use the account <b>%s</b> for preview"
+msgstr "Utilisez le compte <b>%s</b> pour un aperçu"
+
+#: ..\..\..\login.php:189
+msgid "Activate Account"
+msgstr "Activer compte"
+
+#: ..\..\..\logout.php:37
+msgid "You have been successfully logged out"
+msgstr "Vous êtes déconnecté"
+
+#: ..\..\..\logout.php:44
+msgid "The session is still active"
+msgstr "La session est toujours active"
+
+#: ..\..\..\managenews.php:44
+msgid "You have successfully deleted this news"
+msgstr ""
+
+#: ..\..\..\managenews.php:47
+msgid "There has been a problem when deleting the news"
+msgstr ""
+
+#: ..\..\..\managenews.php:66
+msgid "You have successfully added this news"
+msgstr ""
+
+#: ..\..\..\managenews.php:69
+msgid "There has been a problem when adding the news"
+msgstr ""
+
+#: ..\..\..\managenews.php:85
+msgid "Number"
+msgstr "Nombre"
+
+#: ..\..\..\managenews.php:91
+msgid "You didn't write any news yet"
+msgstr ""
+
+#: ..\..\..\managenews.php:96
+msgid "Add another news"
+msgstr ""
+
+#: ..\..\..\manageusers.php:66
+#, php-format
+msgid "You have changed %s's account status"
+msgstr ""
+
+#: ..\..\..\manageusers.php:72
+#: ..\..\..\manageusers.php:92
+msgid "The username is missing"
+msgstr "Le nom d'utilisateur est manquant"
+
+#: ..\..\..\manageusers.php:86
+#, php-format
+msgid "You have enabled %s's account as a donor"
+msgstr ""
+
+#: ..\..\..\manageusers.php:108
+#: ..\..\..\manageusers.php:141
+#: ..\..\..\modifyaccount.php:153
+msgid "Last Login"
+msgstr "Dernière connection"
+
+#: ..\..\..\manageusers.php:120
+#: ..\..\..\modifyaccount.php:182
+#: ..\..\..\templates\publicb.tpl.php:82
+msgid "Donor"
+msgstr "Donneur"
+
+#: ..\..\..\manageusers.php:130
+msgid "Enable"
+msgstr "Activer"
+
+#: ..\..\..\manageusers.php:130
+msgid "Disable"
+msgstr "Désactiver"
+
+#: ..\..\..\manageusers.php:132
+#: ..\..\..\modifyaccount.php:190
+msgid "Access"
+msgstr "Accéder"
+
+#: ..\..\..\manageusers.php:137
+msgid "No Users"
+msgstr "Pas d'utilisateurs"
+
+#: ..\..\..\manageusers.php:141
+msgid "Order users by"
+msgstr ""
+
+#: ..\..\..\manageusers.php:141
+msgid "Date Join"
+msgstr ""
+
+#: ..\..\..\manageusers.php:147
+#: ..\..\..\manageusers.php:149
+#: ..\..\..\psearch.php:99
+#: ..\..\..\psearch.php:101
+#: ..\..\..\recent_tags.php:86
+#: ..\..\..\recent_tags.php:88
+#: ..\..\..\tags.php:122
+#: ..\..\..\tags.php:124
+#: ..\..\..\userb.php:194
+#: ..\..\..\userb.php:196
+msgid "Previous"
+msgstr "Précédant"
+
+#: ..\..\..\manageusers.php:151
+#: ..\..\..\manageusers.php:153
+#: ..\..\..\psearch.php:103
+#: ..\..\..\psearch.php:105
+#: ..\..\..\recent_tags.php:90
+#: ..\..\..\recent_tags.php:92
+#: ..\..\..\tags.php:126
+#: ..\..\..\tags.php:128
+#: ..\..\..\userb.php:198
+#: ..\..\..\userb.php:200
+msgid "Next"
+msgstr "Suivant"
+
+#: ..\..\..\manageusers.php:156
+msgid "Other operations"
+msgstr "Autres opérations"
+
+#: ..\..\..\manageusers.php:158
+#: ..\..\..\newuser.php:190
+msgid "Add a new user"
+msgstr ""
+
+#: ..\..\..\manageusers.php:158
+msgid "Adds a new user to the system"
+msgstr ""
+
+#: ..\..\..\manageusers.php:160
+msgid "Remove old registrations"
+msgstr "Effacer les vieux enregistrements"
+
+#: ..\..\..\manageusers.php:160
+msgid "Lists the accounts not yet activated and provides an option to remove them."
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:46
+msgid "Modify user account"
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:64
+msgid "You have updated this account"
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:68
+msgid "Make sure you don't enter the same account information as the current one"
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:137
+#: ..\..\..\tags_rightmenu.php:37
+msgid "Name"
+msgstr "Nom"
+
+#: ..\..\..\modifyaccount.php:149
+msgid "Password Hint"
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:161
+msgid "Status"
+msgstr "État"
+
+#: ..\..\..\modifyaccount.php:162
+msgid "Admin"
+msgstr "Administrateur"
+
+#: ..\..\..\modifyaccount.php:162
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: ..\..\..\modifyaccount.php:165
+#: ..\..\..\umodifyaccount.php:146
+msgid "Style"
+msgstr "Style"
+
+#: ..\..\..\modifyaccount.php:166
+#: ..\..\..\umodifyaccount.php:147
+msgid "Auto"
+msgstr "Auto"
+
+#: ..\..\..\modifyaccount.php:166
+#: ..\..\..\umodifyaccount.php:147
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: ..\..\..\modifyaccount.php:166
+#: ..\..\..\umodifyaccount.php:147
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ..\..\..\modifyaccount.php:169
+#: ..\..\..\onlineusers.php:41
+msgid "Last Activity"
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:173
+msgid "Activation Code"
+msgstr "Code d'activation"
+
+#: ..\..\..\modifyaccount.php:177
+msgid "IP"
+msgstr "IP"
+
+#: ..\..\..\modifyaccount.php:183
+#: ..\..\jquery\bookmarksjs.php:9
+#: ..\..\jquery\bookmarksjs.php:18
+msgid "Yes"
+msgstr "Oui"
+
+#: ..\..\..\modifyaccount.php:183
+#: ..\..\..\removeactivations_delete.php:53
+#: ..\..\..\search.php:153
+#: ..\..\jquery\bookmarksjs.php:9
+#: ..\..\jquery\bookmarksjs.php:18
+msgid "No"
+msgstr "Non"
+
+#: ..\..\..\modifyaccount.php:199
+#, php-format
+msgid "User's last login was on %s"
+msgstr ""
+
+#: ..\..\..\modifyaccount.php:201
+#: ..\..\..\newuser.php:294
+#: ..\..\..\removeactivations.php:53
+#: ..\..\..\removeactivations_delete.php:54
+msgid "Back"
+msgstr "Retourner"
+
+#: ..\..\..\modifyfav.php:34
+msgid "Modify bookmark"
+msgstr "Modifier signet"
+
+#: ..\..\..\modifyfav.php:138
+msgid "The bookmark has been updated"
+msgstr "Le signet a été mis à jour"
+
+#: ..\..\..\modifyfav.php:143
+msgid "Modify this bookmark again since no change has been detected"
+msgstr ""
+
+#: ..\..\..\modifyfav.php:146
+msgid "There has been a problem when updating the bookmark"
+msgstr ""
+
+#: ..\..\..\modifyfav.php:197
+#: ..\..\..\modifyfolder.php:91
+msgid "Back to Folder"
+msgstr "Retourner au dossier"
+
+#: ..\..\..\modifyfav.php:225
+msgid "chars per tag max. Tags are keywords"
+msgstr ""
+
+#: ..\..\..\modifyfav.php:232
+msgid "Modify Bookmark"
+msgstr "Modifier signet"
+
+#: ..\..\..\modifyfav.php:232
+msgid "Delete Bookmark"
+msgstr "Effacer signet"
+
+#: ..\..\..\modifyfav.php:287
+#: ..\..\..\tags_rightmenu.php:39
+#: ..\..\..\umodifyaccount.php:170
+msgid "Information"
+msgstr ""
+
+#: ..\..\..\modifyfav.php:287
+msgid "Add Date"
+msgstr "Date d'ajout"
+
+#: ..\..\..\modifyfav.php:287
+msgid "Last Visit"
+msgstr "Dernière visite"
+
+#: ..\..\..\modifyfav.php:287
+msgid "Last Modified"
+msgstr "Dernière modification"
+
+#: ..\..\..\modifyfav.php:289
+#: ..\..\..\modifyfav.php:291
+msgid "Clicks"
+msgstr "Cliques"
+
+#: ..\..\..\modifyfav.php:289
+msgid "You"
+msgstr "Vous"
+
+#: ..\..\..\modifyfav.php:289
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ..\..\..\modifyfav.php:289
+msgid "Guests"
+msgstr "Visiteurs"
+
+#: ..\..\..\modifyfav.php:289
+msgid "Total"
+msgstr "Total"
+
+#: ..\..\..\modifyfav.php:291
+msgid "None"
+msgstr "Aucun"
+
+#: ..\..\..\modifyfav.php:297
+msgid "Bookmark ID is missing"
+msgstr "L'identifiant du signet est manquant"
+
+#: ..\..\..\modifyfav.php:302
+msgid "Wrong Bookmark ID"
+msgstr "Mauvais indentifiant de signet"
+
+#: ..\..\..\modifyfolder.php:29
+msgid "Modify folder"
+msgstr "Modifier dossier"
+
+#: ..\..\..\modifyfolder.php:64
+msgid "The folder has been updated"
+msgstr "Le fichier a été mis à jour"
+
+#: ..\..\..\modifyfolder.php:68
+msgid "There has been a problem when updating the folder"
+msgstr ""
+
+#: ..\..\..\modifyfolder.php:107
+msgid "Modify Folder"
+msgstr "Modifier dossier"
+
+#: ..\..\..\modifyfolder.php:122
+msgid "Wrong Folder ID"
+msgstr "Mauvais indentifiant de dossier"
+
+#: ..\..\..\netscape_import.php:38
+msgid "Import bookmarks"
+msgstr "Importer des signets"
+
+#: ..\..\..\netscape_import.php:225
+#: ..\..\..\netscape_import.php:249
+msgid "Error when importing the bookmarks"
+msgstr "Erreur lors de l'importation des signets"
+
+#: ..\..\..\netscape_import.php:230
+msgid "You bookmarks and folders have been imported"
+msgstr "Vos signets et dossiers ont été importés"
+
+#: ..\..\..\netscape_import.php:230
+msgid "Click here to see your bookmarks"
+msgstr "Cliquez ici pour accéder vos signets!"
+
+#: ..\..\..\netscape_import.php:233
+#, php-format
+msgid "Removal of duplicates: %s folders and %s bookmarks updated"
+msgstr "Suppression des duplicats: %s fichiers et %s signets mis à jour"
+
+#: ..\..\..\netscape_import.php:249
+msgid "Make sure the file is the one containing the bookmarks"
+msgstr ""
+
+#: ..\..\..\news.php:57
+#: ..\..\..\newsdetails.php:54
+msgid "Author"
+msgstr "Auteur"
+
+#: ..\..\..\news.php:57
+#: ..\..\..\newsdetails.php:54
+msgid "Date"
+msgstr "Date"
+
+#: ..\..\..\news.php:60
+msgid "Read more"
+msgstr "Lire plus"
+
+#: ..\..\..\news.php:68
+msgid "All News"
+msgstr "Toutes les nouvelles"
+
+#: ..\..\..\news.php:73
+msgid "No news yet!"
+msgstr ""
+
+#: ..\..\..\news.php:80
+#: ..\..\..\recent_tags.php:94
+#: ..\..\..\tags.php:130
+#: ..\..\..\userb.php:202
+msgid "feed for this page"
+msgstr ""
+
+#: ..\..\..\newsdetails.php:68
+msgid "The news can't be found"
+msgstr ""
+
+#: ..\..\..\newsdetails.php:74
+msgid "Invalid URL values."
+msgstr ""
+
+#: ..\..\..\newsmodify.php:29
+msgid "Modify news"
+msgstr "Modifier nouvelles"
+
+#: ..\..\..\newsmodify.php:58
+msgid "You have successfully updated this news"
+msgstr ""
+
+#: ..\..\..\newsmodify.php:61
+msgid "Modify this news again since no change has been detected"
+msgstr ""
+
+#: ..\..\..\newsmodify.php:85
+msgid "Back to News"
+msgstr "Retourner aux nouvelles"
+
+#: ..\..\..\newsmodify.php:100
+msgid "Modify News"
+msgstr "Modifier nouvelles"
+
+#: ..\..\..\newsmodify.php:108
+msgid "The ID of the news is missing"
+msgstr ""
+
+#: ..\..\..\newuser.php:58
+msgid "Account created"
+msgstr "Compte créé"
+
+#: ..\..\..\newuser.php:58
+#, php-format
+msgid "You have been successfully added to %s"
+msgstr "Vous avez été ajouté avec succès sur %s"
+
+#: ..\..\..\newuser.php:59
+#, php-format
+msgid "You need to check your email and activate your account with the given url (or code in the <a href=\"%s\">activation</a> page)"
+msgstr ""
+
+#: ..\..\..\newuser.php:60
+msgid "The email is already sent, but with some free email providers it might take a few hours to receive it"
+msgstr ""
+
+#: ..\..\..\newuser.php:72
+msgid "Check for invalid characters or length, or wrong email address format"
+msgstr ""
+
+#: ..\..\..\newuser.php:123
+msgid "An error occured while creating your activation code"
+msgstr ""
+
+#: ..\..\..\newuser.php:130
+#, php-format
+msgid "New user %s was successfully added"
+msgstr "L'utilisateur %s a été ajouté avec succès"
+
+#: ..\..\..\newuser.php:149
+msgid "An error occured when creating your account information"
+msgstr ""
+
+#: ..\..\..\newuser.php:152
+#, php-format
+msgid "An account has been created with the same IP address in the last %s hours"
+msgstr ""
+
+#: ..\..\..\newuser.php:156
+msgid "Your letters did not match the ones appearing in the image below"
+msgstr ""
+
+#: ..\..\..\newuser.php:168
+#: ..\..\..\newuser.php:281
+msgid "Please enter the letters appearing in the image below"
+msgstr ""
+
+#: ..\..\..\newuser.php:192
+msgid "New User Registration"
+msgstr "Enregistrement d'un nouvel utilisateur"
+
+#: ..\..\..\newuser.php:207
+msgid "Enter the username in the field"
+msgstr ""
+
+#: ..\..\..\newuser.php:251
+#, php-format
+msgid "Sign up here to create a free account %s"
+msgstr "Enregistrez-vous ici pour créer votre propre compte gratuit sur %s"
+
+#: ..\..\..\newuser.php:251
+#, php-format
+msgid "Learn more</a> about %s"
+msgstr "En apprendre plus</a> à propos de %s"
+
+#: ..\..\..\newuser.php:271
+#: ..\..\..\umodifyaccount.php:142
+msgid "Password hint"
+msgstr "Indice pour le mot de passe"
+
+#: ..\..\..\newuser.php:277
+msgid "Visual CAPTCHA"
+msgstr "CAPTCHA visuel"
+
+#: ..\..\..\newuser.php:280
+msgid "Type image letters"
+msgstr "Entrez les lettres de l'image"
+
+#: ..\..\..\newuser.php:293
+msgid "They must also respect the size limits (move the mouse over the ? at the end of each field)"
+msgstr "Ils doivent également respecter les limites de grandeur (placez votre curseur sur les ? à la fin de chaque champ)"
+
+#: ..\..\..\onlineusers.php:31
+#, php-format
+msgid "You can see a list of users who have been active in the past %s minutes"
+msgstr ""
+
+#: ..\..\..\onlineusers.php:53
+#, php-format
+msgid "No users have been active in the past %s minutes"
+msgstr ""
+
+#: ..\..\..\populartags.php:50
+#: ..\..\..\tags_rightmenu.php:96
+msgid "Popular tags"
+msgstr "Étiquettes populaires"
+
+#: ..\..\..\psearch.php:83
+#: ..\..\..\recent_tags.php:81
+msgid "No bookmarks available"
+msgstr "Aucun signet disponible"
+
+#: ..\..\..\recent_tags.php:42
+#: ..\..\..\recent_tags.php:51
+msgid "Recent Tags"
+msgstr "Étiquettes récentes"
+
+#: ..\..\..\redirect.php:52
+msgid "Redirect"
+msgstr ""
+
+#: ..\..\..\redirect.php:52
+msgid "The bookmark cannot be found"
+msgstr "Le signet ne peut être trouvé"
+
+#: ..\..\..\removeactivations.php:33
+#: ..\..\..\removeactivations_delete.php:25
+msgid "Inactive Users"
+msgstr ""
+
+#: ..\..\..\removeactivations.php:52
+msgid "No users in the database who have not activated yet their account"
+msgstr ""
+
+#: ..\..\..\removeactivations.php:61
+msgid "Delete users who registered without activating their account in the last number of days"
+msgstr ""
+
+#: ..\..\..\removeactivations.php:63
+msgid "Remove"
+msgstr "Effacer"
+
+#: ..\..\..\removeactivations_delete.php:27
+#, php-format
+msgid "Removing inactive users (users who signed up more than %s days ago without activating their account)"
+msgstr ""
+
+#: ..\..\..\removeactivations_delete.php:51
+#: ..\..\..\removeactivations_delete.php:53
+msgid "users have been deleted"
+msgstr ""
+
+#: ..\..\..\sbheader.php:27
+#: ..\..\..\statsb.php:31
+msgid "General"
+msgstr "Général"
+
+#: ..\..\..\sbheader.php:27
+msgid "Most Used"
+msgstr ""
+
+#: ..\..\..\sbheader.php:27
+#: ..\..\..\sbsearches.php:31
+msgid "Searches"
+msgstr "Recherches"
+
+#: ..\..\..\sbheader.php:27
+#: ..\..\..\statsexportimport.php:31
+msgid "Import/Export"
+msgstr ""
+
+#: ..\..\..\sbmostused.php:30
+msgid "Most used"
+msgstr ""
+
+#: ..\..\..\sbmostused.php:40
+msgid "Bookmark"
+msgstr "Signet"
+
+#: ..\..\..\sbmostused.php:45
+#: ..\..\..\statsb.php:97
+#: ..\..\..\statsexportimport.php:99
+msgid "No data"
+msgstr "Aucune information"
+
+#: ..\..\..\sbsearches.php:41
+msgid "Keyword"
+msgstr "Mot clé"
+
+#: ..\..\..\sbsearches.php:41
+msgid "Count"
+msgstr ""
+
+#: ..\..\..\sbsearches.php:41
+msgid "Last Search Date"
+msgstr ""
+
+#: ..\..\..\sbsearches.php:52
+msgid "No searches"
+msgstr ""
+
+#: ..\..\..\search.php:82
+msgid "Invalid"
+msgstr ""
+
+#: ..\..\..\search.php:152
+msgid "Results"
+msgstr ""
+
+#: ..\..\..\search.php:154
+msgid "result"
+msgid_plural "results"
+msgstr[0] "résultat"
+msgstr[1] "résultats"
+
+#: ..\..\..\search.php:157
+msgid "for"
+msgstr ""
+
+#: ..\..\..\search.php:161
+msgid "Search in your own bookmarks"
+msgstr "Chercher dans vos signets"
+
+#: ..\..\..\search.php:183
+msgid "Folder Matches"
+msgstr ""
+
+#: ..\..\..\search.php:198
+msgid "Bookmark Matches"
+msgstr "Signets trouvés"
+
+#: ..\..\..\spamcenter.php:53
+msgid "Select"
+msgstr "Choisir"
+
+#: ..\..\..\spamcenter.php:53
+msgid "Days"
+msgstr "Jours"
+
+#: ..\..\..\spamcenter.php:53
+msgid "Average"
+msgstr "Moyenne"
+
+#: ..\..\..\spamcenter.php:65
+msgid "No users matching the SPAM criterias"
+msgstr ""
+
+#: ..\..\..\statsb.php:39
+msgid "bookmarks"
+msgstr "signets"
+
+#: ..\..\..\statsb.php:48
+msgid "folders"
+msgstr "dossiers"
+
+#: ..\..\..\statsb.php:57
+msgid "bookmarks accessed"
+msgstr "signets accédés"
+
+#: ..\..\..\statsb.php:72
+msgid "Your last accessed bookmark was on"
+msgstr ""
+
+#: ..\..\..\statsb.php:86
+msgid "Your first bookmark was added on"
+msgstr "Votre premier signet a été ajouté le"
+
+#: ..\..\..\statsb.php:93
+msgid "Your last bookmark was added on"
+msgstr "Votre dernier signet a été ajouté le"
+
+#: ..\..\..\statsexportimport.php:41
+msgid "imports/exports"
+msgstr "importations/exportations"
+
+#: ..\..\..\statsexportimport.php:52
+msgid "imports"
+msgstr "importations"
+
+#: ..\..\..\statsexportimport.php:63
+msgid "exports"
+msgstr "exportations"
+
+#: ..\..\..\statsexportimport.php:80
+msgid "Your last import was made on"
+msgstr "Votre dernière importation date du"
+
+#: ..\..\..\statsexportimport.php:93
+msgid "Your last export was made on"
+msgstr "Votre dernière exportation date du"
+
+#: ..\..\..\tags_rightmenu.php:38
+msgid "Website"
+msgstr "Site web"
+
+#: ..\..\..\tags_rightmenu.php:42
+msgid "Donor Profile"
+msgstr ""
+
+#: ..\..\..\tags_rightmenu.php:45
+msgid "Contact User"
+msgstr "Contacter utilisateur"
+
+#: ..\..\..\tags_rightmenu.php:69
+msgid "Related Tags"
+msgstr "Étiquettes récentes"
+
+#: ..\..\..\tags_rightmenu.php:73
+msgid "Display tags for all users"
+msgstr ""
+
+#: ..\..\..\tags_rightmenu.php:73
+msgid "all users"
+msgstr "tous"
+
+#: ..\..\..\tags_rightmenu.php:74
+msgid "Remove all tags"
+msgstr ""
+
+#: ..\..\..\tags_rightmenu.php:74
+msgid "remove all"
+msgstr ""
+
+#: ..\..\..\tags_rightmenu.php:109
+msgid "Popular Tags"
+msgstr ""
+
+#: ..\..\..\umodifyaccount.php:147
+msgid "Opera"
+msgstr "Opera"
+
+#: ..\..\..\umodifyaccount.php:155
+msgid "Donor options"
+msgstr ""
+
+#: ..\..\..\umodifyaccount.php:158
+msgid "Real Name"
+msgstr ""
+
+#: ..\..\..\umodifyaccount.php:162
+msgid "Display email"
+msgstr ""
+
+#: ..\..\..\umodifyaccount.php:163
+msgid "Will display your email in your profile"
+msgstr ""
+
+#: ..\..\..\umodifyaccount.php:166
+msgid "Website URL"
+msgstr ""
+
+#: ..\..\..\umodifyaccount.php:179
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: ..\..\..\umodifyaccount.php:187
+msgid "Browser detected"
+msgstr "Navigateur détecté"
+
+#: ..\..\..\umodifyaccount.php:188
+msgid "version"
+msgstr "version"
+
+#: ..\..\..\userb.php:170
+#, php-format
+msgid "User %s's account is disabled"
+msgstr "Le compte de %s est désactivé"
+
+#: ..\..\..\userb.php:176
+#, php-format
+msgid "User %s was not found"
+msgstr "L'utilisateur %s n'a pas été trouvé"
+
+#: ..\..\..\userb.php:182
+msgid "No bookmarks are public with this user"
+msgstr "Aucun signet public est disponible pour cet utilisateur"
+
+#: ..\..\..\userb.php:184
+msgid "No bookmarks with these tags for this user"
+msgstr "Aucun signet public avec ces étiquettes est disponible pour cet utilisateur"
+
+#: ..\..\..\userb.php:215
+msgid "Public Bookmarks"
+msgstr "Signets publiques"
+
+#: ..\..\..\userb.php:215
+msgid "No username to display bookmarks"
+msgstr "Pas de nom d'utilisateur pour afficher les signets"
+
+#: ..\..\bookmarks.php:319
+msgid "There has been a problem when deleting a folder"
+msgstr ""
+
+#: ..\..\bookmarks.php:342
+msgid "There has been a problem when deleting a bookmark"
+msgstr ""
+
+#: ..\..\bookmarks.php:352
+msgid "You have successfully deleted this folder"
+msgstr ""
+
+#: ..\..\bookmarks.php:356
+msgid "There has been a problem when deleting the folder"
+msgstr ""
+
+#: ..\..\dynamicTags.php:106
+msgid "Your tags"
+msgstr "Vos étiquettes"
+
+#: ..\..\easybook_content.php:24
+msgid "Bookmarklets"
+msgstr "Liens pour ajouter des signets"
+
+#: ..\..\easybook_content.php:25
+#, php-format
+msgid "EasyBook is a feature to make it easy to add bookmarks into your %s account"
+msgstr ""
+
+#: ..\..\easybook_content.php:26
+msgid "This feature is known in the community as bookmarklets, where you simply add a bookmark into your browser, enabling you to bookmark the pages you visit more easily"
+msgstr ""
+
+#: ..\..\easybook_content.php:27
+msgid "If you select (highlight) a piece of text on the web page before clicking the EasyBook button, the text will be used as the description for the bookmark"
+msgstr ""
+
+#: ..\..\easybook_content.php:28
+msgid "Here are the setup instructions to enable this feature in your browser"
+msgstr ""
+
+#: ..\..\easybook_content.php:29
+msgid "Select your browser"
+msgstr "Choisir son navigateur"
+
+#: ..\..\easybook_content.php:40
+msgid "Links"
+msgstr "Liens"
+
+#: ..\..\easybook_content.php:54
+msgid "EasyBook (Pop-up)"
+msgstr ""
+
+#: ..\..\easybook_content.php:54
+msgid "(opens in pop-up)"
+msgstr ""
+
+#: ..\..\f_deleteaccount.php:77
+#, php-format
+msgid "%s was successfully deleted"
+msgstr "%s a été effacé avec succès"
+
+#: ..\..\f_deleteaccount.php:78
+msgid "Go Back"
+msgstr "Retourner"
+
+#: ..\..\f_deleteaccount.php:82
+msgid "You have been successfully deleted"
+msgstr ""
+
+#: ..\..\f_deleteaccount.php:82
+#, php-format
+msgid "Thank you for using %s"
+msgstr "Merci d'utiliser %s"
+
+#: ..\..\f_deleteaccount.php:88
+msgid "There has been a problem when deleting your activation code"
+msgstr ""
+
+#: ..\..\f_deleteaccount.php:91
+msgid "There has been a problem when deleting bookmarks"
+msgstr ""
+
+#: ..\..\f_deleteaccount.php:94
+msgid "There has been a problem when deleting folders"
+msgstr ""
+
+#: ..\..\f_deleteaccount.php:97
+msgid "There has been a problem"
+msgstr "Il y a eu un problème"
+
+#: ..\..\gdetails_body.php:35
+msgid "Manager"
+msgstr "Administrateur"
+
+#: ..\..\gdetails_body.php:37
+msgid "Private group (requires password)"
+msgstr ""
+
+#: ..\..\gdetails_body.php:44
+msgid "Number of members"
+msgstr "Nombre de membres"
+
+#: ..\..\gdetails_body.php:45
+msgid "See the list of members"
+msgstr "Voir la liste des membres"
+
+#: ..\..\pagenb.php:57
+msgid "Displaying"
+msgstr "Affiche"
+
+#: ..\..\pagenb.php:66
+msgid "per page"
+msgstr "par page"
+
+#: ..\..\searchform.php:28
+#: ..\..\searchform.php:37
+msgid "Discover"
+msgstr "Découvrir"
+
+#: ..\..\tags_functions.php:348
+#: ..\..\tags_functions.php:362
+#: ..\..\tags_functions.php:412
+msgid "bookmark"
+msgid_plural "bookmarks"
+msgstr[0] "signets"
+msgstr[1] "signets"
+
+#: ..\..\tags_functions.php:413
+msgid "Add tag"
+msgstr "Ajouter étiquette"
+
+#: ..\..\tags_functions.php:431
+msgid "Remove tag"
+msgstr "Effacer l'étiquette"
+
+#: ..\..\user.php:126
+msgid "Please check your username and password and make sure that they are correctly spelled."
+msgstr ""
+
+#: ..\..\user.php:211
+msgid "Welcome back"
+msgstr "Bienvenue"
+
+#: ..\..\user.php:221
+msgid "Your last login was on"
+msgstr "Votre dernière connexion était le"
+
+#: ..\..\user.php:278
+msgid "Your account has been disabled"
+msgstr "Votre compte a été désactivé"
+
+#: ..\..\user.php:280
+#, php-format
+msgid ""
+"This has been done by our anti-spam system. If you think it is a mistake, please email <a href=\"%s\">%s</a>.<br>\n"
+"<i>Expect 1-2 days of response by email</i>"
+msgstr ""
+
+#: ..\..\user.php:299
+msgid "Your account is not activated"
+msgstr "Votre compte n'est pas activé"
+
+#: ..\..\user.php:300
+#, php-format
+msgid "You must first <a href=\"%s\">activate</a> your account with the code emaild to you when you registered"
+msgstr ""
+
+#: ..\..\user.php:300
+#, php-format
+msgid ""
+"Please check your email in order to get your activation code<br>\n"
+" or email <a href=\"%s\">%s</a> if you don't receive any email from us after 24h"
+msgstr ""
+
+#: ..\..\user.php:300
+msgid "Expect 1-2 days of response by email"
+msgstr "Attendez-vous à 1 ou 2 jours de réponse par courriel"
+
+#: ..\..\user.php:305
+msgid "The password is invalid"
+msgstr "Le mot de passe est invalide"
+
+#: ..\..\user.php:323
+msgid "Too many login tries"
+msgstr "Trop d'essais de connexion"
+
+#: ..\..\user.php:324
+#, php-format
+msgid "You have tried to log in more than 3 times unsuccessfully for this account in the last %s minutes"
+msgstr ""
+
+#: ..\..\user.php:324
+#, php-format
+msgid "Please try again in %s minutes"
+msgstr "Veuillez réessayer dans %s minutes"
+
+#: ..\..\user.php:329
+msgid "The user does not exist"
+msgstr "L'utilisateur n'existe pas"
+
+#: ..\..\user.php:336
+msgid "Username or Password is missing"
+msgstr "Nom ou mot de passe d'utilisateur manquant"
+
+#: ..\..\user.php:418
+msgid "You have successfully changed your password"
+msgstr ""
+
+#: ..\..\user.php:422
+msgid "There has been a problem while updating your password. Don't type the same password."
+msgstr ""
+
+#: ..\..\user.php:429
+msgid "Missing values or invalid length"
+msgstr "Valeurs manquantes ou longueur invalide"
+
+#: ..\..\user.php:459
+msgid "You have successfully updated your account"
+msgstr "Vous avez modifié avec succès votre compte"
+
+#: ..\..\user.php:464
+msgid "Note: If you just changed the style to Auto, it will take effect the next time you will login."
+msgstr ""
+
+#: ..\..\user.php:474
+msgid "The email address is invalid."
+msgstr "L'adresse email est invalide"
+
+#: ..\..\user.php:552
+#, php-format
+msgid "%s Registration"
+msgstr "Enregistrement de %s"
+
+#: ..\..\user.php:554
+#, php-format
+msgid ""
+"Thank you for registering at %s!\n"
+"\n"
+"Your account information is"
+msgstr ""
+"Merci de vous être enregistré sur %s!\n"
+"\n"
+"Votre information de compte est"
+
+#: ..\..\user.php:554
+msgid ""
+"Please keep this information, but in the event your forget your password you can recover it using your username and email.\n"
+"To confirm your registration, please use this address"
+msgstr ""
+
+#: ..\..\user.php:554
+msgid ""
+"You can also go to the Activation page (from Login / Activate Account)\n"
+"and enter the activation code"
+msgstr ""
+
+#: ..\..\user.php:554
+#, php-format
+msgid ""
+"Sincerely,\n"
+"%s"
+msgstr ""
+
+#: ..\..\user.php:554
+#, php-format
+msgid "If you didn't register for a new account, please forward this message to: %s"
+msgstr ""
+
+#: ..\..\user.php:554
+msgid "IP address of the user registering for a new account"
+msgstr ""
+
+#: ..\..\user.php:560
+#, php-format
+msgid "Activate your %s account"
+msgstr "Activer votre compte %s"
+
+#: ..\..\..\templates\publicb.tpl.php:85
+msgid "by"
+msgstr "par"
+
+#: ..\..\..\templates\publicb.tpl.php:89
+msgid "added"
+msgstr "ajouté"
+
+#: ..\..\..\templates\publicb.tpl.php:91
+msgid "on"
+msgstr "sur"
+
+#: ..\..\..\templates\publicb.tpl.php:101
+msgid "submit comment"
+msgstr "soumettre commentaire"
+
+#: ..\..\..\templates\publicb.tpl.php:105
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "commentaire"
+msgstr[1] "commentaires"
+
+#: ..\..\..\manageconfig.php:54
+msgid "Error when assigning the config variables"
+msgstr "Erreur lors de l'assignation des variables de configuration"
+
+#: ..\..\..\manageconfig.php:61
+msgid "Configuration has been saved"
+msgstr "La configuration a été enregistrée"
+
+#: ..\..\..\manageconfig.php:163
+msgid "Save Changes"
+msgstr "Enregister Changements"
+
+#: ..\..\convert_date.php:29
+msgid "Never"
+msgstr "Jamais"
+
+#: ..\..\convert_date.php:84
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "semaine"
+msgstr[1] "semaines"
+
+#: ..\..\convert_date.php:91
+msgid "day"
+msgid_plural "days"
+msgstr[0] "jour"
+msgstr[1] "jours"
+
+#: ..\..\convert_date.php:98
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "heure"
+msgstr[1] "heures"
+
+#: ..\..\convert_date.php:105
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minute"
+msgstr[1] "minutes"
+
+#: ..\..\convert_date.php:112
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "seconde"
+msgstr[1] "secondes"
+
+#: ..\..\convert_date.php:117
+msgid "0 seconds ago"
+msgstr "il y a 0 secondes"
+
+#: ..\..\convert_date.php:121
+#, php-format
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: ..\..\ff_extension.php:25
+#, php-format
+msgid "In order to use your %s account, you need to install two buttons into your browser.<br>"
+msgstr ""
+
+#: ..\..\ff_extension.php:26
+msgid "We recommend that all Firefox users install this simple extension:"
+msgstr ""
+
+#: ..\..\ff_extension.php:28
+msgid "Install GetBoo Firefox Extension"
+msgstr "Installer l'extension Firefox de GetBoo"
+
+#: ..\..\ff_extension.php:30
+msgid "If you see this message at the top of the page, click Allow or follow the steps (for earlier versions)"
+msgstr ""
+
+#: ..\..\ff_extension.php:31
+msgid "Click <b>Install</b> to install the extension in your browser, and <b>Restart</b> your browser once it is done"
+msgstr ""
+
+#: ..\..\ff_extension.php:32
+msgid ""
+"In order to have the buttons installed on your toolbar, rick-click anywhere on the toolbar, click <code>Customize...</code> \n"
+" and then in the <code>Customize Window</code>, drag any of the buttons onto your toolbar. Click <code>Done</code> when you are finished"
+msgstr ""
+
+#: ..\..\ff_extension.php:34
+#, php-format
+msgid "Please refer to the Firefox extension %swiki page</a> for more information on how to use and configure the extension.<br>"
+msgstr ""
+
+#: ..\..\ff_extension.php:35
+#, php-format
+msgid "Alternatively, you can download it directly from the %sFirefox add-ons website</a>"
+msgstr ""
+
+#: ..\..\ff_extension.php:36
+#, php-format
+msgid ""
+"If you don't want to install the extension, or you are not using Firefox, you might want to have a look at \n"
+" bookmarklets called EasyBook, which can be found in the wiki under\n"
+"  %sHelp</a> / Bookmarklets (EasyBook)"
+msgstr ""
+
+#~ msgid "RSS"
+#~ msgstr "RSS"
+#~ msgid "RSS Live Feed"
+#~ msgstr "RSS Fil en direct"
+#~ msgid "Refresh"
+#~ msgstr "Rafraichir"
+#~ msgid "Log Out"
+#~ msgstr "Se déconnecter"
+#~ msgid ""
+#~ "<b>Keep</b> all your bookmarks in one place, accessible from anywhere"
+#~ msgstr ""
+#~ "<b>Gardez</b> tous vos signets à un même endroit, accessible de n'importe "
+#~ "où"
+#~ msgid ""
+#~ "<b>Share</b> some of your bookmarks with the world, and keep some private"
+#~ msgstr ""
+#~ "<b>Partagez</b> quelques signets avec le monde tout en conversant "
+#~ "quelqu'uns privés"
+#~ msgid "<b>Find</b> new websites from people's favorites links"
+#~ msgstr ""
+#~ "<b>Trouvez</b> de nouveaux sites web depuis les liens favoris des gens"
+#~ msgid "Learn more"
+#~ msgstr "Apprenez-en plus"
+#~ msgid "What you can do"
+#~ msgstr "Ce que vous pouvez faire"
+#~ msgid "Start bookmarking!"
+#~ msgstr "Commencez!"
+#~ msgid "No users"
+#~ msgstr "Pas d'utilisateurs"
+#~ msgid "Step 2"
+#~ msgstr "Étape 2"
+#~ msgid "Could not connect to database"
+#~ msgstr "Ne peut se connecter à la base de données"
+#~ msgid "This is the demo account, the password cannot be changed"
+#~ msgstr "C'est le compte démo, le mot de passe ne peut être changé"
+#~ msgid "This is the demo account, all the bookmarks cannot be deleted"
+#~ msgstr "C'est le compte démo, tous les signets ne peuvent être effacés"
+#~ msgid "to"
+#~ msgstr "à"
+#~ msgid "No user"
+#~ msgstr "Pas d'utilisateur"
+
+#, fuzzy
+#~ msgid "Manage Bookmarks"
+#~ msgstr "Gérer vos signets"
+
+#, fuzzy
+#~ msgid "Import Bookmarks"
+#~ msgstr "Signets"
+
+#, fuzzy
+#~ msgid "Export Bookmarks"
+#~ msgstr "Signets"
+#~ msgid "Extension"
+#~ msgstr "Extension"
+#~ msgid "Switch Layout"
+#~ msgstr "Changer d'interface"
+#~ msgid "Beta"
+#~ msgstr "Beta"
+#~ msgid "Find it"
+#~ msgstr "Trouvez-le"
+#~ msgid "Are you sure?"
+#~ msgstr "Êtes-vous certain?"
+

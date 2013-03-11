@@ -1,0 +1,3055 @@
+# GetBoo en_US Translation
+# Copyright (C) 2007 GetBoo project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GetBoo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-07 08:00-0400\n"
+"PO-Revision-Date: 2008-04-06 16:11-0500\n"
+"Last-Translator: Maxime Chartrand-Dumas <maxime@getboo.com>\n"
+"Language-Team: en-US <maxime@getboo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ..\..\..\about.php:25 ..\..\..\header.php:150 ..\..\..\header.php:168
+msgid "About"
+msgstr "O GetBoo"
+
+#: ..\..\..\about.php:28
+msgid "New"
+msgstr "Nový"
+
+#: ..\..\..\about.php:28
+msgid "Learn more about the project"
+msgstr "Víc informací o projektu"
+
+#: ..\..\..\about.php:28
+msgid "Donations"
+msgstr "Příspěvky"
+
+#: ..\..\..\about.php:30
+msgid "What is"
+msgstr "Co je"
+
+#: ..\..\..\about.php:32
+msgid "is both a social and private bookmarking website which can be used to"
+msgstr "je záložková služba pro soukromé i veřejné záložkování, s níž můžete"
+
+#: ..\..\..\about.php:34
+#, php-format
+msgid ""
+"<b>Keep</b> links to your favorite news, blogs, music, games, and more on %s "
+"and access them from any computer on the web"
+msgstr ""
+"<b>Ukládat</b> odkazy na vaše oblíbené zprávy, blogy, hudbu, hry a další na %"
+"s a přistupovat k nim z jakéhokoli počítače na webu"
+
+#: ..\..\..\about.php:35
+msgid ""
+"<b>Import/Export</b> these links from your browser's bookmarks and view them "
+"with the same hierarchy"
+msgstr ""
+"<b>Importovat a exportovat</b> tyto odkazy do/ze svého prohlížeče se "
+"zachováním hierarchie."
+
+#: ..\..\..\about.php:36
+msgid "<b>Share</b> favorites with friends, family, and colleagues."
+msgstr "<b>Sdílet</b> oblíbené záložky s přáteli, rodinou a kolegy."
+
+#: ..\..\..\about.php:37
+#, php-format
+msgid ""
+"<b>Find</b> new things. Everything on %s is someone's favorite - they've "
+"already done the work of finding it. Explore and enjoy"
+msgstr ""
+"<b>Hledat</b> nové věci. Všechno co %s obsahuje jsou něčí oblíbené odkazy - "
+"dotyční už tu práci s hledáním udělali za vás. Projděte si jejich záložky"
+
+#: ..\..\..\about.php:40
+msgid "Why"
+msgstr "Proč používat"
+
+#: ..\..\..\about.php:43
+msgid ""
+"You can import and export your bookmarks from your browser, and keep the "
+"same hierarchy of folders that you have in your browser"
+msgstr ""
+"Můžete importovat a exportovat vaše záložky do/ze svého prohlížeče a přitom "
+"zachovat strukturu, kterou mají ve vašem prohlížeči"
+
+#: ..\..\..\about.php:44
+msgid ""
+"You can create and join groups, either public or private, enabling you to "
+"share bookmarks for a school research/game strategy/etc"
+msgstr ""
+"Můžete vytvářet soukromé i veřejné skupiny a připojovat se k již "
+"existujícím, což vám usnadní sdílení odkazů např. pro školní práce"
+
+#: ..\..\..\about.php:45
+msgid ""
+"And you get all the social bookmarking advantages, with public bookmarks and "
+"tags"
+msgstr ""
+"A můžete si užívat všech vymožeností společného sdílení odkazů a tagování"
+
+#: ..\..\..\about.php:48
+msgid "What to do?"
+msgstr "Jak na to?"
+
+#: ..\..\..\about.php:50
+msgid "Navigate and discover new urls that users found interesting!"
+msgstr ""
+"Prohlížejte a objevujte nové stránky, které se dalším uživatelům zdály "
+"zajímavé!"
+
+#: ..\..\..\about.php:51
+#, php-format
+msgid ""
+"Add your own urls and share them with the world by <a href=\"%s\">creating "
+"an account</a>!"
+msgstr ""
+"Přidejte své vlastní odkazy a podělte se o ně s ostatními. Stačí si <a href="
+"\"%s\">vytvořit účet</a>!"
+
+#: ..\..\..\about.php:53
+msgid "Developers"
+msgstr "O vývojářích"
+
+#: ..\..\..\about.php:55
+#, fuzzy, php-format
+msgid ""
+"GetBoo is an open-source project (hosted on <a href=\"%s\">SourceForge.net</"
+"a>), licensed under the <a href=\"%s\">General Public Licence</a>."
+msgstr ""
+"%s je založena na open-source projektu GetBoo (hostovaném na <a href=\"%s"
+"\">SourceForge.net</a>), licencovaném pod <a href=\"%s\">General Public "
+"Licence</a>."
+
+#: ..\..\..\about.php:56
+#, php-format
+msgid ""
+"Please visit <a href=\"%s\">GetBoo's wiki</a> for more information about the "
+"project."
+msgstr ""
+"Pokud chcete více informací o projektu GetBoo, navštivte prosím <a href=\"%s"
+"\">GetBoo's wiki</a>."
+
+#: ..\..\..\about.php:60
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ..\..\..\about.php:61 ..\..\..\modifyaccount.php:145
+#: ..\..\..\newuser.php:285 ..\..\..\umodifyaccount.php:138
+msgid "Email"
+msgstr "E-mail"
+
+#: ..\..\..\about.php:64 ..\..\..\newuser.php:186
+msgid "Registration"
+msgstr "Registrace"
+
+#: ..\..\..\about.php:65
+msgid "Support"
+msgstr "Podpora"
+
+#: ..\..\..\about.php:66
+msgid "Abuse"
+msgstr "Zneužití"
+
+#: ..\..\..\access.php:51 ..\..\..\access.php:55
+msgid "Protected Area"
+msgstr "Chráněná oblast"
+
+#: ..\..\..\access.php:51 ..\..\..\comment.php:86
+msgid "You are not logged in, or your session has expired"
+msgstr "Nejste přihlášen nebo přihlášení vypršelo"
+
+#: ..\..\..\access.php:52
+msgid "Only registered users can access this page"
+msgstr "Na tuto stránku mají přístup pouze registrovaní uživatelé"
+
+#: ..\..\..\access.php:53 ..\..\..\access.php:57
+#, php-format
+msgid "Please <a href=\"%s\">login</a> into your account from the login page"
+msgstr "Prosím <a href=\"%s\">přihlašte se</a> ke svému účtu"
+
+#: ..\..\..\access.php:55
+msgid "This is a protected area"
+msgstr "Toto je chráněná oblast"
+
+#: ..\..\..\access.php:56
+msgid "Only admin users can access this page"
+msgstr "Na tuto stránku má přístup pouze admin"
+
+#: ..\..\..\accessaccount.php:44 ..\..\..\accessaccount.php:63
+#: ..\..\..\controlpanel.php:50 ..\..\..\manageusers.php:52
+msgid "Manage Users"
+msgstr "Spravovat uživatele"
+
+#: ..\..\..\accessaccount.php:44 ..\..\..\accessaccount.php:63
+msgid "Access Accounts"
+msgstr "Přístup k účtům"
+
+#: ..\..\..\accessaccount.php:45
+msgid "You are now back into your account"
+msgstr "Jste přihlášen zpět pod svým účtem"
+
+#: ..\..\..\accessaccount.php:56
+#, php-format
+msgid ""
+"You are now in %s's account.</p><p>Access this user again to get back into "
+"your admin account"
+msgstr ""
+"Nyní jste přihlášen jako uživatel %s.</p><p>Vyberte jej znovu a vrátíte se "
+"do svého adminského účtu"
+
+#: ..\..\..\accessaccount.php:64
+msgid "Cannot access the user's account"
+msgstr "Nelze přistupovat k tomuto účtu"
+
+#: ..\..\..\activate.php:36
+#, fuzzy
+msgid "Activation"
+msgstr "Aktivační kód"
+
+#: ..\..\..\activate.php:90 ..\..\..\activate.php:139
+#, fuzzy
+msgid "Account Activation"
+msgstr "Účet vytvořen"
+
+#: ..\..\..\activate.php:91
+msgid "Your account is now activated"
+msgstr "Váš účet je nyní aktivován"
+
+#: ..\..\..\activate.php:91
+msgid "Thank you for registering an account with us"
+msgstr "Děkujeme že jste si založil účet na našem serveru"
+
+#: ..\..\..\activate.php:92
+#, fuzzy, php-format
+msgid "You can now access your account %sbookmarks</a>"
+msgstr "Nyní můžete přistupovat ke svým <a href=\"%s\">záložkám</a>"
+
+#: ..\..\..\activate.php:103
+msgid "or add the bookmarklets in your browser"
+msgstr "nebo přidat bookmarklet do svého prohlížeče"
+
+#: ..\..\..\activate.php:110 ..\..\..\activate.php:115
+msgid "An error occured while activating your accont"
+msgstr "Při aktivování účtu nastala chyba"
+
+#: ..\..\..\activate.php:121
+msgid "Your account is already activated"
+msgstr "Váš účet je již aktivní"
+
+#: ..\..\..\activate.php:122
+#, php-format
+msgid "You can access it from the <a href=\"%s\">login</a> page"
+msgstr "Můžete se k němu <a href=\"%s\">přihlásit<a>"
+
+#: ..\..\..\activate.php:126
+msgid ""
+"The username and activation code don't match, or the user does not exist"
+msgstr "Uživatelské jméno a aktivační kód nesouhlasí, nebo uživatel neexistuje"
+
+#: ..\..\..\activate.php:132
+msgid "Both the username and activation code are required"
+msgstr "Je vyžadováno uživatelské jméno i aktivační kód"
+
+#: ..\..\..\activate.php:144
+msgid ""
+"You must enter your username <b>and</b> your activation code (the one you "
+"received at your email address) to get your account activated"
+msgstr ""
+"Musíte vložit své uživatelské jméno <b>a zároveň</b> svůj aktivační kód (to "
+"je ten, který jste dostal mailem na svou adresu), aby byl váš účet aktivován."
+
+#: ..\..\..\activate.php:148 ..\..\..\forgotpass.php:89
+#: ..\..\..\gmembers.php:91 ..\..\..\login.php:169 ..\..\..\newuser.php:255
+#: ..\..\user.php:554
+msgid "Username"
+msgstr "Uživ. jméno"
+
+#: ..\..\..\activate.php:149 ..\..\..\activate.php:153 ..\..\..\add.php:250
+#: ..\..\..\add.php:254 ..\..\..\changepass.php:79 ..\..\..\changepass.php:83
+#: ..\..\..\changepass.php:87 ..\..\..\forgotpass.php:90
+#: ..\..\..\forgotpass.php:94 ..\..\..\gcreate.php:136
+#: ..\..\..\gcreate.php:140 ..\..\..\gcreate.php:144 ..\..\..\gcreate.php:148
+#: ..\..\..\gedit.php:169 ..\..\..\gedit.php:173 ..\..\..\gedit.php:177
+#: ..\..\..\gedit.php:195 ..\..\..\modifyfav.php:209
+#: ..\..\..\modifyfav.php:213 ..\..\..\modifyfav.php:225
+#: ..\..\..\modifyfolder.php:99 ..\..\..\modifyfolder.php:103
+#: ..\..\..\newuser.php:256 ..\..\..\newuser.php:260 ..\..\..\newuser.php:264
+#: ..\..\..\newuser.php:268 ..\..\..\newuser.php:272 ..\..\..\newuser.php:285
+#: ..\..\..\umodifyaccount.php:139 ..\..\..\umodifyaccount.php:143
+#: ..\..\..\umodifyaccount.php:159
+msgid "chars max"
+msgstr "znaků maximálně"
+
+#: ..\..\..\activate.php:152
+msgid "Activation code"
+msgstr "Aktivační kód"
+
+#: ..\..\..\activate.php:157
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: ..\..\..\add.php:27 ..\..\..\add.php:61
+msgid "Add a bookmark"
+msgstr "Přidat záložku"
+
+#: ..\..\..\add.php:73 ..\..\..\login.php:46
+msgid "A session security token is missing"
+msgstr ""
+
+#: ..\..\..\add.php:75 ..\..\..\login.php:48
+msgid "A form security token is missing"
+msgstr ""
+
+#: ..\..\..\add.php:77 ..\..\..\login.php:50
+#, fuzzy
+msgid "The security token is invalid"
+msgstr "Bylo vloženo neplatné heslo"
+
+#: ..\..\..\add.php:175
+msgid "The bookmark was added"
+msgstr "Záložka byla přidána"
+
+#: ..\..\..\add.php:186
+msgid "There has been a problem when adding the new bookmark"
+msgstr "Nastal problém při přidávání záložky"
+
+#: ..\..\..\add.php:190 ..\..\..\modifyfav.php:150
+msgid "A bookmark with the same url has already been submitted"
+msgstr "Už byl přidán odkaz na stejnou stránku"
+
+#: ..\..\..\add.php:193 ..\..\..\modifyfav.php:150
+msgid "Edit Original Bookmark"
+msgstr "Upravit původní záložku"
+
+#: ..\..\..\add.php:198 ..\..\..\comment.php:83 ..\..\..\forgotpass.php:78
+#: ..\..\..\gcreate.php:109 ..\..\..\managenews.php:72
+#: ..\..\..\modifyaccount.php:72 ..\..\..\modifyfav.php:155
+#: ..\..\..\modifyfolder.php:71 ..\..\..\modifyfolder.php:117
+#: ..\..\..\newsmodify.php:65 ..\..\..\newuser.php:179
+#: ..\..\f_deleteaccount.php:101 ..\..\user.php:478
+msgid "The form is incomplete"
+msgstr "Údaje nejsou úplné"
+
+#: ..\..\..\add.php:224 ..\..\..\books_nojs.php:224
+#: ..\..\..\books_nojs.php:242
+msgid "Folder"
+msgstr "Složka"
+
+#: ..\..\..\add.php:231
+msgid "Optional - Add a new folder under the previous one"
+msgstr "Volitelné - Přidat novou složku do výše vybrané"
+
+#: ..\..\..\add.php:234
+msgid "New Folder"
+msgstr "Nová složka"
+
+#: ..\..\..\add.php:235
+msgid "chars max, folder added under parent folder"
+msgstr "znaků maximálně, složka bude vytvořena ve vybrané složce"
+
+#: ..\..\..\add.php:238 ..\..\..\add.php:253 ..\..\..\gcreate.php:147
+#: ..\..\..\gedit.php:194 ..\..\..\modifyfav.php:212
+#: ..\..\..\modifyfolder.php:102 ..\..\gdetails_body.php:35
+msgid "Description"
+msgstr "Popis"
+
+#: ..\..\..\add.php:239
+msgid "chars max, description of the new folder"
+msgstr "znaků maximálně, popisek nové složky"
+
+#: ..\..\..\add.php:245 ..\..\..\modifyfav.php:204
+msgid "Url"
+msgstr "URL"
+
+#: ..\..\..\add.php:246 ..\..\..\modifyfav.php:205
+#: ..\..\..\umodifyaccount.php:167
+msgid "No chars limit"
+msgstr "Bez omezení počtu znaků"
+
+#: ..\..\..\add.php:249 ..\..\..\comment.php:149 ..\..\..\managenews.php:85
+#: ..\..\..\managenews.php:100 ..\..\..\modifyfav.php:208
+#: ..\..\..\modifyfolder.php:98 ..\..\..\newsmodify.php:91
+msgid "Title"
+msgstr "Titulek"
+
+#: ..\..\..\add.php:261 ..\..\..\bheader.php:40 ..\..\..\modifyfav.php:220
+msgid "Public"
+msgstr "Veřejné"
+
+#: ..\..\..\add.php:262
+#, php-format
+msgid ""
+"For new users, they will appear in recent bookmarks %s days after the date "
+"you registered"
+msgstr ""
+"U nových uživatelů jsou záložky zobrazovány v Nejnovějších %s dní po "
+"registraci"
+
+#: ..\..\..\add.php:265 ..\..\..\header.php:95 ..\..\..\modifyfav.php:224
+#: ..\..\..\tags.php:74
+msgid "Tags"
+msgstr "Štítky"
+
+#: ..\..\..\add.php:266
+#, php-format
+msgid "chars max, %s chars per tag max. Tags are keywords"
+msgstr "znaků maximálně, %s znaků na štítek. Štítky jsou klíčová slova"
+
+#: ..\..\..\add.php:266 ..\..\..\modifyfav.php:225
+msgid "space separated"
+msgstr "oddělené mezerou"
+
+#: ..\..\..\add.php:273
+msgid "Add Bookmark"
+msgstr "Přidat záložku"
+
+#: ..\..\..\alltags.php:50
+msgid "All tags"
+msgstr "Všechny štítky"
+
+#: ..\..\..\alltags.php:64 ..\..\..\populartags.php:64
+msgid "Sort by"
+msgstr "Řadit podle"
+
+#: ..\..\..\alltags.php:64 ..\..\..\populartags.php:64
+msgid "Alphabet"
+msgstr "Abecedy"
+
+#: ..\..\..\alltags.php:66 ..\..\..\populartags.php:66
+msgid "Popularity"
+msgstr "Popularity"
+
+#: ..\..\..\bheader.php:24 ..\..\..\bheader.php:40 ..\..\..\header.php:160
+#: ..\..\..\spamcenter.php:53
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: ..\..\..\bheader.php:41 ..\..\..\books_nojs.php:309 ..\..\..\gheader.php:29
+#: ..\..\..\groups.php:36 ..\..\..\psearch.php:65 ..\..\..\search.php:152
+#: ..\..\..\search.php:170
+msgid "Search"
+msgstr "Hledat"
+
+#: ..\..\..\bheader.php:42 ..\..\..\import.php:31 ..\..\..\import.php:52
+#: ..\..\..\importDelicious.php:93 ..\..\..\netscape_import.php:259
+msgid "Import"
+msgstr "Import"
+
+#: ..\..\..\bheader.php:42
+msgid "Import Delicious"
+msgstr ""
+
+#: ..\..\..\bheader.php:42 ..\..\..\export.php:31
+msgid "Export"
+msgstr "Export"
+
+#: ..\..\..\bheader.php:43 ..\..\..\sbheader.php:25 ..\..\..\sbmostused.php:30
+#: ..\..\..\sbsearches.php:31 ..\..\..\statsb.php:31
+#: ..\..\..\statsexportimport.php:31
+msgid "Stats"
+msgstr "Statistika"
+
+#: ..\..\..\bheader.php:43 ..\..\easybook_content.php:24
+#: ..\..\easybook_content.php:52
+msgid "EasyBook"
+msgstr "EasyBook"
+
+#: ..\..\..\bheader.php:44
+#, fuzzy
+msgid "Layout"
+msgstr "Odhlásit"
+
+#: ..\..\..\bheader.php:45
+msgid "Original"
+msgstr "Původní"
+
+#: ..\..\..\bheader.php:45
+msgid "Tree"
+msgstr "Strom"
+
+#: ..\..\..\books.php:45
+msgid "My Bookmarks"
+msgstr "Moje záložky"
+
+#: ..\..\..\books.php:69
+#, fuzzy
+msgid "You have successfully deleted this bookmark"
+msgstr "Složka byla smazána"
+
+#: ..\..\..\books.php:72
+#, fuzzy
+msgid "There has been a problem when deleting the bookmark"
+msgstr "Nastal problém při mazání záložky"
+
+#: ..\..\..\books_js.php:29 ..\..\folders.php:84 ..\..\folders.php:135
+msgid "Main"
+msgstr "Hlavní"
+
+#: ..\..\..\books_js.php:223 ..\..\..\books_nojs.php:313
+msgid "Delete All Your Bookmarks"
+msgstr "Smazat všechny záložky"
+
+#: ..\..\..\books_nojs.php:36
+#, fuzzy
+msgid "You have successfully copied this bookmark"
+msgstr "Složka byla smazána"
+
+#: ..\..\..\books_nojs.php:41
+msgid "There has been a problem when pasting the bookmark"
+msgstr "Nastala chyba při přidávání záložky"
+
+#: ..\..\..\books_nojs.php:52
+#, fuzzy
+msgid "You have successfully moved this bookmark"
+msgstr "Složka byla smazána"
+
+#: ..\..\..\books_nojs.php:57
+#, fuzzy
+msgid "There has been a problem when moving the bookmark"
+msgstr "Nastala chyba při přidávání záložky"
+
+#: ..\..\..\books_nojs.php:66
+#, fuzzy
+msgid "You have successfully copied this folder"
+msgstr "Složka byla smazána"
+
+#: ..\..\..\books_nojs.php:71
+#, fuzzy
+msgid "There has been a problem when pasting the folder"
+msgstr "Nastal problém při úpravě složky"
+
+#: ..\..\..\books_nojs.php:82
+#, fuzzy
+msgid "You have successfully moved this folder"
+msgstr "Složka byla smazána"
+
+#: ..\..\..\books_nojs.php:87
+#, fuzzy
+msgid "There has been a problem when moving the folder"
+msgstr "Nastal problém při mazání složky"
+
+#: ..\..\..\books_nojs.php:180 ..\..\..\books_nojs.php:196
+msgid "Copy Here"
+msgstr ""
+
+#: ..\..\..\books_nojs.php:180 ..\..\..\books_nojs.php:196
+#, fuzzy
+msgid "Move Here"
+msgstr "Přesunout"
+
+#: ..\..\..\books_nojs.php:180 ..\..\..\books_nojs.php:196
+#: ..\..\..\modifyfav.php:197 ..\..\..\modifyfolder.php:91
+#: ..\..\..\newsmodify.php:85
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ..\..\..\books_nojs.php:224 ..\..\..\gheader.php:24 ..\..\..\header.php:162
+#: ..\..\folders.php:80 ..\..\folders.php:82
+msgid "Groups"
+msgstr "Skupiny"
+
+#: ..\..\..\books_nojs.php:224 ..\..\folders.php:94
+msgid "Group folders"
+msgstr "Složka skupin"
+
+#: ..\..\..\books_nojs.php:240 ..\..\..\books_nojs.php:272
+#: ..\..\..\books_nojs.php:291 ..\..\..\gmanage.php:55
+#: ..\..\..\gmembers.php:93 ..\..\..\gmembers.php:122
+#: ..\..\..\managenews.php:86 ..\..\..\manageusers.php:132
+#: ..\..\..\modifyaccount.php:193 ..\..\bookmarks.php:378
+#: ..\..\bookmarks.php:409 ..\..\jquery\bookmarksjs.php:9
+#: ..\..\jquery\bookmarksjs.php:18
+msgid "Delete"
+msgstr "Smazat"
+
+#: ..\..\..\books_nojs.php:240 ..\..\..\books_nojs.php:272
+#: ..\..\..\books_nojs.php:291 ..\..\..\managenews.php:86
+#: ..\..\..\manageusers.php:132 ..\..\..\modifyaccount.php:188
+msgid "Modify"
+msgstr "Změnit"
+
+#: ..\..\..\books_nojs.php:240 ..\..\..\books_nojs.php:272
+#: ..\..\..\books_nojs.php:291
+msgid "Move"
+msgstr "Přesunout"
+
+#: ..\..\..\books_nojs.php:252
+#, fuzzy
+msgid "Your account has been disabled for this group"
+msgstr "Váš účet byl zakázán"
+
+#: ..\..\..\books_nojs.php:272
+msgid "By"
+msgstr "Od"
+
+#: ..\..\..\books_nojs.php:299 ..\..\..\index.php:33
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Vítejte na %s!"
+
+#: ..\..\..\books_nojs.php:299
+msgid "It appears that you don't have any bookmarks yet"
+msgstr "Vypadá to, že ještě nemáte žádné záložky"
+
+#: ..\..\..\books_nojs.php:299
+#, php-format
+msgid ""
+"In order to add bookmarks and folders, go to <a href=\"%s\">Add</a> from the "
+"top menu or <a href=\"%s\">Import</a> your bookmarks from your browser"
+msgstr ""
+"Pokud chcete přidávat odkazy na stránky a vytvářet složky, jděte na stránku  "
+"<a href=\"%s\">Přidat</a> v horním menu, nebo <a href=\"%s\">importujte</a> "
+"Oblíbené odkazy ze svého prohlížeče"
+
+#: ..\..\..\books_nojs.php:307
+msgid "Search Bookmarks"
+msgstr "Prohledat záložky"
+
+#: ..\..\..\changepass.php:34 ..\..\..\changepass.php:64
+#: ..\..\..\controlpanel.php:34 ..\..\..\deleteaccount.php:30
+#: ..\..\..\header.php:183 ..\..\..\managenews.php:33
+#: ..\..\..\manageusers.php:52 ..\..\..\manageusers.php:162
+#: ..\..\..\modifyaccount.php:46 ..\..\..\newuser.php:190
+#: ..\..\..\onlineusers.php:30 ..\..\..\removeactivations.php:33
+#: ..\..\..\removeactivations_delete.php:25 ..\..\..\spamcenter.php:34
+#: ..\..\..\umodifyaccount.php:63 ..\..\..\umodifyaccount.php:190
+#: ..\..\..\manageconfig.php:111 ..\..\..\manageconfig.php:143
+#: ..\..\..\manageconfig.php:165
+msgid "Settings"
+msgstr "Nastavení"
+
+#: ..\..\..\changepass.php:34 ..\..\..\gedit.php:161
+msgid "Change password"
+msgstr "Změnit heslo"
+
+#: ..\..\..\changepass.php:41 ..\..\..\deleteaccount.php:39
+#: ..\..\..\deleteallbooks.php:101
+#, fuzzy
+msgid "This is the demo account"
+msgstr "Vytvořit účet"
+
+#: ..\..\..\changepass.php:64 ..\..\..\manageusers.php:162
+#: ..\..\..\umodifyaccount.php:190 ..\..\..\manageconfig.php:165
+msgid "Back to"
+msgstr "Zpět na"
+
+#: ..\..\..\changepass.php:74
+msgid ""
+"In order to change your password, enter the current one and then type the new"
+"\tone twice to confirm"
+msgstr ""
+"Pokud chcete změnit heslo, musíte vložit své současné a pak vložit dvakrát "
+"nové, aby byla změna provedena"
+
+#: ..\..\..\changepass.php:78 ..\..\..\gedit.php:168
+msgid "Current Password"
+msgstr "Staré heslo"
+
+#: ..\..\..\changepass.php:82 ..\..\..\forgotpass.php:65
+#: ..\..\..\gedit.php:172
+msgid "New Password"
+msgstr "Nové heslo"
+
+#: ..\..\..\changepass.php:86 ..\..\..\gedit.php:176
+msgid "Retype New Password"
+msgstr "Nové heslo ještě jednou"
+
+#: ..\..\..\changepass.php:91 ..\..\..\controlpanel.php:40
+#: ..\..\..\gedit.php:181
+msgid "Change Password"
+msgstr "Změna hesla"
+
+#: ..\..\..\changepass.php:96 ..\..\..\deleteaccount.php:84
+#: ..\..\..\managenews.php:114 ..\..\..\onlineusers.php:57
+#: ..\..\..\spamcenter.php:66
+msgid "Back to Settings"
+msgstr "Zpátky na nastavení"
+
+#: ..\..\..\checkGroup.php:29
+msgid "Check Group Name"
+msgstr "Ověření jména skupiny"
+
+#: ..\..\..\checkGroup.php:50 ..\..\..\gcreate.php:102
+msgid "This group name is already taken"
+msgstr "Toto jméno skupiny již v systému existuje"
+
+#: ..\..\..\checkGroup.php:52
+msgid "This group name is available"
+msgstr "Toto jméno skupiny je volné"
+
+#: ..\..\..\checkGroup.php:55
+#, fuzzy
+msgid "Incorrect group format"
+msgstr "Chybný formát uživatelského jména"
+
+#: ..\..\..\checkGroup.php:59 ..\..\..\checkUsername.php:59
+msgid "Close Window"
+msgstr "Zavřít okno"
+
+#: ..\..\..\checkUsername.php:29
+msgid "Check Username"
+msgstr "Ověřit uživatelské jméno"
+
+#: ..\..\..\checkUsername.php:50 ..\..\..\newuser.php:172
+msgid "This username is already taken"
+msgstr "Toto uživatelské jméno je již použito"
+
+#: ..\..\..\checkUsername.php:52
+msgid "This username is available"
+msgstr "Toto uživatelské jméno je dostupné"
+
+#: ..\..\..\checkUsername.php:55
+msgid "Incorrect username format"
+msgstr "Chybný formát uživatelského jména"
+
+#: ..\..\..\comment.php:106
+#, fuzzy
+msgid "Comments on bookmark:"
+msgstr "K této záložce nejsou žádné komentáře"
+
+#: ..\..\..\comment.php:113
+msgid "Your comment has been added"
+msgstr "Váš komentář byl přidán"
+
+#: ..\..\..\comment.php:117
+msgid "Error when adding the comment"
+msgstr "Během přidávání komentáře došlo k chybě"
+
+#: ..\..\..\comment.php:134
+msgid "Comments"
+msgstr "Komentáře"
+
+#: ..\..\..\comment.php:136
+msgid "No comments for this bookmark"
+msgstr "K této záložce nejsou žádné komentáře"
+
+#: ..\..\..\comment.php:146
+msgid "Submit a comment"
+msgstr "Přidat komentář"
+
+#: ..\..\..\comment.php:151 ..\..\..\managenews.php:104
+#: ..\..\..\newsmodify.php:95
+msgid "Message"
+msgstr "Zpráva"
+
+#: ..\..\..\comment.php:153
+msgid "Submit Comment"
+msgstr "Odeslat komentář"
+
+#: ..\..\..\comment.php:160
+#, php-format
+msgid "Please <a href=\"%s\">login</a> in order to comment this bookmark"
+msgstr "Pokud chcete komentovat tuto záložku, <a href=\"%s\">přihlaste se</a>"
+
+#: ..\..\..\controlpanel.php:24
+msgid "My Settings"
+msgstr "Moje nastavení"
+
+#: ..\..\..\controlpanel.php:36
+#, php-format
+msgid ""
+"Hello <b>%s</b>. You are in your control panel area where you can change "
+"your settings"
+msgstr ""
+"Jste přihlášen jako  <b>%s</b>. Nacházíte se na stránce, kde můžete změnit "
+"nastavení vašeho účtu"
+
+#: ..\..\..\controlpanel.php:37 ..\..\..\managenews.php:85
+#: ..\..\..\manageusers.php:108
+msgid "Options"
+msgstr "Možnosti"
+
+#: ..\..\..\controlpanel.php:42 ..\..\..\umodifyaccount.php:63
+msgid "Modify account information"
+msgstr "Upravit informace o účtu"
+
+#: ..\..\..\controlpanel.php:48
+#, fuzzy
+msgid "Admin Options"
+msgstr "Možnosti"
+
+#: ..\..\..\controlpanel.php:51 ..\..\..\manageconfig.php:111
+msgid "Manage Configuration"
+msgstr ""
+
+#: ..\..\..\controlpanel.php:53 ..\..\..\spamcenter.php:34
+msgid "Spam Center"
+msgstr "Spam centrum"
+
+#: ..\..\..\controlpanel.php:56 ..\..\..\managenews.php:33
+msgid "Manage News"
+msgstr "Spravovat novinky"
+
+#: ..\..\..\controlpanel.php:58 ..\..\..\onlineusers.php:30
+msgid "Online Users"
+msgstr "Uživatelé online"
+
+#: ..\..\..\controlpanel.php:67
+msgid "Version Check"
+msgstr "Kontrola verze"
+
+#: ..\..\..\controlpanel.php:106
+msgid "Your installation is up to date"
+msgstr "Je nainstalována nejnovější verze"
+
+#: ..\..\..\controlpanel.php:110
+#, php-format
+msgid ""
+"Your installation does not seem to be up to date (you currently use version %"
+"s)"
+msgstr "Vaše instalace se zdá zastaralá (používáte verzi %s)"
+
+#: ..\..\..\controlpanel.php:111
+#, php-format
+msgid ""
+"You can visit <a href=\"%s\">SourceForge.net project's page</a> to download "
+"and upgrade to the latest version (%s)"
+msgstr ""
+"You can visit <a href=\"%s\">SourceForge.net project's page</a> to download "
+"and upgrade to the latest version (%s)"
+
+#: ..\..\..\controlpanel.php:132 ..\..\..\deleteaccount.php:30
+msgid "Delete Account"
+msgstr "Smazat účet"
+
+#: ..\..\..\deleteaccount.php:65 ..\..\..\deleteallbooks.php:89
+#: ..\..\..\gdelete.php:111
+msgid "The password is incorrect"
+msgstr "Heslo není správné"
+
+#: ..\..\..\deleteaccount.php:68
+msgid "Please enter your password in order to delete your account"
+msgstr "Smazání účtu vyžaduje, abyste vložili heslo"
+
+#: ..\..\..\deleteaccount.php:77
+msgid "Are you sure you want to delete your account"
+msgstr "Opravdu chcete smazat účet"
+
+#: ..\..\..\deleteaccount.php:78 ..\..\..\deleteallbooks.php:111
+#: ..\..\..\gdelete.php:128 ..\..\..\gjoin.php:145
+msgid "Enter Password"
+msgstr "Vložte heslo"
+
+#: ..\..\..\deleteaccount.php:80
+msgid "Yes, I want to delete my account"
+msgstr "Ano, chci smazat svůj účet"
+
+#: ..\..\..\deleteallbooks.php:35
+msgid "Delete Bookmarks"
+msgstr "Smazat záložky"
+
+#: ..\..\..\deleteallbooks.php:79
+msgid "You have successfully deleted all your folders and bookmarks"
+msgstr "Vaše složky a záložky byly úspěšně smazány"
+
+#: ..\..\..\deleteallbooks.php:79
+#, php-format
+msgid "You can <a href=\"%s\">go back</a> to your bookmarks"
+msgstr "Můžete se <a href=\"%s\">vrátit</a> na své záložky"
+
+#: ..\..\..\deleteallbooks.php:83
+msgid "There has been a problem with deleting bookmarks"
+msgstr "Nastal problém při mazání záložek"
+
+#: ..\..\..\deleteallbooks.php:86
+msgid "There has been a problem with deleting folders"
+msgstr "Nastal problém při mazání složek"
+
+#: ..\..\..\deleteallbooks.php:93
+msgid "Please enter your password"
+msgstr "Prosím vložte své heslo"
+
+#: ..\..\..\deleteallbooks.php:108
+msgid ""
+"Are you sure you want to delete all your bookmarks and folders in your "
+"account"
+msgstr "Opravdu chcete vymazat všechny své záložky a složky u svého účtu"
+
+#: ..\..\..\deleteallbooks.php:109
+msgid "All the bookmarks in your groups will also be deleted"
+msgstr "Všechny záložky ve vašich skupinách budou rovněž vymazány"
+
+#: ..\..\..\deleteallbooks.php:113
+msgid "Yes, I want to delete them all"
+msgstr "Ano, chci to všechno smazat"
+
+#: ..\..\..\emailpass.php:31 ..\..\..\forgotpass.php:31 ..\..\..\login.php:189
+msgid "Forgot password"
+msgstr "Zapomněl jste heslo"
+
+#: ..\..\..\emailpass.php:57
+#, php-format
+msgid "New password for your %s account"
+msgstr "Nové heslo k vašemu účtu na %s"
+
+#: ..\..\..\emailpass.php:57 ..\..\user.php:560
+msgid "Could not send the email: Here is a copy of the email"
+msgstr "Nebylo možné poslat e-mail. Zde je jeho kopie"
+
+#: ..\..\..\emailpass.php:58
+msgid "New password generated"
+msgstr "Nové heslo vytvořeno"
+
+#: ..\..\..\emailpass.php:58
+msgid "Please check your email and log in with the new password"
+msgstr ""
+"Prosím zkontrolujte svou e-mailovou schránku a přihlašte se s novým heslem"
+
+#: ..\..\..\emailpass.php:58
+msgid ""
+"The email is already sent, but with some free email providers, it might take "
+"a few hours"
+msgstr ""
+"E-mail už byl poslán, ale jeho doručení může na některých mailových "
+"serverech, zejména těch zdarma, trvat až několik hodin"
+
+#: ..\..\..\emailpass.php:63
+msgid "Could not store the new password"
+msgstr "Nemohu uložit nové heslo"
+
+#: ..\..\..\emailpass.php:68
+msgid "Error"
+msgstr "Chyba"
+
+#: ..\..\..\export.php:32
+msgid "Here you can export your bookmarks to your internet browser"
+msgstr "Zde můžete exportovat své záložky do svého internetového prohlížeče"
+
+#: ..\..\..\export.php:33
+#, fuzzy
+msgid ""
+"You can check the tutorial for the browser where you want to import your "
+"bookmarks into"
+msgstr ""
+"Můžete se podívat na návod, jak tyto záložky načíst do svého prohlížeče"
+
+#: ..\..\..\export.php:34 ..\..\..\import.php:34
+msgid "Browsers supported"
+msgstr "Podporované prohlížeče"
+
+#: ..\..\..\export.php:37 ..\..\..\export.php:38 ..\..\..\export.php:39
+#: ..\..\..\export.php:40 ..\..\..\export.php:41 ..\..\..\export.php:42
+#: ..\..\..\import.php:37 ..\..\..\import.php:38 ..\..\..\import.php:39
+#: ..\..\..\import.php:40 ..\..\..\import.php:41 ..\..\easybook_content.php:32
+#: ..\..\easybook_content.php:33 ..\..\easybook_content.php:34
+#: ..\..\easybook_content.php:35 ..\..\easybook_content.php:36
+msgid "Tutorial"
+msgstr "Návod"
+
+#: ..\..\..\export.php:47
+msgid "Generate Export File"
+msgstr "Vygenerovat soubor se záložkami"
+
+#: ..\..\..\export.php:51
+msgid "It generates the file containing your bookmarks"
+msgstr "Bude vygenerován soubor s vašimi záložkami"
+
+#: ..\..\..\export.php:51
+msgid "Store the file on your computer in order to access it from your browser"
+msgstr ""
+"Uložte tento soubor ve svém počítači tak, abyste k němu měli přístup ze "
+"svého prohlížeče"
+
+#: ..\..\..\feed.php:26
+msgid "Available feed"
+msgstr "Dostupné kanály"
+
+#: ..\..\..\feed.php:28
+#, php-format
+msgid ""
+"The feed below enables you to read the news on %s with any feed reading "
+"software"
+msgstr "RSS kanál vám umožní číst novinky z %s s jakoukoliv RSS čtečkou"
+
+#: ..\..\..\feed.php:29
+#, php-format
+msgid ""
+"Because %s has a feed available, people can subscribe to it using software "
+"for reading syndicated content called a \"newsreader.\" Currently, %s News "
+"feed is written in RSS only"
+msgstr ""
+"Protože %s poskytuje RSS kanál, mohou se uživatelé přihlásit k odběru "
+"softwarem pro čtení RSS, nazývaným čtečky."
+
+#: ..\..\..\feed.php:37
+msgid "Feed-reading software"
+msgstr "Čtečky"
+
+#: ..\..\..\feed.php:43
+msgid "Web-based"
+msgstr "Webové"
+
+#: ..\..\..\feed.php:48
+msgid "Cross platform"
+msgstr "Pro různé počítače"
+
+#: ..\..\..\feed.php:62
+msgid "Source"
+msgstr "Zdroj"
+
+#: ..\..\..\feed.php:68
+msgid ""
+"Other than usign these softwares to read the feed, some browser support "
+"feeds such as"
+msgstr ""
+"Lze použít i jiný software, např. některé prohlížeče podporují RSS kanály, "
+"jako"
+
+#: ..\..\..\feed.php:69
+#, php-format
+msgid "Look for the %s icon in the browser"
+msgstr "Hledejte ikonu %s v prohlížeči"
+
+#: ..\..\..\feed.php:69 ..\..\..\news.php:80 ..\..\..\recent_tags.php:94
+#: ..\..\..\tags.php:130 ..\..\..\userb.php:202
+#, fuzzy
+msgid "RSS icon"
+msgstr "RSS ikona Firefoxu"
+
+#: ..\..\..\feed.php:72
+msgid "[Valid RSS]"
+msgstr ""
+
+#: ..\..\..\feed.php:72
+msgid "Validate my RSS feed"
+msgstr "Ověřit RSS kanál"
+
+#: ..\..\..\publicfooter.php:59
+msgid "user"
+msgid_plural "users"
+msgstr[0] "uživatel"
+msgstr[1] "uživatelů"
+
+#: ..\..\..\publicfooter.php:60
+msgid "There is"
+msgid_plural "There are"
+msgstr[0] "Už"
+msgstr[1] "Už"
+
+#: ..\..\..\publicfooter.php:61
+#, php-format
+msgid "registered on %s"
+msgstr "se zaregistrovalo na %s"
+
+#: ..\..\..\publicfooter.php:62
+#, fuzzy, php-format
+msgid "There are <b>%s bookmarks</b> stored on %s"
+msgstr "V systému je <b>%s záložek</b>"
+
+#: ..\..\..\forgotpass.php:54
+msgid "Your password hint question is"
+msgstr "Vaše nápověda k heslu je"
+
+#: ..\..\..\forgotpass.php:56
+msgid "You didn't provide any hint question"
+msgstr "Nenastavil jste si žádnou nápovědu"
+
+#: ..\..\..\forgotpass.php:60
+msgid "If this hint doesn't help you, we can email you a new password"
+msgstr "Pokud vám tato nápověda nepomůže, může vám být heslo zasláno mailem"
+
+#: ..\..\..\forgotpass.php:72
+#, fuzzy
+msgid "The username and the email don't match, or the user does not exist"
+msgstr "Uživatelské jméno a aktivační kód nesouhlasí, nebo uživatel neexistuje"
+
+#: ..\..\..\forgotpass.php:78
+msgid ""
+"You must provide both fields, the username and email (either provided during "
+"registration or updated after)"
+msgstr "Musíte vyplnit obě položky, uživatelské jméno i e-mail"
+
+#: ..\..\..\forgotpass.php:84
+msgid ""
+"You must enter your username <b>and</b> your email to get your password hint "
+"question"
+msgstr ""
+"Pokud chcete nápovědu k zapomenutému heslu, musíte vložit uživatelské jméno "
+"<b>a zároveň</b> svůj e-mail"
+
+#: ..\..\..\forgotpass.php:85
+msgid ""
+"If it doesn't help you recover your password, you will get the possibility "
+"to receive a new password"
+msgstr ""
+"Pokud vám to nepomůže vzpomenout si na heslo, budete mít možnost dostat nové "
+"heslo"
+
+#: ..\..\..\forgotpass.php:93 ..\..\..\newuser.php:267
+msgid "Email address"
+msgstr "E-mailová adresa"
+
+#: ..\..\..\forgotpass.php:98
+msgid "Hint question"
+msgstr "Nápověda"
+
+#: ..\..\..\forgotpass.php:102 ..\..\..\login.php:189
+msgid "New User"
+msgstr "Jste tu nový"
+
+#: ..\..\..\gcreate.php:56
+msgid "Check for invalid characters or length"
+msgstr ""
+"Zkontrolujte zda políčka neobsahují nepovolené znaky nebo příliš mnoho znaků"
+
+#: ..\..\..\gcreate.php:62 ..\..\..\newuser.php:78
+msgid "Both passwords have to match"
+msgstr "Hesla musí být stejná"
+
+#: ..\..\..\gcreate.php:93
+msgid "The group was successfully created"
+msgstr "Skupina byla úspěšně vytvořena"
+
+#: ..\..\..\gcreate.php:96 ..\..\..\gjoin.php:110
+msgid "A problem occured when creating the folder of this group"
+msgstr "Nastal problém při vytváření složky v této skupině"
+
+#: ..\..\..\gcreate.php:99
+msgid "A problem occured when creating your group information"
+msgstr "Nastal problém při vytváření skupiny"
+
+#: ..\..\..\gcreate.php:102
+msgid "Please choose a different group name"
+msgstr "Prosím vyberte jiné jméno pro skupinu"
+
+#: ..\..\..\gcreate.php:128
+msgid "Enter the group name in the field"
+msgstr "Zapište jméno skupiny do políčka"
+
+#: ..\..\..\gcreate.php:135 ..\..\gdetails_body.php:35
+msgid "Group name"
+msgstr "Jméno skupiny"
+
+#: ..\..\..\gcreate.php:136 ..\..\..\newuser.php:256
+msgid "Check availability"
+msgstr "Ověřit dostupnost"
+
+#: ..\..\..\gcreate.php:139 ..\..\..\login.php:173
+#: ..\..\..\modifyaccount.php:141 ..\..\..\newuser.php:259 ..\..\user.php:554
+msgid "Password"
+msgstr "Heslo"
+
+#: ..\..\..\gcreate.php:143 ..\..\..\newuser.php:263
+msgid "Retype password"
+msgstr "Heslo znovu pro kontrolu"
+
+#: ..\..\..\gcreate.php:152
+msgid "Add Group"
+msgstr "Přidat skupinu"
+
+#: ..\..\..\gcreate.php:156 ..\..\..\newuser.php:292
+msgid ""
+"All fields in bold are mandatory, and they can only contain letters, digits, "
+"'-' and '_' (except for the email)"
+msgstr ""
+"Všechna tučně popsaná pole jsou povinná a mohou obsahovat pouze písmena, "
+"číslice, spojovník (-) a podtržítko (_) (kromě e-mailu)"
+
+#: ..\..\..\gcreate.php:157
+msgid "Leave blank if you want to make the group public"
+msgstr "Nevyplňujte, pokud chcete vbytvořit veřejnou skupinu."
+
+#: ..\..\..\gdelete.php:53
+msgid "Only the manager of this group can delete his group"
+msgstr "Skupinu může smazat pouze její správce"
+
+#: ..\..\..\gdelete.php:102
+msgid "Your group has been deleted"
+msgstr "Skupina byla smazána"
+
+#: ..\..\..\gdelete.php:105
+msgid "A problem occured when deleting the group folders and bookmarks"
+msgstr "Nastal problém při mazání složky skupiny a záložek"
+
+#: ..\..\..\gdelete.php:108
+msgid "A problem occured when deleting the group information"
+msgstr "Nastal problém při mazání informací o skupině"
+
+#: ..\..\..\gdelete.php:115
+msgid "Please enter your password in order to delete your group"
+msgstr "Pokud chcete smazat skupinu, musíte vložit heslo"
+
+#: ..\..\..\gdelete.php:125
+#, php-format
+msgid ""
+"Are you sure you want to delete the group <b>%s</b> along with all the "
+"bookmarks and users"
+msgstr ""
+"Opravdu chcete smazat skupinu <b>%s</b> včetně všech přiřazených záložek a "
+"uživatelů"
+
+#: ..\..\..\gdelete.php:125
+msgid "Please enter your own password"
+msgstr "Vložte své vlastní heslo"
+
+#: ..\..\..\gdelete.php:130
+msgid "Yes, I want to delete this group"
+msgstr "Ano, chci smazat tuto skupinu"
+
+#: ..\..\..\gdetails.php:57 ..\..\..\gjoin.php:135
+msgid "Join this group"
+msgstr "Připojit se ke skupině"
+
+#: ..\..\..\gdetails.php:66 ..\..\..\gjoin.php:51 ..\..\..\gunsubs.php:136
+msgid "Unsubscribe from this group"
+msgstr "Odhlásit se ze skupiny"
+
+#: ..\..\..\gedit.php:55 ..\..\..\gedit.php:99 ..\..\..\gedit.php:143
+#: ..\..\..\gmembers.php:70
+msgid "You must be the manager of this group"
+msgstr "Musíte být správce skupiny"
+
+#: ..\..\..\gedit.php:66
+msgid "You have changed the description of this group"
+msgstr "Popis skupiny byl změněn"
+
+#: ..\..\..\gedit.php:69
+msgid "Make sure you don't write the same description as it was before"
+msgstr "Ujistěte se, že nepíšete stejný popis jaký už skupina má"
+
+#: ..\..\..\gedit.php:72
+msgid "Please enter the description in the corresponding field"
+msgstr "Prosím vložte popis do odpovídajícího pole"
+
+#: ..\..\..\gedit.php:117 ..\..\user.php:403
+msgid "The actual password is incorrect"
+msgstr "Současné heslo není správně"
+
+#: ..\..\..\gedit.php:121 ..\..\user.php:407
+msgid "The new password does not match in both fields"
+msgstr "Nové heslo musí být napsáno dvakrát shodně"
+
+#: ..\..\..\gedit.php:129
+msgid "You have successfully changed the password"
+msgstr "Heslo bylo úspěšně změněno"
+
+#: ..\..\..\gedit.php:129
+msgid "Please notify the members subscribing to your group"
+msgstr "Prosím upozorněte členy vaší skupiny"
+
+#: ..\..\..\gedit.php:131
+msgid "There has been a problem while updating the password"
+msgstr "Nastal problém při změně hesla"
+
+#: ..\..\..\gedit.php:131
+msgid "Make sure you don't type the same password as the actual one"
+msgstr "Ujistěte se, že nepíšete stejné heslo jaké už je nastaveno"
+
+#: ..\..\..\gedit.php:135
+msgid "Missing values or invalid length for the password"
+msgstr "Chybějící hodnota nebo špatná délka hesla"
+
+#: ..\..\..\gedit.php:141
+msgid "Edit information for group"
+msgstr "Upravit informace o skupině"
+
+#: ..\..\..\gedit.php:163
+msgid ""
+"In order to change the group password, enter the current one and then type "
+"the new one twice to confirm"
+msgstr ""
+"Chcete-li změnit heslo skupiny, zadejte prosím to současné a pak dvakrát nové"
+
+#: ..\..\..\gedit.php:189
+msgid "Change description"
+msgstr "Změnit popis"
+
+#: ..\..\..\gedit.php:199
+msgid "Change Description"
+msgstr "Změnit popis"
+
+#: ..\..\..\gheader.php:29
+msgid "Create"
+msgstr "Vytvořit"
+
+#: ..\..\..\gheader.php:29
+msgid "Manage"
+msgstr "Spravovat"
+
+#: ..\..\..\gjoin.php:46 ..\..\..\gjoin.php:80
+msgid "You are already a member of this group"
+msgstr "Už jste členem téhle skupiny"
+
+#: ..\..\..\gjoin.php:73 ..\..\..\gjoin.php:116
+msgid "The password you entered is invalid"
+msgstr "Bylo vloženo neplatné heslo"
+
+#: ..\..\..\gjoin.php:106
+msgid "Your are now a member of this group"
+msgstr "Teď jste členem této skupiny"
+
+#: ..\..\..\gjoin.php:106
+msgid "Details of the group"
+msgstr "Podrobnosti o skupině"
+
+#: ..\..\..\gjoin.php:113
+msgid "A problem occured when adding you to this group"
+msgstr "Nastal problém během přidávání do skupiny"
+
+#: ..\..\..\gjoin.php:139
+msgid "Private group (password required)"
+msgstr "Soukromá skupina (je vyžadováno heslo)"
+
+#: ..\..\..\gjoin.php:150 ..\..\..\gjoin.php:162
+msgid "Join Group"
+msgstr "Připojit se"
+
+#: ..\..\..\gjoin.php:158
+msgid "Public group (no password required)"
+msgstr "Veřejná skupina (bez hesla)"
+
+#: ..\..\..\gjoin.php:169
+msgid "Go Back to Group Details"
+msgstr "Zpět na podrobnosti o skupině"
+
+#: ..\..\..\gmanage.php:31
+msgid "Groups I manage"
+msgstr "Vámi spravované skupiny"
+
+#: ..\..\..\gmanage.php:49 ..\..\..\gmanage.php:81 ..\..\..\groups.php:81
+msgid "Private group"
+msgstr "Soukromá skupina"
+
+#: ..\..\..\gmanage.php:51 ..\..\..\gmanage.php:83 ..\..\..\groups.php:83
+#: ..\..\gdetails_body.php:39
+msgid "Public group"
+msgstr "Veřejná skupina"
+
+#: ..\..\..\gmanage.php:52 ..\..\..\gmanage.php:84 ..\..\..\groups.php:85
+msgid "Details"
+msgstr "Detaily"
+
+#: ..\..\..\gmanage.php:53 ..\..\bookmarks.php:375 ..\..\bookmarks.php:406
+msgid "Edit"
+msgstr "Upravit"
+
+#: ..\..\..\gmanage.php:54 ..\..\..\gunsubs.php:114
+msgid "Members"
+msgstr "Členové"
+
+#: ..\..\..\gmanage.php:59
+msgid "You do not manage any groups"
+msgstr "Nespravujete žádnou skupinu"
+
+#: ..\..\..\gmanage.php:61
+msgid "Create</a> a <b>new group"
+msgstr "Vytvořit</a> <b>novou skupinu"
+
+#: ..\..\..\gmanage.php:65
+msgid "Groups I am a member"
+msgstr "Skupiny v níž jste členem"
+
+#: ..\..\..\gmanage.php:85 ..\..\..\groups.php:100
+msgid "Unsubscribe"
+msgstr "Odhlásit"
+
+#: ..\..\..\gmanage.php:89
+msgid "You are not part of any groups"
+msgstr "Nejste členem žádné skupiny"
+
+#: ..\..\..\gmanage.php:91
+msgid "Search</a> a <b>group"
+msgstr "Prohledat</a> <b>skupiny"
+
+#: ..\..\..\gmembers.php:68
+msgid "Members of group"
+msgstr "Členové skupiny"
+
+#: ..\..\..\gmembers.php:91 ..\..\..\modifyaccount.php:157
+msgid "Date Joined"
+msgstr "Členem od"
+
+#: ..\..\..\gmembers.php:91
+msgid "Privilege"
+msgstr "Práva"
+
+#: ..\..\..\gmembers.php:93
+msgid "Select the checkbox to remove all his bookmarks"
+msgstr "Zaškrtněte, pokud chcete smazat všechny uživatelovy bookmarky"
+
+#: ..\..\..\gmembers.php:128
+msgid "You have no users subscribed to your group yet"
+msgstr "Vaše skupina nemá ještě žádné členy"
+
+#: ..\..\..\gmembers.php:132
+msgid "Management section"
+msgstr "Správa"
+
+#: ..\..\..\gmembers.php:134 ..\..\..\gunsubs.php:146
+msgid "Group Details"
+msgstr "Detaily o skupině"
+
+#: ..\..\..\groups.php:24
+msgid "My Groups"
+msgstr "Moje skupiny"
+
+#: ..\..\..\groups.php:62
+msgid "Not"
+msgstr "Ne"
+
+#: ..\..\..\groups.php:96
+msgid "Join"
+msgstr "Připojit se"
+
+#: ..\..\..\gunsubs.php:70
+msgid ""
+"Since you are the manager of this group, you cannot unsubscribe from it. You "
+"can only delete the group"
+msgstr ""
+"Jelikož jste správcem skupiny, tak se z ní nemůžete odhlásit. Můžete ji "
+"pouze zrušit."
+
+#: ..\..\..\gunsubs.php:110
+msgid "You have unsubscribed from this group"
+msgstr "Odhlásil jste se od skupiny"
+
+#: ..\..\..\gunsubs.php:113
+msgid "You have unsubscribed the user from your group"
+msgstr "Zrušil jste uživateli členství ve skupině"
+
+#: ..\..\..\gunsubs.php:119
+msgid "A problem occured when deleting the folder of this group"
+msgstr "Nastal problém při mazání složky této skupiny"
+
+#: ..\..\..\gunsubs.php:122
+msgid "A problem occured when deleting you from this group"
+msgstr "Nastal problém při ukončování členství"
+
+#: ..\..\..\gunsubs.php:122
+msgid "If you are the manager of this group, you cannot unsubscribe from it"
+msgstr "Pokud jste správce skupiny, nemůžete se z ní odhlásit"
+
+#: ..\..\..\gunsubs.php:126
+msgid "Missing infomation"
+msgstr "Chybějící informace"
+
+#: ..\..\..\gunsubs.php:126
+msgid "Make sure you don't resubmit the form"
+msgstr "Ujkistěte se, že neodesíláte znovu stejné údaje"
+
+#: ..\..\..\gunsubs.php:137
+msgid "Are you sure you want to unsubscribe from this group"
+msgstr "Opravdu chcete ukončit členství ve skupině"
+
+#: ..\..\..\gunsubs.php:140
+msgid "Remove my bookmarks in this group"
+msgstr "Odstranit vaše záložky ve skupině"
+
+#: ..\..\..\gunsubs.php:142
+msgid "Yes, I want to unsubscribe"
+msgstr "Ano, už nechci být členem"
+
+#: ..\..\..\header.php:90 ..\..\..\header.php:93 ..\..\..\header.php:149
+#: ..\..\..\news.php:29 ..\..\..\newsdetails.php:39
+#: ..\..\..\newsdetails.php:79
+msgid "News"
+msgstr "Novinky"
+
+#: ..\..\..\header.php:92
+#, fuzzy
+msgid "Recent bookmarks"
+msgstr "Smazat záložky"
+
+#: ..\..\..\header.php:94 ..\..\..\manageusers.php:108
+#: ..\..\..\modifyaccount.php:162 ..\..\..\onlineusers.php:41
+msgid "User"
+msgstr "Uživatel"
+
+#: ..\..\..\header.php:102
+msgid "Get your bookmarks!"
+msgstr "Bookmarky pod kontrolou!"
+
+#: ..\..\..\header.php:149
+msgid "Read the news"
+msgstr "Číst novinky"
+
+#: ..\..\..\header.php:150 ..\..\..\header.php:168
+#, php-format
+msgid "What is %s about?"
+msgstr "Informace o %s"
+
+#: ..\..\..\header.php:152
+#, php-format
+msgid "Download a copy of the lastest version on %s!"
+msgstr ""
+
+#: ..\..\..\header.php:152
+#, php-format
+msgid "Download GetBoo %s"
+msgstr ""
+
+#: ..\..\..\header.php:160
+msgid "Manage your bookmarks"
+msgstr "Spravovat záložky"
+
+#: ..\..\..\header.php:161
+msgid "Add bookmarks and folders"
+msgstr "Přidat záložky a složky"
+
+#: ..\..\..\header.php:161
+msgid "Add"
+msgstr "Přidat"
+
+#: ..\..\..\header.php:162
+msgid "Manage your groups"
+msgstr "Spravovat skupiny"
+
+#: ..\..\..\header.php:169
+#, php-format
+msgid "Get help with %s"
+msgstr ""
+
+#: ..\..\..\header.php:169
+msgid "Help"
+msgstr "Nápověda"
+
+#: ..\..\..\header.php:175
+msgid "Register an account"
+msgstr "Vytvořit účet"
+
+#: ..\..\..\header.php:175 ..\..\..\newuser.php:287
+msgid "Register"
+msgstr "Registrovat se"
+
+#: ..\..\..\header.php:176
+msgid "Login into your account"
+msgstr "Přihlásit se k účtu"
+
+#: ..\..\..\header.php:176 ..\..\..\login.php:111 ..\..\..\login.php:153
+#: ..\..\..\login.php:183
+msgid "Log In"
+msgstr "Přihlásit se"
+
+#: ..\..\..\header.php:183
+msgid "Manage your account settings"
+msgstr "Upravit nastavení vašeho účtu"
+
+#: ..\..\..\header.php:184
+msgid "Exit your session"
+msgstr "Ukončit práci"
+
+#: ..\..\..\header.php:184
+msgid "Logout"
+msgstr "Odhlásit"
+
+#: ..\..\..\import.php:32
+msgid "Here you can import your bookmarks from your internet browser"
+msgstr ""
+"Na této stránce můžete importovat své záložky ze svého internetového "
+"prohlížeče"
+
+#: ..\..\..\import.php:33
+#, fuzzy, php-format
+msgid ""
+"You can check the tutorial for the browser from which you want to import "
+"your bookmarks to %s"
+msgstr ""
+"Můžete se podívat na návod, jak tyto záložky načíst do svého prohlížeče"
+
+#: ..\..\..\import.php:46 ..\..\..\importDelicious.php:87
+#: ..\..\..\netscape_import.php:253
+msgid "Select the file you want to import your bookmarks from"
+msgstr "Vyberte soubor, z něhož chcete importovat své záložky"
+
+#: ..\..\..\import.php:50 ..\..\..\importDelicious.php:91
+#: ..\..\..\netscape_import.php:257
+msgid "Remove duplicates"
+msgstr "Odstranit duplicitní"
+
+#: ..\..\..\importDelicious.php:45
+msgid "Could not open XML input"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:49
+#, php-format
+msgid "XML error: %s at line %d"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:55
+#, fuzzy
+msgid "The bookmarks have been imported from the XML file"
+msgstr "Záložka byla upravena"
+
+#: ..\..\..\importDelicious.php:66
+#, fuzzy
+msgid "No file has been selected"
+msgstr "Skupina byla smazána"
+
+#: ..\..\..\importDelicious.php:73
+msgid "Import from Delicious"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:74
+#, php-format
+msgid ""
+"Here you can import your bookmarks from your <a href=\"%s\">del.icio.us</a> "
+"account.<br>Scuttle also supports the same API, so it can also be done with "
+"your Scuttle installation."
+msgstr ""
+
+#: ..\..\..\importDelicious.php:76 ..\..\easybook_content.php:29
+msgid "Instructions"
+msgstr "Návod"
+
+#: ..\..\..\importDelicious.php:78
+#, php-format
+msgid ""
+"Log in to the <a href=\"%s\">export page at del.icio.us</a>, or the %s page "
+"from your Scuttle installation"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:79
+msgid ""
+"Save the resulting <abbr title=\"Extensible Markup Language\">XML</abbr> "
+"file to your computer"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:80
+msgid "Click Browse... to find this file on your computer"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:83
+msgid "Click Import to start importing the bookmarks; it may take a minute"
+msgstr ""
+
+#: ..\..\..\importDelicious.php:124
+#, fuzzy
+msgid "You have already submitted this bookmark."
+msgstr "Už jste členem téhle skupiny"
+
+#: ..\..\..\importDelicious.php:136
+#, fuzzy
+msgid "Bookmark imported."
+msgstr "Odpovídající záložky"
+
+#: ..\..\..\importDelicious.php:138
+msgid ""
+"There was an error saving your bookmark. Please try again or contact the "
+"administrator."
+msgstr ""
+
+#: ..\..\..\index.php:34
+msgid "The social bookmarking open-source platform."
+msgstr ""
+
+#: ..\..\..\login.php:87
+#, fuzzy
+msgid "Redirecting"
+msgstr "Přesměrovat"
+
+#: ..\..\..\login.php:137 ..\..\..\newuser.php:229
+msgid "Processing"
+msgstr ""
+
+#: ..\..\..\login.php:159 ..\..\..\newuser.php:249
+msgid "Javascript should be enabled to access all functionality"
+msgstr ""
+
+#: ..\..\..\login.php:177
+#, fuzzy
+msgid "Remember me"
+msgstr "Pamatovat si přihlášení dalších 14 dní"
+
+#: ..\..\..\login.php:188
+#, php-format
+msgid "Use the account <b>%s</b> for preview"
+msgstr "Pokud si chcete vyzkoušet, použijte toto jméno / heslo: <b>%s</b>"
+
+#: ..\..\..\login.php:189
+msgid "Activate Account"
+msgstr "Aktivovat účet"
+
+#: ..\..\..\logout.php:37
+msgid "You have been successfully logged out"
+msgstr "Odhlášení proběhlo v pořádku"
+
+#: ..\..\..\logout.php:44
+msgid "The session is still active"
+msgstr "Jste stále připojen"
+
+#: ..\..\..\managenews.php:44
+msgid "You have successfully deleted this news"
+msgstr "Novinka byla úspěšně smazána"
+
+#: ..\..\..\managenews.php:47
+msgid "There has been a problem when deleting the news"
+msgstr "Nastal problém při mazání novinky"
+
+#: ..\..\..\managenews.php:66
+msgid "You have successfully added this news"
+msgstr "Novinka byla úspěšně přidána"
+
+#: ..\..\..\managenews.php:69
+msgid "There has been a problem when adding the news"
+msgstr "Nastal problém při přidávání novinky"
+
+#: ..\..\..\managenews.php:85
+msgid "Number"
+msgstr "Číslo"
+
+#: ..\..\..\managenews.php:91
+#, fuzzy
+msgid "You didn't write any news yet"
+msgstr "Nenapsal jste žádnou novinku"
+
+#: ..\..\..\managenews.php:96
+msgid "Add another news"
+msgstr "Přidat další novinku"
+
+#: ..\..\..\manageusers.php:66
+#, php-format
+msgid "You have changed %s's account status"
+msgstr "Změnil jste stav uživatele %s"
+
+#: ..\..\..\manageusers.php:72 ..\..\..\manageusers.php:92
+msgid "The username is missing"
+msgstr "Chybí uživatelské jméno"
+
+#: ..\..\..\manageusers.php:86
+#, php-format
+msgid "You have enabled %s's account as a donor"
+msgstr "Povolil jste účet uživatrele %s jako dárce"
+
+#: ..\..\..\manageusers.php:108 ..\..\..\manageusers.php:141
+#: ..\..\..\modifyaccount.php:153
+msgid "Last Login"
+msgstr "Poslední přihlášení"
+
+#: ..\..\..\manageusers.php:120 ..\..\..\modifyaccount.php:182
+#: ..\..\..\templates\publicb.tpl.php:82
+msgid "Donor"
+msgstr "Dárce"
+
+#: ..\..\..\manageusers.php:130
+msgid "Enable"
+msgstr "Povolit"
+
+#: ..\..\..\manageusers.php:130
+msgid "Disable"
+msgstr "Zakázat"
+
+#: ..\..\..\manageusers.php:132 ..\..\..\modifyaccount.php:190
+msgid "Access"
+msgstr "Přístup"
+
+#: ..\..\..\manageusers.php:137
+msgid "No Users"
+msgstr "Žádní uživatelé"
+
+#: ..\..\..\manageusers.php:141
+msgid "Order users by"
+msgstr "Seřadit uživatele podle"
+
+#: ..\..\..\manageusers.php:141
+msgid "Date Join"
+msgstr "Data registrace"
+
+#: ..\..\..\manageusers.php:147 ..\..\..\manageusers.php:149
+#: ..\..\..\psearch.php:99 ..\..\..\psearch.php:101
+#: ..\..\..\recent_tags.php:86 ..\..\..\recent_tags.php:88
+#: ..\..\..\tags.php:122 ..\..\..\tags.php:124 ..\..\..\userb.php:194
+#: ..\..\..\userb.php:196
+msgid "Previous"
+msgstr "Předchozí"
+
+#: ..\..\..\manageusers.php:151 ..\..\..\manageusers.php:153
+#: ..\..\..\psearch.php:103 ..\..\..\psearch.php:105
+#: ..\..\..\recent_tags.php:90 ..\..\..\recent_tags.php:92
+#: ..\..\..\tags.php:126 ..\..\..\tags.php:128 ..\..\..\userb.php:198
+#: ..\..\..\userb.php:200
+msgid "Next"
+msgstr "Další"
+
+#: ..\..\..\manageusers.php:156
+#, fuzzy
+msgid "Other operations"
+msgstr "Volby pro dárce"
+
+#: ..\..\..\manageusers.php:158 ..\..\..\newuser.php:190
+msgid "Add a new user"
+msgstr "Přidat nového uživatele"
+
+#: ..\..\..\manageusers.php:158
+msgid "Adds a new user to the system"
+msgstr "Přidá nového uživatele do systému"
+
+#: ..\..\..\manageusers.php:160
+msgid "Remove old registrations"
+msgstr "Odstranit staré registrace"
+
+#: ..\..\..\manageusers.php:160
+#, fuzzy
+msgid ""
+"Lists the accounts not yet activated and provides an option to remove them."
+msgstr "Vypsat účty které nebyly doposud aktivovány"
+
+#: ..\..\..\modifyaccount.php:46
+msgid "Modify user account"
+msgstr "Upravit uživatelův účet"
+
+#: ..\..\..\modifyaccount.php:64
+msgid "You have updated this account"
+msgstr "Upravil jste účet"
+
+#: ..\..\..\modifyaccount.php:68
+msgid ""
+"Make sure you don't enter the same account information as the current one"
+msgstr "Ujistěte se že nevkládáte stejné informace jaké už v systému jsou"
+
+#: ..\..\..\modifyaccount.php:137 ..\..\..\tags_rightmenu.php:37
+msgid "Name"
+msgstr "Jméno"
+
+#: ..\..\..\modifyaccount.php:149
+msgid "Password Hint"
+msgstr "Nápověda k heslu"
+
+#: ..\..\..\modifyaccount.php:161
+msgid "Status"
+msgstr "Stav"
+
+#: ..\..\..\modifyaccount.php:162
+msgid "Admin"
+msgstr "Admin"
+
+#: ..\..\..\modifyaccount.php:162
+msgid "Disabled"
+msgstr "Zakázaný"
+
+#: ..\..\..\modifyaccount.php:165 ..\..\..\umodifyaccount.php:146
+msgid "Style"
+msgstr "Styl"
+
+#: ..\..\..\modifyaccount.php:166 ..\..\..\umodifyaccount.php:147
+msgid "Auto"
+msgstr "Auto"
+
+#: ..\..\..\modifyaccount.php:166 ..\..\..\umodifyaccount.php:147
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: ..\..\..\modifyaccount.php:166 ..\..\..\umodifyaccount.php:147
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ..\..\..\modifyaccount.php:169 ..\..\..\onlineusers.php:41
+msgid "Last Activity"
+msgstr "Poslední aktivita"
+
+#: ..\..\..\modifyaccount.php:173
+msgid "Activation Code"
+msgstr "Aktivační kód"
+
+#: ..\..\..\modifyaccount.php:177
+msgid "IP"
+msgstr "IP"
+
+#: ..\..\..\modifyaccount.php:183 ..\..\jquery\bookmarksjs.php:9
+#: ..\..\jquery\bookmarksjs.php:18
+msgid "Yes"
+msgstr "Ano"
+
+#: ..\..\..\modifyaccount.php:183 ..\..\..\removeactivations_delete.php:53
+#: ..\..\..\search.php:153 ..\..\jquery\bookmarksjs.php:9
+#: ..\..\jquery\bookmarksjs.php:18
+msgid "No"
+msgstr "Ne"
+
+#: ..\..\..\modifyaccount.php:199
+#, php-format
+msgid "User's last login was on %s"
+msgstr "Uživatel se naposledy přihlásil %s"
+
+#: ..\..\..\modifyaccount.php:201 ..\..\..\newuser.php:294
+#: ..\..\..\removeactivations.php:53 ..\..\..\removeactivations_delete.php:54
+msgid "Back"
+msgstr "Zpět"
+
+#: ..\..\..\modifyfav.php:34
+msgid "Modify bookmark"
+msgstr "Upravit záložku"
+
+#: ..\..\..\modifyfav.php:138
+msgid "The bookmark has been updated"
+msgstr "Záložka byla upravena"
+
+#: ..\..\..\modifyfav.php:143
+msgid "Modify this bookmark again since no change has been detected"
+msgstr "Upravit znovu, protože nebyla zaznamenána žádná změna"
+
+#: ..\..\..\modifyfav.php:146
+msgid "There has been a problem when updating the bookmark"
+msgstr "Nastal problém při úpravě záložky"
+
+#: ..\..\..\modifyfav.php:197 ..\..\..\modifyfolder.php:91
+msgid "Back to Folder"
+msgstr "Zpět na složku"
+
+#: ..\..\..\modifyfav.php:225
+msgid "chars per tag max. Tags are keywords"
+msgstr "znaků v jednom tagu. Tagy jsou klíčová slova"
+
+#: ..\..\..\modifyfav.php:232
+msgid "Modify Bookmark"
+msgstr "Upravit záložku"
+
+#: ..\..\..\modifyfav.php:232
+msgid "Delete Bookmark"
+msgstr "Smazat záložku"
+
+#: ..\..\..\modifyfav.php:287 ..\..\..\tags_rightmenu.php:39
+#: ..\..\..\umodifyaccount.php:170
+msgid "Information"
+msgstr "Informace"
+
+#: ..\..\..\modifyfav.php:287
+msgid "Add Date"
+msgstr "Datum přidání"
+
+#: ..\..\..\modifyfav.php:287
+msgid "Last Visit"
+msgstr "Poslední návštěva"
+
+#: ..\..\..\modifyfav.php:287
+msgid "Last Modified"
+msgstr "Poslední modifikace"
+
+#: ..\..\..\modifyfav.php:289 ..\..\..\modifyfav.php:291
+msgid "Clicks"
+msgstr "Kliknutí"
+
+#: ..\..\..\modifyfav.php:289
+msgid "You"
+msgstr "Vy"
+
+#: ..\..\..\modifyfav.php:289
+msgid "Users"
+msgstr "Uživatelé"
+
+#: ..\..\..\modifyfav.php:289
+msgid "Guests"
+msgstr "Hosté"
+
+#: ..\..\..\modifyfav.php:289
+msgid "Total"
+msgstr "Celkem"
+
+#: ..\..\..\modifyfav.php:291
+msgid "None"
+msgstr "Žádný"
+
+#: ..\..\..\modifyfav.php:297
+msgid "Bookmark ID is missing"
+msgstr "Chybí ID záložky"
+
+#: ..\..\..\modifyfav.php:302
+msgid "Wrong Bookmark ID"
+msgstr "Chybné ID záložky"
+
+#: ..\..\..\modifyfolder.php:29
+msgid "Modify folder"
+msgstr "Upravit složku"
+
+#: ..\..\..\modifyfolder.php:64
+msgid "The folder has been updated"
+msgstr "Složka byla upravena"
+
+#: ..\..\..\modifyfolder.php:68
+msgid "There has been a problem when updating the folder"
+msgstr "Nastal problém při úpravě složky"
+
+#: ..\..\..\modifyfolder.php:107
+msgid "Modify Folder"
+msgstr "Změnit složku"
+
+#: ..\..\..\modifyfolder.php:122
+msgid "Wrong Folder ID"
+msgstr "Chybné ID složky"
+
+#: ..\..\..\netscape_import.php:38
+msgid "Import bookmarks"
+msgstr "Importovat záložky"
+
+#: ..\..\..\netscape_import.php:225 ..\..\..\netscape_import.php:249
+#, fuzzy
+msgid "Error when importing the bookmarks"
+msgstr "Chyba při přidávání záložek"
+
+#: ..\..\..\netscape_import.php:230
+msgid "You bookmarks and folders have been imported"
+msgstr "Vaše odkazy a složky byly načteny"
+
+#: ..\..\..\netscape_import.php:230
+msgid "Click here to see your bookmarks"
+msgstr "Prohlédnout záložky"
+
+#: ..\..\..\netscape_import.php:233
+#, php-format
+msgid "Removal of duplicates: %s folders and %s bookmarks updated"
+msgstr "Odstranění duplicit: %s složek a %s odkazů bylo aktualizováno"
+
+#: ..\..\..\netscape_import.php:249
+msgid "Make sure the file is the one containing the bookmarks"
+msgstr "Ujistěte se, že jde opravdu o soubor s oblíbenými odkazy"
+
+#: ..\..\..\news.php:57 ..\..\..\newsdetails.php:54
+msgid "Author"
+msgstr "Autor"
+
+#: ..\..\..\news.php:57 ..\..\..\newsdetails.php:54
+msgid "Date"
+msgstr "Datum"
+
+#: ..\..\..\news.php:60
+msgid "Read more"
+msgstr "Číst dál"
+
+#: ..\..\..\news.php:68
+msgid "All News"
+msgstr "Všechny novinky"
+
+#: ..\..\..\news.php:73
+msgid "No news yet!"
+msgstr ""
+
+#: ..\..\..\news.php:80 ..\..\..\recent_tags.php:94 ..\..\..\tags.php:130
+#: ..\..\..\userb.php:202
+msgid "feed for this page"
+msgstr "kanál pro tuto stránku"
+
+#: ..\..\..\newsdetails.php:68
+msgid "The news can't be found"
+msgstr "Novinka nebyla nalezena"
+
+#: ..\..\..\newsdetails.php:74
+msgid "Invalid URL values."
+msgstr "Chybná hodnota URL"
+
+#: ..\..\..\newsmodify.php:29
+msgid "Modify news"
+msgstr "Změnit novinku"
+
+#: ..\..\..\newsmodify.php:58
+msgid "You have successfully updated this news"
+msgstr "Novinka byla změněna"
+
+#: ..\..\..\newsmodify.php:61
+msgid "Modify this news again since no change has been detected"
+msgstr "Změnit znovu, nebyla zaznamenána změna"
+
+#: ..\..\..\newsmodify.php:85
+msgid "Back to News"
+msgstr "Zpět na Novinky"
+
+#: ..\..\..\newsmodify.php:100
+msgid "Modify News"
+msgstr "Změnit novinky"
+
+#: ..\..\..\newsmodify.php:108
+msgid "The ID of the news is missing"
+msgstr "Chybí ID novinky"
+
+#: ..\..\..\newuser.php:58
+msgid "Account created"
+msgstr "Účet vytvořen"
+
+#: ..\..\..\newuser.php:58
+#, php-format
+msgid "You have been successfully added to %s"
+msgstr "Byl jste přidán do %s"
+
+#: ..\..\..\newuser.php:59
+#, php-format
+msgid ""
+"You need to check your email and activate your account with the given url "
+"(or code in the <a href=\"%s\">activation</a> page)"
+msgstr ""
+"Zkontrolujte svou e-mailovou schránku a aktivujte účet pomocí zaslaného "
+"odkazu (nebo pomocí kódu na <a href=\"%s\">aktivační stránce</a>)"
+
+#: ..\..\..\newuser.php:60
+msgid ""
+"The email is already sent, but with some free email providers it might take "
+"a few hours to receive it"
+msgstr ""
+"E-mail už byl poslán, ale jeho doručení může na některých mailových "
+"serverech, zejména těch zdarma, trvat až několik hodin"
+
+#: ..\..\..\newuser.php:72
+msgid "Check for invalid characters or length, or wrong email address format"
+msgstr ""
+"Zkontrolujte, zda text neobsahuje nepovolené znaky, zda není příliš dlouhý a "
+"zda má e-mail správný formát"
+
+#: ..\..\..\newuser.php:123
+msgid "An error occured while creating your activation code"
+msgstr "Nastala chyba při vytváření aktivačního kódu"
+
+#: ..\..\..\newuser.php:130
+#, fuzzy, php-format
+msgid "New user %s was successfully added"
+msgstr "Úspěšně přidáno"
+
+#: ..\..\..\newuser.php:149
+msgid "An error occured when creating your account information"
+msgstr "Nastala chyba při vytváření účtu"
+
+#: ..\..\..\newuser.php:152
+#, php-format
+msgid ""
+"An account has been created with the same IP address in the last %s hours"
+msgstr "Z této IP byl během posledních %s hodin již účet vytvořen"
+
+#: ..\..\..\newuser.php:156
+msgid "Your letters did not match the ones appearing in the image below"
+msgstr "Písmena neodpovídají těm na obrázku"
+
+#: ..\..\..\newuser.php:168 ..\..\..\newuser.php:281
+msgid "Please enter the letters appearing in the image below"
+msgstr "Opište prosím písmena z obrázku"
+
+#: ..\..\..\newuser.php:192
+msgid "New User Registration"
+msgstr "Registrace nového uživatele"
+
+#: ..\..\..\newuser.php:207
+msgid "Enter the username in the field"
+msgstr "Vložte uživatelské jméno do políčka"
+
+#: ..\..\..\newuser.php:251
+#, php-format
+msgid "Sign up here to create a free account %s"
+msgstr "Vytvořit účet %s"
+
+#: ..\..\..\newuser.php:251
+#, php-format
+msgid "Learn more</a> about %s"
+msgstr "Zjistit víc</a> o %s"
+
+#: ..\..\..\newuser.php:271 ..\..\..\umodifyaccount.php:142
+msgid "Password hint"
+msgstr "Nápověda k heslu"
+
+#: ..\..\..\newuser.php:277
+msgid "Visual CAPTCHA"
+msgstr "Vizuální CAPTCHA"
+
+#: ..\..\..\newuser.php:280
+msgid "Type image letters"
+msgstr "Opište písmena z obrázku"
+
+#: ..\..\..\newuser.php:293
+msgid ""
+"They must also respect the size limits (move the mouse over the ? at the end "
+"of each field)"
+msgstr ""
+"Údaje musí rovněž dodržet limit počtu znaků (najeďte myší na otazník za "
+"příslušným políčkem)"
+
+#: ..\..\..\onlineusers.php:31
+#, php-format
+msgid "You can see a list of users who have been active in the past %s minutes"
+msgstr ""
+"Můžete si prohlédnout seznam aktivních uživatelů za posledních %s minut"
+
+#: ..\..\..\onlineusers.php:53
+#, php-format
+msgid "No users have been active in the past %s minutes"
+msgstr "Během posledních %s minut nebyl žádný uživatel aktivní"
+
+#: ..\..\..\populartags.php:50 ..\..\..\tags_rightmenu.php:96
+msgid "Popular tags"
+msgstr "Oblíbené štítky"
+
+#: ..\..\..\psearch.php:83 ..\..\..\recent_tags.php:81
+msgid "No bookmarks available"
+msgstr "Nejsou dostupné žádné záložky"
+
+#: ..\..\..\recent_tags.php:42 ..\..\..\recent_tags.php:51
+msgid "Recent Tags"
+msgstr "Nejnovější záložky"
+
+#: ..\..\..\redirect.php:52
+msgid "Redirect"
+msgstr "Přesměrovat"
+
+#: ..\..\..\redirect.php:52
+msgid "The bookmark cannot be found"
+msgstr "Záložka nebyla nalezena"
+
+#: ..\..\..\removeactivations.php:33 ..\..\..\removeactivations_delete.php:25
+msgid "Inactive Users"
+msgstr "Neaktivní uživatelé"
+
+#: ..\..\..\removeactivations.php:52
+#, fuzzy
+msgid "No users in the database who have not activated yet their account"
+msgstr "V databázi nejsou neaktivované účty"
+
+#: ..\..\..\removeactivations.php:61
+msgid ""
+"Delete users who registered without activating their account in the last "
+"number of days"
+msgstr ""
+
+#: ..\..\..\removeactivations.php:63
+msgid "Remove"
+msgstr "Odstranit"
+
+#: ..\..\..\removeactivations_delete.php:27
+#, php-format
+msgid ""
+"Removing inactive users (users who signed up more than %s days ago without "
+"activating their account)"
+msgstr ""
+
+#: ..\..\..\removeactivations_delete.php:51
+#: ..\..\..\removeactivations_delete.php:53
+msgid "users have been deleted"
+msgstr "uživatelů bylo smazáno"
+
+#: ..\..\..\sbheader.php:27 ..\..\..\statsb.php:31
+msgid "General"
+msgstr "Obecné"
+
+#: ..\..\..\sbheader.php:27
+msgid "Most Used"
+msgstr "Nejpoužívanější"
+
+#: ..\..\..\sbheader.php:27 ..\..\..\sbsearches.php:31
+msgid "Searches"
+msgstr "Vyhledávání"
+
+#: ..\..\..\sbheader.php:27 ..\..\..\statsexportimport.php:31
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: ..\..\..\sbmostused.php:30
+msgid "Most used"
+msgstr "Nejpoužívanější"
+
+#: ..\..\..\sbmostused.php:40
+msgid "Bookmark"
+msgstr "Záložka"
+
+#: ..\..\..\sbmostused.php:45 ..\..\..\statsb.php:97
+#: ..\..\..\statsexportimport.php:99
+#, fuzzy
+msgid "No data"
+msgstr "Ne"
+
+#: ..\..\..\sbsearches.php:41
+msgid "Keyword"
+msgstr "Klíčové slovo"
+
+#: ..\..\..\sbsearches.php:41
+msgid "Count"
+msgstr "Počet"
+
+#: ..\..\..\sbsearches.php:41
+msgid "Last Search Date"
+msgstr "Naposledy vyhledáváno"
+
+#: ..\..\..\sbsearches.php:52
+msgid "No searches"
+msgstr "Žádná hledání"
+
+#: ..\..\..\search.php:82
+msgid "Invalid"
+msgstr "Neplatný"
+
+#: ..\..\..\search.php:152
+msgid "Results"
+msgstr "Výsledky"
+
+#: ..\..\..\search.php:154
+msgid "result"
+msgid_plural "results"
+msgstr[0] "výsledek"
+msgstr[1] "výsledky"
+
+#: ..\..\..\search.php:157
+msgid "for"
+msgstr "pro"
+
+#: ..\..\..\search.php:161
+msgid "Search in your own bookmarks"
+msgstr "Hledat ve vlastních záložkách"
+
+#: ..\..\..\search.php:183
+msgid "Folder Matches"
+msgstr "Odpovídající složky"
+
+#: ..\..\..\search.php:198
+msgid "Bookmark Matches"
+msgstr "Odpovídající záložky"
+
+#: ..\..\..\spamcenter.php:53
+msgid "Select"
+msgstr "Vybrat"
+
+#: ..\..\..\spamcenter.php:53
+msgid "Days"
+msgstr "Dní"
+
+#: ..\..\..\spamcenter.php:53
+msgid "Average"
+msgstr "Průměr"
+
+#: ..\..\..\spamcenter.php:65
+msgid "No users matching the SPAM criterias"
+msgstr ""
+
+#: ..\..\..\statsb.php:39
+msgid "bookmarks"
+msgstr "záložek"
+
+#: ..\..\..\statsb.php:48
+msgid "folders"
+msgstr "složek"
+
+#: ..\..\..\statsb.php:57
+msgid "bookmarks accessed"
+msgstr "záložek použito"
+
+#: ..\..\..\statsb.php:72
+msgid "Your last accessed bookmark was on"
+msgstr "Poslední použitá záložka"
+
+#: ..\..\..\statsb.php:86
+msgid "Your first bookmark was added on"
+msgstr "První záložka byla přidána"
+
+#: ..\..\..\statsb.php:93
+msgid "Your last bookmark was added on"
+msgstr "Poslední záložka byla přidána"
+
+#: ..\..\..\statsexportimport.php:41
+msgid "imports/exports"
+msgstr "importů/exportů"
+
+#: ..\..\..\statsexportimport.php:52
+msgid "imports"
+msgstr "import(ů)"
+
+#: ..\..\..\statsexportimport.php:63
+msgid "exports"
+msgstr "export(ů)"
+
+#: ..\..\..\statsexportimport.php:80
+msgid "Your last import was made on"
+msgstr "Poslední import proběhl"
+
+#: ..\..\..\statsexportimport.php:93
+msgid "Your last export was made on"
+msgstr "Poslední export proběhl"
+
+#: ..\..\..\tags_rightmenu.php:38
+msgid "Website"
+msgstr "Website"
+
+#: ..\..\..\tags_rightmenu.php:42
+msgid "Donor Profile"
+msgstr "Profil dárce"
+
+#: ..\..\..\tags_rightmenu.php:45
+msgid "Contact User"
+msgstr "Kontaktovat užibatele"
+
+#: ..\..\..\tags_rightmenu.php:69
+msgid "Related Tags"
+msgstr "Příbuzné štítky"
+
+#: ..\..\..\tags_rightmenu.php:73
+msgid "Display tags for all users"
+msgstr "Zobrazit štítky všech uživatelů"
+
+#: ..\..\..\tags_rightmenu.php:73
+msgid "all users"
+msgstr "všichni uživatelé"
+
+#: ..\..\..\tags_rightmenu.php:74
+msgid "Remove all tags"
+msgstr "Odstranit všechny štítky"
+
+#: ..\..\..\tags_rightmenu.php:74
+msgid "remove all"
+msgstr "odstranit vše"
+
+#: ..\..\..\tags_rightmenu.php:109
+msgid "Popular Tags"
+msgstr "Oblíbené štítky"
+
+#: ..\..\..\umodifyaccount.php:147
+msgid "Opera"
+msgstr "Opera"
+
+#: ..\..\..\umodifyaccount.php:155
+msgid "Donor options"
+msgstr "Volby pro dárce"
+
+#: ..\..\..\umodifyaccount.php:158
+msgid "Real Name"
+msgstr "Skutečné jméno"
+
+#: ..\..\..\umodifyaccount.php:162
+msgid "Display email"
+msgstr "Zobrazit e-mail"
+
+#: ..\..\..\umodifyaccount.php:163
+msgid "Will display your email in your profile"
+msgstr "Zobrazí e-mail ve vašem profilu"
+
+#: ..\..\..\umodifyaccount.php:166
+msgid "Website URL"
+msgstr "URL webové stránky"
+
+#: ..\..\..\umodifyaccount.php:179
+msgid "Update"
+msgstr "Opravit"
+
+#: ..\..\..\umodifyaccount.php:187
+msgid "Browser detected"
+msgstr "Detekován prohlížeč"
+
+#: ..\..\..\umodifyaccount.php:188
+msgid "version"
+msgstr "verze"
+
+#: ..\..\..\userb.php:170
+#, fuzzy, php-format
+msgid "User %s's account is disabled"
+msgstr "Váš účet byl zakázán"
+
+#: ..\..\..\userb.php:176
+#, php-format
+msgid "User %s was not found"
+msgstr "Uživatel %s nebyl nalezen"
+
+#: ..\..\..\userb.php:182
+msgid "No bookmarks are public with this user"
+msgstr "Tento uživatel nemá žádné záložky veřejné"
+
+#: ..\..\..\userb.php:184
+#, fuzzy
+msgid "No bookmarks with these tags for this user"
+msgstr "Tento uživatel nemá žádné záložky veřejné"
+
+#: ..\..\..\userb.php:215
+msgid "Public Bookmarks"
+msgstr "Veřejné záložky"
+
+#: ..\..\..\userb.php:215
+#, fuzzy
+msgid "No username to display bookmarks"
+msgstr "Prohlédnout záložky"
+
+#: ..\..\bookmarks.php:319
+msgid "There has been a problem when deleting a folder"
+msgstr "Nastal problém při mazání složky"
+
+#: ..\..\bookmarks.php:342
+msgid "There has been a problem when deleting a bookmark"
+msgstr "Nastal problém při mazání záložky"
+
+#: ..\..\bookmarks.php:352
+msgid "You have successfully deleted this folder"
+msgstr "Složka byla smazána"
+
+#: ..\..\bookmarks.php:356
+msgid "There has been a problem when deleting the folder"
+msgstr "Nastal problém při mazání složky"
+
+#: ..\..\dynamicTags.php:106
+msgid "Your tags"
+msgstr "Vaše štítky"
+
+#: ..\..\easybook_content.php:24
+msgid "Bookmarklets"
+msgstr "Bookmarklety"
+
+#: ..\..\easybook_content.php:25
+#, php-format
+msgid ""
+"EasyBook is a feature to make it easy to add bookmarks into your %s account"
+msgstr ""
+"EasyBook je funkce pro zjednodušení vkládání záložek do vašeho účtu na %s"
+
+#: ..\..\easybook_content.php:26
+msgid ""
+"This feature is known in the community as bookmarklets, where you simply add "
+"a bookmark into your browser, enabling you to bookmark the pages you visit "
+"more easily"
+msgstr ""
+"Tato funkce je známa jako tzv. \"bookmarklet\" či \"favelet\", tedy záložka "
+"v Oblíbených ve vašem prohlížeči, která dovoluje snadno poznamenat stránky, "
+"které navštěvujete"
+
+#: ..\..\easybook_content.php:27
+msgid ""
+"If you select (highlight) a piece of text on the web page before clicking "
+"the EasyBook button, the text will be used as the description for the "
+"bookmark"
+msgstr ""
+"Pokud před kliknutím na EasyBook vyberete (označíte) nějaký text na stránce, "
+"bude tento text použit jako popisek nové záložky"
+
+#: ..\..\easybook_content.php:28
+msgid "Here are the setup instructions to enable this feature in your browser"
+msgstr "Zde jsou instrukce pro nastavení této funkce ve vašem prohlížeči"
+
+#: ..\..\easybook_content.php:29
+msgid "Select your browser"
+msgstr "Vyberte svůj prohlížeč"
+
+#: ..\..\easybook_content.php:40
+msgid "Links"
+msgstr "Odkazy"
+
+#: ..\..\easybook_content.php:54
+msgid "EasyBook (Pop-up)"
+msgstr "Přidat na (Pop-up)"
+
+#: ..\..\easybook_content.php:54
+msgid "(opens in pop-up)"
+msgstr "(otevře se v novém okně)"
+
+#: ..\..\f_deleteaccount.php:77
+#, fuzzy, php-format
+msgid "%s was successfully deleted"
+msgstr "Úspěšně smazáno"
+
+#: ..\..\f_deleteaccount.php:78
+msgid "Go Back"
+msgstr "Zpátky"
+
+#: ..\..\f_deleteaccount.php:82
+msgid "You have been successfully deleted"
+msgstr "Byl jste úspěšně smazán"
+
+#: ..\..\f_deleteaccount.php:82
+#, php-format
+msgid "Thank you for using %s"
+msgstr "Děkujeme za použití %s"
+
+#: ..\..\f_deleteaccount.php:88
+msgid "There has been a problem when deleting your activation code"
+msgstr "Nastal problém při mazání aktivačního kódu"
+
+#: ..\..\f_deleteaccount.php:91
+msgid "There has been a problem when deleting bookmarks"
+msgstr "Nastal problém při mazání záložek"
+
+#: ..\..\f_deleteaccount.php:94
+msgid "There has been a problem when deleting folders"
+msgstr "Nastal problém při mazání složek"
+
+#: ..\..\f_deleteaccount.php:97
+msgid "There has been a problem"
+msgstr "Nastal problém"
+
+#: ..\..\gdetails_body.php:35
+msgid "Manager"
+msgstr "Správce"
+
+#: ..\..\gdetails_body.php:37
+msgid "Private group (requires password)"
+msgstr "Soukromá skupina (vyžaduje heslo)"
+
+#: ..\..\gdetails_body.php:44
+msgid "Number of members"
+msgstr "Počet členů"
+
+#: ..\..\gdetails_body.php:45
+msgid "See the list of members"
+msgstr "Prohlédnout seznam členů"
+
+#: ..\..\pagenb.php:57
+msgid "Displaying"
+msgstr "Zobrazit"
+
+#: ..\..\pagenb.php:66
+msgid "per page"
+msgstr "na stránce"
+
+#: ..\..\searchform.php:28 ..\..\searchform.php:37
+msgid "Discover"
+msgstr "Zajímá vás něco?"
+
+#: ..\..\tags_functions.php:348 ..\..\tags_functions.php:362
+#: ..\..\tags_functions.php:412
+msgid "bookmark"
+msgid_plural "bookmarks"
+msgstr[0] "záložka"
+msgstr[1] "záložky"
+
+#: ..\..\tags_functions.php:413
+msgid "Add tag"
+msgstr "Přidat štítek"
+
+#: ..\..\tags_functions.php:431
+msgid "Remove tag"
+msgstr "Odebrat štítek"
+
+#: ..\..\user.php:126
+msgid ""
+"Please check your username and password and make sure that they are "
+"correctly spelled."
+msgstr "Překontrolujte si že zadáváte jméno a heslo správně"
+
+#: ..\..\user.php:211
+msgid "Welcome back"
+msgstr "Vítejte zpět"
+
+#: ..\..\user.php:221
+msgid "Your last login was on"
+msgstr "Vaše poslední přihlášení bylo v"
+
+#: ..\..\user.php:278
+msgid "Your account has been disabled"
+msgstr "Váš účet byl zakázán"
+
+#: ..\..\user.php:280
+#, php-format
+msgid ""
+"This has been done by our anti-spam system. If you think it is a mistake, "
+"please email <a href=\"%s\">%s</a>.<br>\n"
+"<i>Expect 1-2 days of response by email</i>"
+msgstr ""
+"Účet byl zakázán antispamovým systémem. Pokud jste si jisti, že šlo o omyl, "
+"napište prosím mail na <a href=\"%s\">%s</a>.<br>\n"
+"<i>Odpověď očekávejte do 1-2 dnů</i>"
+
+#: ..\..\user.php:299
+msgid "Your account is not activated"
+msgstr "Váš účet není aktivován"
+
+#: ..\..\user.php:300
+#, php-format
+msgid ""
+"You must first <a href=\"%s\">activate</a> your account with the code emaild "
+"to you when you registered"
+msgstr ""
+"Musíte svůj účet nejprve <a href=\"%s\">aktivovat</a> pomocí kódu, který vám "
+"byl zaslán při registraci"
+
+#: ..\..\user.php:300
+#, php-format
+msgid ""
+"Please check your email in order to get your activation code<br>\n"
+" or email <a href=\"%s\">%s</a> if you don't receive any email from us after "
+"24h"
+msgstr ""
+"Prosím, zkontrolujte svou e-mailovou schránku (včetně spamového koše)<br>\n"
+" nebo napište na <a href=\"%s\">%s</a>, pokud neobdržíte žádný mail do 24 "
+"hodin"
+
+#: ..\..\user.php:300
+msgid "Expect 1-2 days of response by email"
+msgstr "Počítejte prosím s jedním až dvěma dny na odpověď"
+
+#: ..\..\user.php:305
+msgid "The password is invalid"
+msgstr "Heslo není platné"
+
+#: ..\..\user.php:323
+msgid "Too many login tries"
+msgstr "Příliš pokusů o přihlášení"
+
+#: ..\..\user.php:324
+#, php-format
+msgid ""
+"You have tried to log in more than 3 times unsuccessfully for this account "
+"in the last %s minutes"
+msgstr ""
+"Pokoušel jste se neúspěšně přihlásit více než třikrát v posledních %s "
+"minutách"
+
+#: ..\..\user.php:324
+#, php-format
+msgid "Please try again in %s minutes"
+msgstr "Prosím, zkuste to znovu za %s minut"
+
+#: ..\..\user.php:329
+msgid "The user does not exist"
+msgstr "Uživatel neexistuje"
+
+#: ..\..\user.php:336
+msgid "Username or Password is missing"
+msgstr "Chybí uživatelské jméno nebo heslo"
+
+#: ..\..\user.php:418
+msgid "You have successfully changed your password"
+msgstr "Vaše heslo bylo změněno"
+
+#: ..\..\user.php:422
+msgid ""
+"There has been a problem while updating your password. Don't type the same "
+"password."
+msgstr ""
+"Nastal problém při změně hesla. Nezadávejte prosím stejné heslo jako bylo to "
+"staré."
+
+#: ..\..\user.php:429
+msgid "Missing values or invalid length"
+msgstr "Chybějící hodnoty nebo neplatná délka"
+
+#: ..\..\user.php:459
+msgid "You have successfully updated your account"
+msgstr "Úspěšně jste upravili informace o svém účtu"
+
+#: ..\..\user.php:464
+msgid ""
+"Note: If you just changed the style to Auto, it will take effect the next "
+"time you will login."
+msgstr ""
+"Poznámka: Pokud jste změnili styl na Auto, projeví se změna po příštím "
+"přihlášení."
+
+#: ..\..\user.php:474
+msgid "The email address is invalid."
+msgstr "E-mailová adresa není platná."
+
+#: ..\..\user.php:552
+#, php-format
+msgid "%s Registration"
+msgstr "%s Registrace"
+
+#: ..\..\user.php:554
+#, php-format
+msgid ""
+"Thank you for registering at %s!\n"
+"\n"
+"Your account information is"
+msgstr ""
+"Děkujeme za registraci na %s!\n"
+"\n"
+"Informace o vašem účtu"
+
+#: ..\..\user.php:554
+msgid ""
+"Please keep this information, but in the event your forget your password you "
+"can recover it using your username and email.\n"
+"To confirm your registration, please use this address"
+msgstr ""
+"Zapamatujte si tyto údaje. V případě že zapopmenete heslo je přesto možné "
+"získat jej zpět pomocí vašeho e-mailu a uživatelského jména.\n"
+" Použijte tuto adresu pro potvrzení registrace"
+
+#: ..\..\user.php:554
+msgid ""
+"You can also go to the Activation page (from Login / Activate Account)\n"
+"and enter the activation code"
+msgstr ""
+"Můžete také jít přímo na stránku Aktivace (z Přihlášení / Aktivovat účet)\n"
+"a vložit aktivační kód"
+
+#: ..\..\user.php:554
+#, php-format
+msgid ""
+"Sincerely,\n"
+"%s"
+msgstr ""
+"Zdraví,\n"
+"%s"
+
+#: ..\..\user.php:554
+#, php-format
+msgid ""
+"If you didn't register for a new account, please forward this message to: %s"
+msgstr ""
+"Pokud jste se neregistroval kvůli novému účtu, přepošlete prosím tuto zprávu "
+"na: %s"
+
+#: ..\..\user.php:554
+msgid "IP address of the user registering for a new account"
+msgstr "IP adresa použitá při registraci nového účtu"
+
+#: ..\..\user.php:560
+#, php-format
+msgid "Activate your %s account"
+msgstr "Aktivujte svůj účet na %s"
+
+#: ..\..\..\templates\publicb.tpl.php:85
+msgid "by"
+msgstr "od"
+
+#: ..\..\..\templates\publicb.tpl.php:89
+msgid "added"
+msgstr ""
+
+#: ..\..\..\templates\publicb.tpl.php:91
+#, fuzzy
+msgid "on"
+msgstr "Žádný"
+
+#: ..\..\..\templates\publicb.tpl.php:101
+msgid "submit comment"
+msgstr "přidat komentář"
+
+#: ..\..\..\templates\publicb.tpl.php:105
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "komentář"
+msgstr[1] "komentáře(-ů)"
+
+#: ..\..\..\manageconfig.php:54
+#, fuzzy
+msgid "Error when assigning the config variables"
+msgstr "Během přidávání komentáře došlo k chybě"
+
+#: ..\..\..\manageconfig.php:61
+#, fuzzy
+msgid "Configuration has been saved"
+msgstr "Váš účet byl zakázán"
+
+#: ..\..\..\manageconfig.php:163
+msgid "Save Changes"
+msgstr ""
+
+#: ..\..\convert_date.php:29
+#, fuzzy
+msgid "Never"
+msgstr "Jste tu nový"
+
+#: ..\..\convert_date.php:84
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ..\..\convert_date.php:91
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ..\..\convert_date.php:98
+#, fuzzy
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "Autor"
+msgstr[1] "Autor"
+
+#: ..\..\convert_date.php:105
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ..\..\convert_date.php:112
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ..\..\convert_date.php:117
+msgid "0 seconds ago"
+msgstr ""
+
+#: ..\..\convert_date.php:121
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ..\..\ff_extension.php:25
+#, php-format
+msgid ""
+"In order to use your %s account, you need to install two buttons into your "
+"browser.<br>"
+msgstr ""
+
+#: ..\..\ff_extension.php:26
+msgid "We recommend that all Firefox users install this simple extension:"
+msgstr ""
+
+#: ..\..\ff_extension.php:28
+msgid "Install GetBoo Firefox Extension"
+msgstr ""
+
+#: ..\..\ff_extension.php:30
+msgid ""
+"If you see this message at the top of the page, click Allow or follow the "
+"steps (for earlier versions)"
+msgstr ""
+
+#: ..\..\ff_extension.php:31
+msgid ""
+"Click <b>Install</b> to install the extension in your browser, and "
+"<b>Restart</b> your browser once it is done"
+msgstr ""
+
+#: ..\..\ff_extension.php:32
+msgid ""
+"In order to have the buttons installed on your toolbar, rick-click anywhere "
+"on the toolbar, click <code>Customize...</code> \n"
+" and then in the <code>Customize Window</code>, drag any of the buttons onto "
+"your toolbar. Click <code>Done</code> when you are finished"
+msgstr ""
+
+#: ..\..\ff_extension.php:34
+#, php-format
+msgid ""
+"Please refer to the Firefox extension %swiki page</a> for more information "
+"on how to use and configure the extension.<br>"
+msgstr ""
+
+#: ..\..\ff_extension.php:35
+#, php-format
+msgid ""
+"Alternatively, you can download it directly from the %sFirefox add-ons "
+"website</a>"
+msgstr ""
+
+#: ..\..\ff_extension.php:36
+#, php-format
+msgid ""
+"If you don't want to install the extension, or you are not using Firefox, "
+"you might want to have a look at \n"
+" bookmarklets called EasyBook, which can be found in the wiki under\n"
+"  %sHelp</a> / Bookmarklets (EasyBook)"
+msgstr ""
+
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#~ msgid "RSS Live Feed"
+#~ msgstr "RSS kanál"
+
+#~ msgid "Bar"
+#~ msgstr "Bar"
+
+#~ msgid "bar login"
+#~ msgstr "přihlášení"
+
+#~ msgid "Refresh"
+#~ msgstr "Obnovit"
+
+#~ msgid "Log Out"
+#~ msgstr "Odhlásit"
+
+#~ msgid ""
+#~ "<b>Keep</b> all your bookmarks in one place, accessible from anywhere"
+#~ msgstr ""
+#~ "<b>Ukládat</b> všechny své záložky na jednom místě, dostupné odkudkoli"
+
+#~ msgid ""
+#~ "<b>Share</b> some of your bookmarks with the world, and keep some private"
+#~ msgstr ""
+#~ "<b>Sdílet</b> některé své záložky s ostatními a některé si nechat soukromé"
+
+#~ msgid "<b>Find</b> new websites from people's favorites links"
+#~ msgstr "<b>Hledat</b> nové stránky mezi oblíbenými odkazy ostatních lidí"
+
+#~ msgid "Learn more"
+#~ msgstr "Zjistit víc"
+
+#~ msgid "What you can do"
+#~ msgstr "Co můžete dělat"
+
+#, fuzzy
+#~ msgid "Start bookmarking!"
+#~ msgstr "Založit účet"
+
+#~ msgid ""
+#~ "This section lists all news relative to the active development of this "
+#~ "website"
+#~ msgstr ""
+#~ "This section lists all news relative to the active development of this "
+#~ "website"
+
+#~ msgid ""
+#~ "For the open source project news and latest releases, please check on <a "
+#~ "href=\"%s\">SourceForge</a> for more information."
+#~ msgstr ""
+#~ "For the open source project news and latest releases, please check on <a "
+#~ "href=\"%s\">SourceForge</a> for more information."
+
+#~ msgid "No users"
+#~ msgstr "Žádní uživatelé"
+
+#~ msgid "Please modify this folder again since no change has been detected"
+#~ msgstr "Prosím upravte složku znovu, nebyla zjištěna žádná změna"
+
+#~ msgid "Step 2"
+#~ msgstr "Krok 2"
+
+#~ msgid "Could not connect to database"
+#~ msgstr "Nelze se připojit k databázi"
+
+#~ msgid "This is the demo account, the password cannot be changed"
+#~ msgstr "Toto je demonstrační účet, zde nemůžete změnit heslo"
+
+#~ msgid "This is the demo account, all the bookmarks cannot be deleted"
+#~ msgstr "Toto je domonstrační účet, zde nelze smazat všechny záložky"
+
+#~ msgid "to"
+#~ msgstr "v"
+
+#~ msgid ""
+#~ "Make sure you don't type the same account information as the current one."
+#~ msgstr ""
+#~ "Ujistěte se, že opravdu zadáváte změněné informace. Odeslané informace se "
+#~ "nelišily od těch, které v systému jsou."
+
+#, fuzzy
+#~ msgid "Select the default privacy setting for your imported bookmarks"
+#~ msgstr "Vyberte soubor, z něhož chcete importovat své záložky"
+
+#~ msgid "Switch Layout"
+#~ msgstr "Přepnout zobrazení"
+
+#~ msgid "Beta"
+#~ msgstr "zkušební"
+
+#~ msgid "Get information about %s"
+#~ msgstr "Získat informace o %s."
+
+#~ msgid "Manage Bookmarks"
+#~ msgstr "Spravovat záložky"
+
+#~ msgid "Import Bookmarks"
+#~ msgstr "Import záložek"
+
+#~ msgid "Export Bookmarks"
+#~ msgstr "Export záložek"
+
+#~ msgid "EasyBook (Bookmarklets)"
+#~ msgstr "EasyBook (Bookmarklety)"
+
+#~ msgid "Extension"
+#~ msgstr "Rozšíření"
+
+#~ msgid ""
+#~ "Please choose the browser from which you want to get your bookmarks "
+#~ "imported"
+#~ msgstr "Prosím vyberte prohlížeč, z něhož chcete záložky načíst"
+
+#~ msgid "You must first log in in order to be able to log out"
+#~ msgstr "Pokud se chcete odhlásit, musíte být předtím přihlášen"
+
+#~ msgid "Delete inactive users for at least the following number of days"
+#~ msgstr "Smazat uživatele, kteří jsou neaktivní následující počet dní"
+
+#~ msgid "Removing inactive users for the past %s days"
+#~ msgstr "Odstranit uživatele neaktivní posledních %s dní"
+
+#~ msgid "No user"
+#~ msgstr "Žádný uživatel"
+
+#~ msgid "Login</a> or <a href=\"%s\">Register</a> first"
+#~ msgstr "Přihlašte se</a> nebo se nejprve <a href=\"%s\">zaregistrujte</a>"
+
+#~ msgid "Find it"
+#~ msgstr "Najít"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Jste si jist/a?"

@@ -1,0 +1,44 @@
+--> See http://wiki.getboo.com/changelog for more information
+===== Changelog =====
+This page contains a summary of changes between the official GetBoo releases, only the major changes are listed here. The complete and detailed log of all changes is available through the SVN Repository Browser.
+
+==== 1.04 - April 7th, 2008 ====
+
+=== NEW ===
+  * API
+    * Support the del.icio.us API methods.
+  * Support of multiple databases engines with PEAR DB abstraction layers (tested only with MySQL and PostgreSQL)
+  * Import manager
+    * Import bookmarks from a del.icio.us API compatible website (including Scuttle and SemanticScuttle open-source projects)
+  * German, Czech and Spanish translations
+  * Configuration settings can be changed in the settings section online
+
+=== FIXED ===
+  * Multiple persistent database connections problem (creating simultaneous connections).
+
+=== IMPROVED===
+  * New Firefox extension, customizable for multiple GetBoo installations
+  * Forms
+    * AJAX responses for installation, login and registration pages
+    * Security enhancements to prevent cross-site scripting when logging and adding bookmarks
+  * New style improvements (buttons, icons, images, layout)
+  * Browser import/export manager (better support for dates)
+
+==== 1.03 - February 19th, 2008 ====
+
+=== NEW ===
+  * Flexible screenshot module (ArtViper/SNAP/Websnapr, could add more with param url: see [[configs_screenshot|wiki page]])
+  * Remember me feature to stay logged in with cookies
+
+=== FIXED ===
+  * Javascript-based private bookmarks interface more stable
+
+=== IMPROVED===
+  * Help section: moved in this wiki
+  * Aesthetic changes 
+    * Logo and search button, screenshots as images for public bookmarks instead of SNAP rollovers
+  * CAPTCHAs can be disabled
+  * Import/export bookmarks now //supporting// Safari (Netscape format)
+
+=== DEPRECATED ===
+  * News section

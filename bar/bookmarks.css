@@ -1,0 +1,33 @@
+	.myTree,
+	.myTree ul
+	{
+		list-style: none;
+		padding-left: 22px;
+	}
+	.expandImage
+	{
+		margin-right: 4px;
+	}
+	.folderImage
+	{
+	}
+	.textHolder
+	{
+		height: 16px;
+		line-height: 16px;
+		padding-left: 6px;
+		font-size: small;
+	}
+	span.dropOver
+	{
+		background-color: #00c;
+		color: #fff;
+		height: 16px;
+		line-height: 16px;
+		padding-left: 6px;
+	}
+	.treeItem
+	{
+		list-style: none;
+		font-size: small;
+	}

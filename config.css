@@ -1,0 +1,107 @@
+#config_manager input {
+	padding:0.2em 0.3em;
+	background-color:#CCDDFF;
+}
+
+#config_manager input.string {
+	min-width: 350px;
+}
+
+#config_manager input.integer {
+	max-width: 60px;
+}
+
+#config_manager td {
+	border:1px solid #8CACBB;
+	padding:3px;
+}
+
+#config_manager fieldset {
+	margin: 1em;
+	width: auto;
+	margin-bottom: 2em;
+	background-color: #dee7ec;
+	color: #000;
+	padding: 0 1em;
+}
+
+#config_manager legend {
+	font-size: 1.25em;
+}
+
+#config_manager table {
+	margin: 1em 0;
+	width: 100%;
+}
+
+#config_manager fieldset td {
+	text-align: left;
+}
+
+#config_manager fieldset td.value, #config_manager fieldset td.title {
+	width: 30em;
+	background-color: white;
+}
+
+#config_manager .edit {
+	max-width: 350px;
+	padding:0.1em 0pt;
+}
+
+#config_manager td textarea.edit {
+	width: 27.5em;
+	height: 4em;
+}
+
+#config_manager tr .input,#config_manager tr input,#config_manager tr textarea,#config_manager tr select
+{
+	background-color: #fff;
+	color: #000;
+}
+
+#config_manager tr.default .input,#config_manager tr.default input,#config_manager tr.default textarea,#config_manager tr.default select,#config_manager .selectiondefault
+{
+	background-color: #cdf;
+	color: #000;
+}
+
+#config_manager tr.protected .input,#config_manager tr.protected input,#config_manager tr.protected textarea,#config_manager tr.protected select,#config_manager tr.protected .selection
+{
+	background-color: #fcc !important;
+	color: #000 !important;
+}
+
+#config_manager td.error {
+	background-color: red;
+	color: #000;
+}
+
+#config_manager .selection {
+	width: 14.8em;
+	float: left;
+	margin: 0 0.3em 2px 0;
+}
+
+#config_manager .selection label {
+	float: right;
+	width: 14em;
+	font-size: 90%;
+}
+
+#config_manager .selection label {
+	padding-top: 2px;
+}
+
+#config_manager .selection input.checkbox {
+	padding-left: 0.7em;
+}
+
+#config_manager .other {
+	clear: both;
+	padding-top: 0.5em;
+}
+
+#config_manager .other label {
+	padding-left: 2px;
+	font-size: 90%;
+}

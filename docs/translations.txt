@@ -1,0 +1,16 @@
+--> See http://wiki.getboo.com/translations for more information
+===== Translations=====
+GetBoo supports translations via [[http://savannah.nongnu.org/projects/php-gettext/|php-gettext]]. Translators can then take the pot file (includes\locales\en_US\LC_MESSAGES\messages.po) and translate the project in any language.\\
+One excellent editor to edit .po files is [[http://www.poedit.net/|poEdit]], "poEdit is cross-platform gettext catalogs (.po files) editor".\\
+Once you have a new translation or you updated an existing one, I will incorporate it in the next release so it can be available to all users of this project!\\
+Thank you for your much needed support!\\
+I suggest you always grab the latest file from the Subversion repository, in order to get the latest strings and to avoid translating sections that might have been removed from the previous version!
+
+=== Current Translations ===
+
+^ Language  ^ Completion ^ Authors                       ^       
+| en_US    | 100%        | Maxime                        ^
+| fr_FR    | 60%         | Maxime                        ^   
+| cs_CZ    | 85%         | [[http://www.conota.cz|Martin Maly]] ^
+| es_ES    | 85 %        | [[http://www.misfavoritos.es/|Misvaforitos team]] ^
+| de_DE    | 100%        | Nikolaus Polak ^
