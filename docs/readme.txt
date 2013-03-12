@@ -11,6 +11,9 @@ License				GNU General Public License (GPL)
 
 ==== INSTALLATION ====
 
+  - To run GetBook you'll need a webserver, a database and PHP. The recommended and tested infra is: Apache v2 + MySQL v5 + PHP v5.
+  - You'll need to install the "PHP-PEAR" package too.
+
 === QUICK INSTALLATION ===
 
   - Upload all the files on your webserver or localhost

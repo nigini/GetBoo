@@ -27,11 +27,11 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  * Required configuration: Database
  *
  * dbhost:   SQL database hostname.
- * dbport:	 SQL database port.
+ * dbport:   SQL database port.
  * dbuname:  SQL username.
  * dbpass:   SQL password.
  * dbname:   SQL database name.
- * dbtype:   SQL database type.
+ * dbtype:   SQL database type: mysql, postgres...?
  */
 
 $dbhost = "%%dbhost%%";
