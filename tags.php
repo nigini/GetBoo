@@ -20,6 +20,8 @@ You should have received a copy of the GNU General Public License
 along with GetBoo; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 ***************************************************************************/
+	
+	session_start();
 
 	/* Page used for the tags
 	 *	Started on 26.01.06
@@ -30,6 +32,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	require_once('includes/user.php');
 	$user = new User();
 	$username = $user->getUsername();
+	#echo("-----------------------------> " . $username);
 
 	$tagName = "";
 	if (isset($_GET['tag']))
@@ -76,8 +79,16 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		$pageUrl = "tags.php?tag=" . $tagName;
 		include('includes/pagenb.php');
 
-		$user = new User();
-		$username = $user->getUsername();
+		//STORE_TAG_HIT
+		//TODO(nigini): Maybe it's a good idea (for GetBoo evolution) if a system configuration flag LOG_CLICKS is made available. (Something like the DEBUG flag)!
+		$Query = "
+		INSERT INTO " . TABLE_PREFIX . "tags_hits
+		(Name, Time, Tags)
+		VALUES
+	  	('$username', NOW(), '$tagTitle')
+		";
+		$dbResult = $dblink->query($Query);
+
 
 		if (USECACHE) {
 			require_once('includes/cache.php');

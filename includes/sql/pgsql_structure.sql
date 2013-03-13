@@ -352,3 +352,15 @@ CREATE TABLE gb_tags_books (
   Date_Added timestamp NOT NULL,
   PRIMARY KEY  (B_ID,T_ID)
 );
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table tags_hits
+-- This table is used to collect each access to the page tags.php
+-- It means to store the user name and the tags used to filter
+-- content in a given moment.
+--
+-- TODO(nigini): write and test this for the Posgres DB. 
+-- CREATE TABLE gb_tags_hits (...)
+

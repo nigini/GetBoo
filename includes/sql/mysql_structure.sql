@@ -355,3 +355,20 @@ CREATE TABLE gb_tags_books (
   Date_Added timestamp NOT NULL,
   PRIMARY KEY  (B_ID,T_ID)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table tags_hits
+-- This table is used to collect each access to the page tags.php
+-- It means to store the user name and the tags used to filter
+-- content in a given moment.
+--
+CREATE TABLE gb_tags_hits (
+  ID int(11) NOT NULL auto_increment,
+  Name varchar(20) NOT NULL,
+  Time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  Tags varchar(200) NOT NULL,
+  PRIMARY KEY  (ID)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
