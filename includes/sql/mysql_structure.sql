@@ -360,6 +360,9 @@ CREATE TABLE gb_tags_books (
 
 --
 -- Table structure for table tags_hits
+-- This table is used to collect each access to the page tags.php
+-- It means to store the user name and the tags used to filter
+-- content in a given moment.
 --
 CREATE TABLE gb_tags_hits (
   ID int(11) NOT NULL auto_increment,

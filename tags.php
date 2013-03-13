@@ -79,17 +79,15 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		$pageUrl = "tags.php?tag=" . $tagName;
 		include('includes/pagenb.php');
 
-		//STORE_TAG_HIT: ToDo: Create some configuration to check before doing this!
-		if(!($user->isAdmin() && isset($_SESSION["oldname"])))
-		{
-			$Query = "
-		  	INSERT INTO " . TABLE_PREFIX . "tags_hits
-		  	(Name, Time, Tags)
-		  	VALUES
-	  		('$username', NOW(), '$tagTitle')
-			";
-			$dbResult = $dblink->query($Query);
-		}
+		//STORE_TAG_HIT
+		//TODO(nigini): Maybe it's a good idea (for GetBoo evolution) if a system configuration flag LOG_CLICKS is made available. (Something like the DEBUG flag)!
+		$Query = "
+		INSERT INTO " . TABLE_PREFIX . "tags_hits
+		(Name, Time, Tags)
+		VALUES
+	  	('$username', NOW(), '$tagTitle')
+		";
+		$dbResult = $dblink->query($Query);
 
 
 		if (USECACHE) {
