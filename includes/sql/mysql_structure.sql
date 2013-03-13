@@ -355,3 +355,17 @@ CREATE TABLE gb_tags_books (
   Date_Added timestamp NOT NULL,
   PRIMARY KEY  (B_ID,T_ID)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table tags_hits
+--
+CREATE TABLE gb_tags_hits (
+  ID int(11) NOT NULL auto_increment,
+  Name varchar(20) NOT NULL,
+  Time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  Tags varchar(200) NOT NULL,
+  PRIMARY KEY  (ID)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
