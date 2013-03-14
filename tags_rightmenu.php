@@ -65,17 +65,28 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		if($strRelated || $strRelatedMinus)
 		{
 			if($current_page == "")
-				$current_page = "recent_tags.php"; // If in the tags page, display the recent tags page
-			echo("<div class=\"rm_heading\">" . T_("Related Tags") . "</div>");
+			{
+				 // If in the tags page, display the recent tags page
+				$current_page = "recent_tags.php";
+			}
 			if($strRelatedMinus)
 			{
 				if($userName != "")
-					$forAllStr = (" <a href=\"tags.php?tag=" . $tagName . "\" title=\"" . T_("Display tags for all users") . "\">[" . T_("all users") . "]</a>");
-				echo("<div class=\"rm_content\"><a href=\"" . $current_page . "\" title=\"" . T_("Remove all tags") . "\">[" . T_("remove all") . "]</a>\n" . $forAllStr . $strRelatedMinus . $strRelated . "</div><br>");
-
+				{
+					$forAllStr = (" <a href=\"tags.php?tag=" . $tagName
+						 . "\" title=\"" . T_("Display tags for all users")
+						 . "\">[" . T_("all users") . "]</a>");
+				}
+				echo("<div class=\"rm_heading\">" . T_("Remove tag filters")
+					 . "</div>");
+				echo("<div class=\"rm_content\"><a href=\"" . $current_page
+					 . "\" title=\"" . T_("Remove all tags") . "\">["
+					 . T_("remove all") . "]</a>\n" . $forAllStr
+					 . $strRelatedMinus . "</div><br>");
 			}
-			else
-				echo("<div class=\"rm_content\">" . $strRelated . "</div><br>");
+			echo("<div class=\"rm_heading\">" . T_("Add tag filters")
+				 . "</div>");
+			echo("<div class=\"rm_content\">" . $strRelated . "</div><br>");
 		}
 	}
 	if(in_array('popular', $blocks))

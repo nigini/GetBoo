@@ -401,7 +401,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		return $output;
 	}
 
-	function displayRelatedTagsList ($output, $current_tags, $current_page = "tags.php?tag=")
+	function displayRelatedTagsList ($output, $current_tags, 
+		$current_page = "tags.php?tag=")
 	{
 		$strResult = "";
 		if($output != null)
@@ -409,15 +410,21 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			$strResult = "<table class=\"related_tags\">";
 			foreach($output as $current_row)
 			{
-				$resultsStr = T_ngettext('bookmark', 'bookmarks', $current_row['amount']);
-				$strResult .= "<tr><td style=\"width: 1em; text-align: center;\"><a href=\"" . $current_page . $current_tags . "+" . $current_row['title'] . "\" title=\"" . T_("Add tag") . "\" alt=\"" . T_("Add tag") . "\">+</a></td><td style=\"margin-left: 0.5em;\"><a href=\"" . $current_page . $current_row['title'] . "\" title=\"" . $current_row['amount'] . " $resultsStr\">". $current_row['title'] . "</a></td></tr>\n";
+				$resultsStr = T_ngettext('bookmark', 'bookmarks',
+					$current_row['amount']);
+				$strResult .= "<tr><td><a href=\"" . $current_page 
+					. $current_tags . "+" . $current_row['title'] 
+					. "\" title=\"" . $current_row['amount'] 
+					. " $resultsStr\">" . " + " . $current_row['title'] 
+					. "</a></td>" . "</tr>\n";
 			}
 			$strResult .= "</table>";
 		}
 		return $strResult;
 	}
 
-	function displayRelatedTagsListMinus ($tagName, $current_tags, $current_page = "tags.php?tag=")
+	function displayRelatedTagsListMinus ($tagName, $current_tags, 
+		$current_page = "tags.php?tag=")
 	{
 		$strResult = "";
 		if($current_tags != null)
@@ -428,7 +435,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			{
 				$QueryMinus = "";
 				$QueryMinus = str_replace($current_row . " ", "", $tagName);
-				$strResult .= "<tr><td style=\"width: 1em; text-align: center;\"><a href=\"" . $current_page . $QueryMinus . "\" title=\"" . T_("Remove tag") . "\" alt=\"" . T_("Remove tag") . "\">-</a></td><td style=\"margin-left: 0.5em;\"><a href=\"" . $current_page . $current_row . "\">". $current_row . "</a></td></tr>\n";
+				$strResult .= "<tr><td><a href=\"" . $current_page 
+					. $QueryMinus . "\" title=\"" . T_("Remove tag") 
+					. "\">- " . $current_row . "</a></td></tr>\n";
 			}
 			$strResult .= "</table>";
 		}
