@@ -54,7 +54,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	{
 		if($current_page != "")
 		{
-			$strRelated = displayRelatedTagsList(getRelatedTags($tagNames, 10, $userName), $tagName, $current_page);
+			$strRelated = displayRelatedTagsList(getRelatedTags($tagNames, 10, $userName), $tagName, 
+																					 $current_page);
 			$strRelatedMinus = displayRelatedTagsListMinus ($tagName, $tagNames, $current_page);
 		}
 		else
@@ -73,19 +74,15 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			{
 				if($userName != "")
 				{
-					$forAllStr = (" <a href=\"tags.php?tag=" . $tagName
-						 . "\" title=\"" . T_("Display tags for all users")
-						 . "\">[" . T_("all users") . "]</a>");
+					$forAllStr = (" <a href=\"tags.php?tag=" . $tagName . "\" title=\"" 
+						. T_("Display tags for all users") . "\">[" . T_("all users") . "]</a>");
 				}
-				echo("<div class=\"rm_heading\">" . T_("Remove tag filters")
-					 . "</div>");
-				echo("<div class=\"rm_content\"><a href=\"" . $current_page
-					 . "\" title=\"" . T_("Remove all tags") . "\">["
-					 . T_("remove all") . "]</a>\n" . $forAllStr
-					 . $strRelatedMinus . "</div><br>");
+				echo("<div class=\"rm_heading\">" . T_("Remove tag filters") . "</div>");
+				echo("<div class=\"rm_content\"><a href=\"" . $current_page . "\" title=\"" 
+					. T_("Remove all tags") . "\">[" . T_("remove all") . "]</a>\n" . $forAllStr 
+					. $strRelatedMinus . "</div><br>");
 			}
-			echo("<div class=\"rm_heading\">" . T_("Add tag filters")
-				 . "</div>");
+			echo("<div class=\"rm_heading\">" . T_("Add tag filters") . "</div>");
 			echo("<div class=\"rm_content\">" . $strRelated . "</div><br>");
 		}
 	}
