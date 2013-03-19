@@ -428,20 +428,22 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	function copy_bookmark_to_user($id, $user_name, $tags)
 	{
 		include('conn.php');
-		$Query = ("select id from " . TABLE_PREFIX . "favourites where id='" . $id . "'");
-		$dbResult = $dblink->query($Query);
-		$count = $dbResult->numRows();
+		$query = ("select id from " . TABLE_PREFIX . "favourites where id='" . $id . "'");
+		$db_result = $dblink->query($query);
+		$count = $db_result->numRows();
 		if($count == 1)
 		{
 			require_once('includes/tags_functions.php');
+			$now_timestamp = date('Y-m-d H:i:s',time());
 			foreach($tags as $tag)
 			{
 				$tag_id = returnTagID($tag);
-				if ($tag_id != null) {
-					$Query = "INSERT INTO " . TABLE_PREFIX 
+				if ($tag_id != null) 
+				{
+					$query = "INSERT INTO " . TABLE_PREFIX 
 						. "user_books ( user_id , bookmark_id , tag_id , timestamp ) " . "values('" . $user_name 
-						. "','" . $id . "','" . $tag_id . "', now()) ";
-					$dblink->exec($Query);
+						. "','" . $id . "','" . $tag_id . "','" . $now_timestamp . "') ";
+					$dblink->exec($query);
 				}
 			}
 			return(True);
@@ -453,11 +455,17 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	function has_bookmark($id, $user_name)
 	{
 		include('conn.php');
-		$Query = ("select * from " . TABLE_PREFIX . "user_books where bookmark_id='" . $id 
+		$query = ("select * from " . TABLE_PREFIX . "user_books where bookmark_id='" . $id 
 			. "' and user_id='" . $user_name . "'");
-		$dbResult = $dblink->query($Query);
-		$count = $dbResult->numRows();
-		if($count>0) return True;
-		else return False;
+		$db_result = $dblink->query($query);
+		$count = $db_result->numRows();
+		if($count>0)
+		{
+			return True;
+		}
+		else
+		{
+			return False;
+		}
 	}
 ?>

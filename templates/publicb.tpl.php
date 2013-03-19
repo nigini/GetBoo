@@ -82,7 +82,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 						}
 					}
 					$original_page = $page_path[count($page_path)-1];
-					//TODO(nigini): This should probably send to a form were the user can edit bookmarks options.
+					//TODO(nigini): This should probably sent to a form were the user can edit bookmarks 
+					//							options.
 					echo("<a href=\"" . $original_page . $new_get_params . "bookthis=" . $rec_id 
 						. "\"> [+] </a>");
 				}
