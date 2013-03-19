@@ -32,12 +32,18 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	require_once('includes/user.php');
 	$user = new User();
 	$username = $user->getUsername();
-	#echo("-----------------------------> " . $username);
 
 	$tagName = "";
 	if (isset($_GET['tag']))
 	{
-	    $tagName = $_GET['tag'];
+		$tagName = $_GET['tag'];
+	}
+
+	$bookId = "";
+	if (isset($_GET['bookthis']))
+	{
+		$bookId = $_GET['bookthis'];
+		require_once('includes/bookmarks.php');
 	}
 
 	include('conn.php');
@@ -74,21 +80,26 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		$customTitle = "Tags: " . $tagTitle;
 		include('header.php');
 		$tagTitle = str_replace(' + ', '+', $tagTitle);
-		echo("<h2>" . T_("Tags") . " -- <span id=\"crumb\">" . $tagTitle . "</span><script type=\"text/javascript\">if(window.Crumb) Crumb.go('tags.php?tag=')</script></h2>");
+		echo("<h2>" . T_("Tags") . " -- <span id=\"crumb\">" . $tagTitle . "</span>
+			<script type=\"text/javascript\">if(window.Crumb) Crumb.go('tags.php?tag=')</script></h2>");
 
 		$pageUrl = "tags.php?tag=" . $tagName;
 		include('includes/pagenb.php');
 
 		//STORE_TAG_HIT
-		//TODO(nigini): Maybe it's a good idea (for GetBoo evolution) if a system configuration flag LOG_CLICKS is made available. (Something like the DEBUG flag)!
-		$Query = "
-		INSERT INTO " . TABLE_PREFIX . "tags_hits
-		(Name, Time, Tags)
-		VALUES
-	  	('$username', NOW(), '$tagTitle')
-		";
-		$dbResult = $dblink->query($Query);
-
+		//TODO(nigini): Maybe it's a good idea (for GetBoo evolution) if a system configuration flag 
+		//LOG_CLICKS is made available. (Something like the DEBUG flag)!
+		if($bookId == "") {//Don't count when page was used to store a bookmark!
+			$Query = "INSERT INTO " . TABLE_PREFIX . "tags_hits	(Name, Time, Tags) 
+				VALUES	('$username', NOW(), '$tagTitle')";
+			$dbResult = $dblink->query($Query);
+		}
+		else
+		{
+			//STORE_COPY_BOOKMARK
+			$tags = explode('+',$tagTitle);
+			$result = copy_bookmark_to_user($bookId, $username, $tags);
+		}
 
 		if (USECACHE) {
 			require_once('includes/cache.php');

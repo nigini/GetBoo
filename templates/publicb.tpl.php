@@ -56,7 +56,38 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 				$allTagsLinks = returnAllTagsLinks($rec_id);
 	
 			//no follow so that search engines don't increment the count
-			echo("<div class=\"tagtitle\"><a href=\"redirect.php?id=" . $rec_id . "\" rel=\"nofollow\">". $rec_title . "</a></div>\n");
+			$user = new User();
+			$userName = $user->getUsername();
+			echo("<div class=\"tagtitle\">");
+			if($userName != "")
+			{
+				require_once("includes/bookmarks.php");
+				$hasBookmark = has_bookmark($rec_id, $userName);
+				if(!$hasBookmark)
+				{
+					//TODO(nigini): needs unit tests =/
+					$request_path = explode("?", $_SERVER['REQUEST_URI']);
+					$page_path = explode("/", $request_path[0]);
+					$new_get_params = "?";
+					$get_params = $request_path[1];
+					if($get_params != "")
+					{
+						$get_params = explode("&", $get_params);
+						foreach($get_params as $get_param)
+						{
+							if(strpos($get_param, "bookthis=") === False and $get_param != "")
+							{
+								$new_get_params .= $get_param . "&";
+							}
+						}
+					}
+					$original_page = $page_path[count($page_path)-1];
+					//TODO(nigini): This should probably send to a form were the user can edit bookmarks options.
+					echo("<a href=\"" . $original_page . $new_get_params . "bookthis=" . $rec_id 
+						. "\"> [+] </a>");
+				}
+			}
+			echo("<a href=\"redirect.php?id=" . $rec_id . "\" rel=\"nofollow\">". $rec_title . "</a></div>\n");
 			if(USE_SCREENSHOT && SCREENSHOT_URL)
 			{
 				//Convert all ampersands to &amp;
