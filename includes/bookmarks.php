@@ -421,4 +421,51 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			echo("\t\t</ul>\n</li>\n");
 		}
 	}
+
+	//This is part of a refactoring at the bookmarking internal model. BOOKMARKS and its owners
+  //should be in different tables so other USERS can copy existing BOOKMARKS and use their own TAGS.
+	//TODO(nigini): entries in this new table should be checked before REMOVING bookmarks.
+	function copy_bookmark_to_user($id, $user_name, $tags)
+	{
+		include('conn.php');
+		$query = ("select id from " . TABLE_PREFIX . "favourites where id='" . $id . "'");
+		$db_result = $dblink->query($query);
+		$count = $db_result->numRows();
+		if($count == 1)
+		{
+			require_once('includes/tags_functions.php');
+			$now_timestamp = date('Y-m-d H:i:s',time());
+			foreach($tags as $tag)
+			{
+				$tag_id = returnTagID($tag);
+				if ($tag_id != null) 
+				{
+					$query = "INSERT INTO " . TABLE_PREFIX 
+						. "user_books ( user_id , bookmark_id , tag_id , timestamp ) " . "values('" . $user_name 
+						. "','" . $id . "','" . $tag_id . "','" . $now_timestamp . "') ";
+					$dblink->exec($query);
+				}
+			}
+			return(True);
+		}
+		return (False);
+	}
+
+  //Returns if a user already has a specific BOOKMARK in its PROFILE.
+	function has_bookmark($id, $user_name)
+	{
+		include('conn.php');
+		$query = ("select * from " . TABLE_PREFIX . "user_books where bookmark_id='" . $id 
+			. "' and user_id='" . $user_name . "'");
+		$db_result = $dblink->query($query);
+		$count = $db_result->numRows();
+		if($count>0)
+		{
+			return True;
+		}
+		else
+		{
+			return False;
+		}
+	}
 ?>
