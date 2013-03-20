@@ -68,7 +68,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			if($current_page == "")
 			{
 				 // If in the tags page, display the recent tags page
-				$current_page = "recent_tags.php";
+				$current_page = "populartags.php";
 			}
 			if($strRelatedMinus)
 			{
@@ -78,7 +78,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 						. T_("Display tags for all users") . "\">[" . T_("all users") . "]</a>");
 				}
 				echo("<div class=\"rm_heading\">" . T_("Remove tag filters") . "</div>");
-				echo("<div class=\"rm_content\"><a href=\"" . $current_page . "\" title=\"" 
+				echo("<div class=\"rm_content\"><a href=\"populartags.php\" title=\"" 
 					. T_("Remove all tags") . "\">[" . T_("remove all") . "]</a>\n" . $forAllStr 
 					. $strRelatedMinus . "</div><br>");
 			}
@@ -86,7 +86,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			echo("<div class=\"rm_content\">" . $strRelated . "</div><br>");
 		}
 	}
-	if(in_array('popular', $blocks))
+/*	if(in_array('popular', $blocks))
 	{
 		if(!(IS_GETBOO && $userName == ""))
 		{
@@ -117,6 +117,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		<p class="rm_bottom"><a href="populartags.php<?php echo $userStr;?>"><?php echo T_("Popular Tags");?></a></p>
 <?php
 		}
-	}
+	}*/
 ?>
 </div>

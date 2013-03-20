@@ -153,7 +153,7 @@ else if($config_css) { ?>
 		<?php
 				}
 			}
-			//If logged in
+/*			//If logged in
 			else
 			{
 		?>
@@ -162,6 +162,7 @@ else if($config_css) { ?>
 				<a href="<?php echo $SETTINGS['path_mod']; ?>groups.php" title="<?php echo T_("Manage your groups");?>"><?php echo T_("Groups");?></a>
 		<?php
 			}
+*/
 		?>
 	</p>
 	<p id="access">

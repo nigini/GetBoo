@@ -21,12 +21,15 @@ along with GetBoo; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 ***************************************************************************/
 //TODO: Should we do caching on this page
-include('header.php'); ?>
+include('header.php');
+echo("<h2>" . T_("Tags") . " -- <span id=\"crumb\">" . $tagTitle . "</span>
+<script type=\"text/javascript\">if(window.Crumb) Crumb.go('tags.php?tag=')</script></h2>");
+?>
 <?
 	include('conn.php');
 	include('includes/tags_functions.php');
 
-	$sortOrder = "";
+	$sortOrder = "alphabet";
 	if (isset($_GET['sortOrder']))
 	{
 	    $sortOrder = $_GET['sortOrder'];
@@ -47,22 +50,23 @@ include('header.php'); ?>
 	}
 
 	//Display the popular tags
-	echo("<h2>" . T_("Popular tags") . "");
+/*	echo("<h2>" . T_("Popular tags") . "");
 	if($userName)
 		echo(" -- " . $userName);
 	echo("</h2>");
-
+*/
 	if($current_page != "")
 		$strPopular = displayPopularTagsCloud(tagCloud(getPopularTags(150, $userName), 5, 90, 225, $sortOrder), $current_page);
 	else
-		$strPopular = displayPopularTagsCloud(tagCloud(getPopularTags(150, $userName), 5, 90, 225, $sortOrder));
+		$strPopular = displayTagsCloud(tagCloud(getPopularTags(150, $userName), 5, 90, 225, $sortOrder));
 
 	if($strPopular != "")
 		echo("<p class=\"tags\">" . $strPopular . "</p>");
 ?>
-<p id="sort">
+<!--p id="sort">
  <?php echo T_("Sort by");?>:    <a href="?sortOrder=alphabet<?php echo $userStr;?>"><?php echo T_("Alphabet");?></a><span> / </span>
 
  <a href="?sort=popularity<?php echo $userStr;?>"><?php echo T_("Popularity");?></a>
-</p>
+</p-->
+
 <?php include('footer.php'); ?>
