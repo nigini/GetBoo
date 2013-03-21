@@ -27,8 +27,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	$user = new User();
 	if($user->isLoggedIn()) // User logged in
 	{
-		//Redirect the user to his bookmarks page
-		header('Location: books.php');
+		//Redirect the user to the POPULAR_TAGS page
+		header('Location: populartags.php');
 	}
 	else
 	{
@@ -78,7 +78,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 					{
 						//Save logged in message in session
 						$_SESSION['login_msg'] = $message;
-						$redirectStr = "books.php";
+						$redirectStr = "populartags.php";
 					}
 					if(isset($_POST['no_js']))
 						header("Location: " . $redirectStr);
