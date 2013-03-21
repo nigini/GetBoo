@@ -338,6 +338,27 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		return $tags;
 	}
 
+  /* Generates formatted HTML to present the tags passed as parameter.
+	 * This method will not consider the font_size specified for each tag (as a reflex of its 
+	 * popularity) but will set a fixed size for every tag in the cloud. 
+	 */
+	function displayTagsCloud ($output, $current_page = "tags.php?tag=", $font_size = 20)
+	{
+		$strResult = "";
+		if($output != null)
+		{
+			foreach($output as $current_row)
+			{
+				$resultsStr = T_ngettext('bookmark', 'bookmarks', $current_row['amount']);
+				$strResult .= "<a href=\"" . $current_page . $current_row['title'] . "\" title=\"" 
+					. $current_row['amount'] . " $resultsStr\" style=\"font-size:" . $font_size . "\">" 
+					. $current_row['title'] . "</a> \n";
+			}
+		}
+		return $strResult;
+	}
+
+
 	function displayPopularTagsCloud ($output, $current_page = "tags.php?tag=")
 	{
 		$strResult = "";

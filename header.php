@@ -153,15 +153,6 @@ else if($config_css) { ?>
 		<?php
 				}
 			}
-			//If logged in
-			else
-			{
-		?>
-				<a href="<?php echo $SETTINGS['path_mod']; ?>books.php" title="<?php echo T_("Manage your bookmarks");?>"><?php echo T_("Bookmarks");?></a><span> / </span>
-				<a href="<?php echo $SETTINGS['path_mod']; ?>add.php" title="<?php echo T_("Add bookmarks and folders");?>"><?php echo T_("Add");?></a><span> / </span>
-				<a href="<?php echo $SETTINGS['path_mod']; ?>groups.php" title="<?php echo T_("Manage your groups");?>"><?php echo T_("Groups");?></a>
-		<?php
-			}
 		?>
 	</p>
 	<p id="access">
