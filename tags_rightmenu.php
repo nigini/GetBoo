@@ -86,37 +86,5 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			echo("<div class=\"rm_content\">" . $strRelated . "</div><br>");
 		}
 	}
-/*	if(in_array('popular', $blocks))
-	{
-		if(!(IS_GETBOO && $userName == ""))
-		{
-			if($current_page != "" && $current_page != "recent_tags.php")
-				$strPopular = displayPopularTagsCloud(tagCloud(getPopularTags(35, $userName), 5, 85, 170, "alphabet"), $current_page);
-			else if(!$boolMain)
-				$strPopular = displayPopularTagsCloud(tagCloud(getPopularTags(35, $userName), 5, 85, 170, "alphabet"));
-			else
-				$strPopular = displayPopularTagsCloud(tagCloud(getPopularTags(50, $userName), 5, 85, 250, "alphabet"));
-			if($strPopular != "")
-			{
-				if($userName != "")
-					$userStr = "?uname=" . $userName;
-			?>
-		<div class="rm_heading"><?php echo T_("Popular tags");?></div>
-		<div class="rm_content"><?php echo("<p class=\"menu_tags\">" . $strPopular . "</p>"); ?></div>
-		
-<?php
-			}
-		}
-		if(IS_GETBOO)
-		{
-			$adsSpot = "rightmenu";
-			include("gbads.php");
-		}
-		if($strPopular != "")
-		{?>
-		<p class="rm_bottom"><a href="populartags.php<?php echo $userStr;?>"><?php echo T_("Popular Tags");?></a></p>
-<?php
-		}
-	}*/
 ?>
 </div>

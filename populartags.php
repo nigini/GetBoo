@@ -49,12 +49,6 @@ echo("<h2>" . T_("Tags") . " -- <span id=\"crumb\">" . $tagTitle . "</span>
 		$current_page = "userb.php?uname=" . $userName . "&amp;tag=";
 	}
 
-	//Display the popular tags
-/*	echo("<h2>" . T_("Popular tags") . "");
-	if($userName)
-		echo(" -- " . $userName);
-	echo("</h2>");
-*/
 	if($current_page != "")
 		$strPopular = displayPopularTagsCloud(tagCloud(getPopularTags(150, $userName), 5, 90, 225, $sortOrder), $current_page);
 	else
@@ -63,10 +57,4 @@ echo("<h2>" . T_("Tags") . " -- <span id=\"crumb\">" . $tagTitle . "</span>
 	if($strPopular != "")
 		echo("<p class=\"tags\">" . $strPopular . "</p>");
 ?>
-<!--p id="sort">
- <?php echo T_("Sort by");?>:    <a href="?sortOrder=alphabet<?php echo $userStr;?>"><?php echo T_("Alphabet");?></a><span> / </span>
-
- <a href="?sort=popularity<?php echo $userStr;?>"><?php echo T_("Popularity");?></a>
-</p-->
-
 <?php include('footer.php'); ?>

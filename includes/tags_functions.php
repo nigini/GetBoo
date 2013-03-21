@@ -338,6 +338,10 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		return $tags;
 	}
 
+  /* Generates formatted HTML to present the tags passed as paramether.
+	 * This method will not consider the font_size specified for each tag (as reflex of its 
+	 * popularity) but will set a fixed size for every tag in the cloud. 
+	 */
 	function displayTagsCloud ($output, $current_page = "tags.php?tag=", $font_size = 20)
 	{
 		$strResult = "";
