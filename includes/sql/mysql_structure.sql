@@ -328,7 +328,8 @@ CREATE TABLE gb_tags (
   ID int(4) NOT NULL auto_increment,
   Title varchar(50) NOT NULL,
   Date_Added timestamp NOT NULL,
-  PRIMARY KEY  (ID)
+  PRIMARY KEY  (ID),
+  KEY `Title` (`Title`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -370,5 +371,22 @@ CREATE TABLE gb_tags_hits (
   Time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   Tags varchar(200) NOT NULL,
   PRIMARY KEY  (ID)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table user_books
+-- This table is the new structure to store user's bookmarks
+-- The idea is to associate USER-BOOKMARK-TAG in a way
+-- each USER can give its own tags to a BOOKMARK.
+--
+CREATE TABLE gb_user_books (
+  user_id varchar(20) NOT NULL,
+  bookmark_id int(4) NOT NULL,
+  tag_id int(4) NOT NULL,
+  timestamp timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id,bookmark_id,tag_id),
+  KEY user_book (user_id,bookmark_id)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
