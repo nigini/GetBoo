@@ -462,38 +462,33 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	function getRelatedTags ($tags, $size = 10, $userName = "")
 	{
 		include('conn.php');
-		//$tags = array();
 		$countMaxTagsDisplay = $size;
 
 		$tagcount = count($tags);
 
-		$Query1 = ("");
-		$Query2 = ("");
-		$Query3 = ("");
-		$Query4 = ("");
-
-		$Query1 = ("select T0.title, count(b.id) as amount "); //select the fields
-		$Query2 = ("from " . TABLE_PREFIX . "favourites as b, " . TABLE_PREFIX . "tags as T0, " . TABLE_PREFIX . "tags_books TB0"); // from fields
-		$Query3 = ("where (TB0.b_id = b.id and TB0.t_id = T0.id ");
-		$Query4 = (") group by T0.title order by amount desc, T0.title");
+		$Query1 = ("SELECT tags_0.title, COUNT(tags_books_0.B_ID) AS amount "); 
+		$Query2 = ("FROM " . TABLE_PREFIX . "tags AS tags_0, " . TABLE_PREFIX 
+			. "tags_books AS tags_books_0 ");
+		$Query3 = ("WHERE tags_books_0.t_id = tags_0.id ");
+		$Query4 = ("GROUP BY tags_0.title ORDER BY amount DESC");
 
 		for ($i = 1; $i <= $tagcount; $i ++)
 		{
-			$Query2 .= (", " . TABLE_PREFIX . "tags as T" . $i . ", " . TABLE_PREFIX . "tags_books as TB" . $i . " ");
-			$Query3 .= ("and TB" . $i . ".b_id = b.id and TB" . $i . ".t_id = T" . $i . ".id and T" . $i . ".title = '" . $tags[$i-1] . "' and T0.title <> '" . $tags[$i-1] . "' ");
+			$Query2 .= (", " . TABLE_PREFIX . "tags AS tags_" . $i . ", " . TABLE_PREFIX 
+				. "tags_books AS tags_books_" . $i . " ");
+			$Query3 .= ("AND tags_books_" . $i . ".b_id = tags_books_0.b_id AND tags_books_" . $i 
+				. ".t_id = tags_" . $i . ".id AND tags_" . $i . ".title = '" . $tags[$i-1] 
+				. "' AND tags_0.title <> '" . $tags[$i-1] . "' ");
 		}
-
-		if($userName != "")
-			$Query3 .= ("and name = '" . $userName . "'"); // Only for a specific user
 
 		$Query = $Query1 . $Query2 . $Query3 . $Query4;
 
 		if($countMaxTagsDisplay != -1)
+		{
 			$dblink->setLimit($countMaxTagsDisplay, 0);
-			//$Query .= (" limit 0, " . $countMaxTagsDisplay);
+		}
 
 		$dbResult = $dblink->query($Query);
-		//echo($Query . "<br>");
 		$related_tags = $dbResult->fetchAll();
 		return $related_tags;
 	}
