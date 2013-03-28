@@ -14,8 +14,6 @@ generate 4 CSV files (each one containing data for a different table) called: 1_
 
 * WARNING:
 
-  * This scrip may fail every first execution because of some unkown reason (sorry!).
-
   * This will delete and recreate the 4 tables related to BOOKMARKS and TAGS in the memory.
 
   * This will set permission to MySQL to use at most 3 GB of RAM to store these tables (what will
