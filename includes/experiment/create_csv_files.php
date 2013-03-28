@@ -1,12 +1,16 @@
 <?php
-/* This script converts data from http://arvindn.livejournal.com/116137.html to some CSV data
- * that can be imported using the LOAD DATA INFILE MySQL tool. The idea here is to load a bunch
- * of data in a less timely expensive way.
+/* This script converts data from http://arvindn.livejournal.com/116137.html to 4 CSV files.
+ * (Actually this can work with other data that uses the JSON format used by Arvind!)
+ * The output files have the format that maps the exact sequence of columns in the following GetBoo
+ * database tables: favourites, tags, tags_added, and tags_books.
+ * This allows the importing data task much less timely expensive because we can use the LOAD DATA 
+ * INFILE MySQL tool.
  */
 
 	if($argc != 3) 
 	{
-		echo('Invalid Arguments: give me the FILE_NAME and USER_NAME!');
+		echo('Invalid arguments! Try something like this: \n');
+		echo('php create_csv_files.php delicious-rss-1250k getboo_username 2> /dev/null \n');
 		exit(1);
 	}
 	else
@@ -14,19 +18,18 @@
 		$file_name = $argv[1];
 		$user_name = $argv[2];
 		$file_handle = @fopen($file_name, "r");
-		$books_output = @fopen("1_books_output.txt", "w");
-		$tags_output = @fopen("2_tags_output.txt", "w");
-		$relations_output = @fopen("3_relations_output.txt", "w");
-		$pub_books_output = @fopen("4_pubbooks_output.txt", "w");
 
 		if($file_handle)
 		{
+			$books_output = @fopen("1_books_output.txt", "w");
+			$tags_output = @fopen("2_tags_output.txt", "w");
+			$relations_output = @fopen("3_relations_output.txt", "w");
+			$pub_books_output = @fopen("4_pubbooks_output.txt", "w");
 			require_once("../bookmarks.php");
 			$tags_data = array();
 			$count_book = 0;
 			$count_tag = 1;
 			while(!feof($file_handle))
-			//while($count_book++ < 100000)
 			{
 				$count_book++;
 				$book_data = fgets($file_handle);

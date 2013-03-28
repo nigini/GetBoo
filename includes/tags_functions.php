@@ -466,17 +466,19 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 		$tagcount = count($tags);
 
-		$Query1 = ("SELECT T0.title, COUNT(TB0.B_ID) AS amount "); 
-		$Query2 = ("FROM " . TABLE_PREFIX . "tags AS T0, " . TABLE_PREFIX . "tags_books AS TB0 ");
-		$Query3 = ("WHERE TB0.t_id = T0.id ");
-		$Query4 = ("GROUP BY T0.title ORDER BY amount DESC");
+		$Query1 = ("SELECT tags_0.title, COUNT(tags_books_0.B_ID) AS amount "); 
+		$Query2 = ("FROM " . TABLE_PREFIX . "tags AS tags_0, " . TABLE_PREFIX 
+			. "tags_books AS tags_books_0 ");
+		$Query3 = ("WHERE tags_books_0.t_id = tags_0.id ");
+		$Query4 = ("GROUP BY tags_0.title ORDER BY amount DESC");
 
 		for ($i = 1; $i <= $tagcount; $i ++)
 		{
-			$Query2 .= (", " . TABLE_PREFIX . "tags AS T" . $i . ", " . TABLE_PREFIX 
-				. "tags_books AS TB" . $i . " ");
-			$Query3 .= ("AND TB" . $i . ".b_id = TB0.b_id AND TB" . $i . ".t_id = T" . $i . ".id AND T" 
-				. $i . ".title = '" . $tags[$i-1] . "' AND T0.title <> '" . $tags[$i-1] . "' ");
+			$Query2 .= (", " . TABLE_PREFIX . "tags AS tags_" . $i . ", " . TABLE_PREFIX 
+				. "tags_books AS tags_books_" . $i . " ");
+			$Query3 .= ("AND tags_books_" . $i . ".b_id = tags_books_0.b_id AND tags_books_" . $i 
+				. ".t_id = tags_" . $i . ".id AND tags_" . $i . ".title = '" . $tags[$i-1] 
+				. "' AND tags_0.title <> '" . $tags[$i-1] . "' ");
 		}
 
 		$Query = $Query1 . $Query2 . $Query3 . $Query4;
