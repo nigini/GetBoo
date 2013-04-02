@@ -19,6 +19,6 @@ generate 4 CSV files (each one containing data for a different table) called: 1_
 
   * This will delete and recreate the 4 tables related to BOOKMARKS and TAGS in the memory.
 
-  * This will set permission to MySQL to use at most 3 GB of RAM to store these tables (what will
+  * This will set permission to MySQL to use at most 5 GB of RAM to store these tables (what will
 		probably be used).
 

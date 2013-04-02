@@ -6,6 +6,29 @@
  * This allows the importing data task much less timely expensive because we can use the LOAD DATA 
  * INFILE MySQL tool.
  */
+	
+	function replace_unicode_escape_sequence($match)
+	{
+		return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+	}
+
+	function convert_to_utf8($str)
+	{
+		$str = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', 'replace_unicode_escape_sequence', $str);
+		return $str;
+	}
+
+	function clean_tag($tag)
+	{
+		$tag = convert_to_utf8($tag);
+		$tag = trim($tag);
+		$tag = str_replace(array(" ","/","-"), "_", $tag);
+		$tag = str_replace(array("\"",","), "", $tag);
+		//$tag = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $tag);
+		$tag = strtolower($tag);
+		return $tag;
+	}
+
 
 	if($argc != 3) 
 	{
@@ -38,11 +61,7 @@
 				$tags_url = array();
 				foreach($json_obj->tags as $tag)
 				{
-					$tag = trim($tag->term);
-					$tag = str_replace(" ", "_", $tag);
-					$tag = str_replace(array("\"",","), "", $tag);
-					$tag = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $tag);
-					$tag = strtolower($tag);
+					$tag = clean_tag($tag->term);
 					if(array_search($tag,$tags_url)===False)
 					{
 						$tags_url[]=$tag;
@@ -63,6 +82,7 @@
 					}
 				}
 				$book_title = str_replace("\n", "", $json_obj->title);
+				$book_title = convert_to_utf8($book_title);
 				$book_line = "\"" . $count_book . "\",\"" . $user_name . "\",\"" . $book_title . "\",\"" . 
 					0 . "\",\"" . $json_obj->link . "\",\"" . "NULL" . "\",\"" . $date_str . "\",\"" . 
 					"0000-00-00 00:00:00"  . "\",\"" . "0000-00-00 00:00:00" . "\"\n";

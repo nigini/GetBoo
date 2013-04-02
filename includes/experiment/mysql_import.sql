@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Remove old tables that will be created in memory
 -- --------------------------------------------------------
-SET GLOBAL tmp_table_size = 1024 * 1024 * 1024 * 3;
-SET GLOBAL max_heap_table_size = 1024 * 1024 * 1024 * 3;
+SET GLOBAL tmp_table_size = 1024 * 1024 * 1024 * 5;
+SET GLOBAL max_heap_table_size = 1024 * 1024 * 1024 * 5;
 DROP TABLE IF EXISTS `gb_favourites`, `gb_tags`, `gb_tags_added`, `gb_tags_books`;
 
 -- --------------------------------------------------------
@@ -20,7 +20,7 @@ CREATE TABLE `gb_favourites` (
   `LAST_VISIT` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LAST_MODIFIED` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`ID`)
-) MAX_ROWS=1500000 ENGINE=MEMORY  DEFAULT CHARSET=latin1;
+) MAX_ROWS=1500000 ENGINE=MEMORY  DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 -- Table structure for table `gb_tags`
@@ -31,7 +31,7 @@ CREATE TABLE `gb_tags` (
   `Title` varchar(50) NOT NULL,
   `Date_Added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`ID`)
-) MAX_ROWS=250000 ENGINE=MEMORY  DEFAULT CHARSET=latin1;
+) MAX_ROWS=250000 ENGINE=MEMORY  DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 -- Table structure for table `gb_tags_added`
