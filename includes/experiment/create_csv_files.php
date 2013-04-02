@@ -35,24 +35,32 @@
 				$book_data = fgets($file_handle);
 				$json_obj = json_decode($book_data);
 				$date_str = date('Y-m-d H:i:s', strtotime($json_obj->updated));
+				$tags_url = array();
 				foreach($json_obj->tags as $tag)
 				{
-					$tag = str_replace(" ", "_", $tag->term);
+					$tag = trim($tag->term);
+					$tag = str_replace(" ", "_", $tag);
+					$tag = str_replace(array("\"",","), "", $tag);
+					$tag = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $tag);
 					$tag = strtolower($tag);
-					$tag_id = "";
-					if(!array_key_exists($tag,$tags_data))
+					if(array_search($tag,$tags_url)===False)
 					{
-						$tag_id = $count_tag++;
-						$tags_data[$tag] = $tag_id;
-						$tag_entry = "\"" . $tag_id . "\",\"" . $tag . "\",\"" . $date_str . "\"\n";
-						fwrite($tags_output, $tag_entry);
+						$tags_url[]=$tag;
+						$tag_id = "";
+						if(!array_key_exists($tag,$tags_data))
+						{
+							$tag_id = $count_tag++;
+							$tags_data[$tag] = $tag_id;
+							$tag_entry = "\"" . $tag_id . "\",\"" . $tag . "\",\"" . $date_str . "\"\n";
+							fwrite($tags_output, $tag_entry);
+						}
+						else
+						{
+							$tag_id = $tags_data[$tag];
+						}
+						$relation_entry = "\"" . $count_book . "\",\"" . $tag_id . "\",\"" . $date_str . "\"\n";
+						fwrite($relations_output, $relation_entry);
 					}
-					else
-					{
-						$tag_id = $tags_data[$tag];
-					}
-					$relation_entry = "\"" . $count_book . "\",\"" . $tag_id . "\",\"" . $date_str . "\"\n";
-					fwrite($relations_output, $relation_entry);
 				}
 				$book_title = str_replace("\n", "", $json_obj->title);
 				$book_line = "\"" . $count_book . "\",\"" . $user_name . "\",\"" . $book_title . "\",\"" . 
