@@ -48,47 +48,80 @@
 			$tags_output = @fopen("2_tags_output.txt", "w");
 			$relations_output = @fopen("3_relations_output.txt", "w");
 			$pub_books_output = @fopen("4_pubbooks_output.txt", "w");
-			require_once("../bookmarks.php");
-			$tags_data = array();
+			$tags_data = array(); //TAG->ID
+			$url_data = array(); //URL->(['ID']->ID,['TAGS']->(T1,T2,T3))
 			$count_book = 0;
-			$count_tag = 1;
+			$count_tag = 0;
 			while(!feof($file_handle))
 			{
-				$count_book++;
+				$book_id = "";
 				$book_data = fgets($file_handle);
 				$json_obj = json_decode($book_data);
 				$date_str = date('Y-m-d H:i:s', strtotime($json_obj->updated));
-				$tags_url = array();
-				foreach($json_obj->tags as $tag)
+				$url_str = $json_obj->link;
+				$url_tags = array();
+				
+				//FIND TAGS TO BE ADDED TO A BOOKMARK
+				$url_exists = array_key_exists($url_str,$url_data);
+				if(!$url_exists)
 				{
-					$tag = clean_tag($tag->term);
-					if(array_search($tag,$tags_url)===False)
+					$book_id = $count_book+=1;
+				  foreach($json_obj->tags as $tag)
 					{
-						$tags_url[]=$tag;
-						$tag_id = "";
-						if(!array_key_exists($tag,$tags_data))
+						$tag = clean_tag($tag->term);
+						if(array_search($tag,$url_tags)===False)
 						{
-							$tag_id = $count_tag++;
-							$tags_data[$tag] = $tag_id;
-							$tag_entry = "\"" . $tag_id . "\",\"" . $tag . "\",\"" . $date_str . "\"\n";
-							fwrite($tags_output, $tag_entry);
+							$url_tags[]=$tag;
 						}
-						else
-						{
-							$tag_id = $tags_data[$tag];
-						}
-						$relation_entry = "\"" . $count_book . "\",\"" . $tag_id . "\",\"" . $date_str . "\"\n";
-						fwrite($relations_output, $relation_entry);
-					}
+					}	
+					$url_data[$url_str] = array('ID'=>$book_id,'TAGS'=>$url_tags);
 				}
-				$book_title = str_replace("\n", "", $json_obj->title);
-				$book_title = convert_to_utf8($book_title);
-				$book_line = "\"" . $count_book . "\",\"" . $user_name . "\",\"" . $book_title . "\",\"" . 
-					0 . "\",\"" . $json_obj->link . "\",\"" . "NULL" . "\",\"" . $date_str . "\",\"" . 
-					"0000-00-00 00:00:00"  . "\",\"" . "0000-00-00 00:00:00" . "\"\n";
-				fwrite($books_output, $book_line);
-				$pub_entry = "\"" . $count_book . "\",\"" . $date_str . "\"\n"; 
-				fwrite($pub_books_output, $pub_entry);
+				else
+				{
+					$url_local_data = $url_data[$url_str];
+					$book_id = $url_local_data['ID'];
+					$book_tags = $url_local_data['TAGS'];
+					foreach($json_obj->tags as $tag)
+					{
+						$tag = clean_tag($tag->term);
+						if(array_search($tag,$book_tags)===False and array_search($tag,$url_tags)===False)
+						{
+							$url_tags[]=$tag;
+							$book_tags[]=$tag;
+						}
+					}
+					$url_data[$url_str]['TAGS']=$book_tags;
+				}
+				//ADD NEW TAGS TO A BOOKMARK
+				foreach($url_tags as $tag)
+				{
+					$tag_id = "";
+					if(!array_key_exists($tag,$tags_data))
+					{
+						$tag_id = $count_tag+=1;
+						$tags_data[$tag] = $tag_id;
+						$tag_entry = "\"" . $tag_id . "\",\"" . $tag . "\",\"" . $date_str . "\"\n";
+						fwrite($tags_output, $tag_entry);
+					}
+					else
+					{
+						$tag_id = $tags_data[$tag];
+					}
+					$relation_entry = "\"" . $book_id . "\",\"" . $tag_id . "\",\"" . $date_str . "\"\n";
+					fwrite($relations_output, $relation_entry);
+				}
+				//ADD BOOKMARK IF IT IS NEW
+				if(!$url_exists)
+				{
+					$book_title = str_replace("\n", "", $json_obj->title);
+					$book_title = convert_to_utf8($book_title);
+					$book_line = "\"" . $book_id . "\",\"" . $user_name . "\",\"" . $book_title . "\",\"" . 
+						0 . "\",\"" . $url_str . "\",\"" . "NULL" . "\",\"" . $date_str . "\",\"" . 
+						"0000-00-00 00:00:00"  . "\",\"" . "0000-00-00 00:00:00" . "\"\n";
+					fwrite($books_output, $book_line);
+					$pub_entry = "\"" . $book_id . "\",\"" . $date_str . "\"\n"; 
+					fwrite($pub_books_output, $pub_entry);
+				}
 			}
 			fclose($file_handle);
 			fclose($books_output);

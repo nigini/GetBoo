@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Remove old tables that will be created in memory
 -- --------------------------------------------------------
-SET GLOBAL tmp_table_size = 1024 * 1024 * 1024 * 5;
-SET GLOBAL max_heap_table_size = 1024 * 1024 * 1024 * 5;
+SET GLOBAL tmp_table_size = 1024 * 1024 * 1024 * 3;
+SET GLOBAL max_heap_table_size = 1024 * 1024 * 1024 * 3;
 DROP TABLE IF EXISTS `gb_favourites`, `gb_tags`, `gb_tags_added`, `gb_tags_books`;
 
 -- --------------------------------------------------------
@@ -20,7 +20,7 @@ CREATE TABLE `gb_favourites` (
   `LAST_VISIT` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LAST_MODIFIED` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`ID`)
-) MAX_ROWS=1500000 ENGINE=MEMORY  DEFAULT CHARSET=utf8;
+) MAX_ROWS=650000 ENGINE=MEMORY  DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 -- Table structure for table `gb_tags`
@@ -41,7 +41,7 @@ CREATE TABLE `gb_tags_added` (
   `B_ID` int(4) NOT NULL DEFAULT '0',
   `Date_Added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`B_ID`)
-) MAX_ROWS=1500000 ENGINE=MEMORY DEFAULT CHARSET=latin1;
+) MAX_ROWS=650000 ENGINE=MEMORY DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 -- Table structure for table `gb_tags_books`
@@ -52,7 +52,7 @@ CREATE TABLE `gb_tags_books` (
   `T_ID` int(4) NOT NULL DEFAULT '0',
   `Date_Added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`B_ID`,`T_ID`)
-) MAX_ROWS=4000000 ENGINE=MEMORY DEFAULT CHARSET=latin1;
+) MAX_ROWS=3000000 ENGINE=MEMORY DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 -- Turn off table keys to make import faster!
