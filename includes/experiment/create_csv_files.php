@@ -6,25 +6,43 @@
  * This allows the importing data task much less timely expensive because we can use the LOAD DATA 
  * INFILE MySQL tool.
  */
-	
-	function replace_unicode_escape_sequence($match)
+
+	/** 
+	 * This callback function is used by "convert_to_utf8" function. It aims to convert character
+   * codes from unicode to UTF-8.
+	 * @param mixed $unicode_char It's expected a string in the format "['\u','0000']" that is the 
+	 *				unicode scape format specially encapsulated by the pattern finder of PHP function
+   *				"preg_replace_callback".
+   * @return string the UTF-8 character code. 
+	 */
+	function replace_unicode_escape_sequence($unicode_char)
 	{
-		return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+		return mb_convert_encoding(pack('H*', $unicode_char[1]), 'UTF-8', 'UCS-2BE');
 	}
 
+  /**
+	 * Finds and converts every unicode scape sub-string (e.g. \u0000) inside the passed string to 
+	 * UTF-8 coded charaters.
+	 * @param string $str The string where the unicode codes should be substitute by UTF-8 codes.
+   * @return string The original string with all unicode codes substituted by UTF-8 codes.
+	 */
 	function convert_to_utf8($str)
 	{
 		$str = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', 'replace_unicode_escape_sequence', $str);
 		return $str;
 	}
 
+  /**
+	 * Auxiliar function that "cleans" strings to complain a tag pattern. It means that no spaces are
+	 * allowed and other word separators (like "/" and "-") are converted to "_". Other characters
+	 * (like """ and ".") are treated as garbage and removed. Among this the result is lowercased.
+	 */
 	function clean_tag($tag)
 	{
 		$tag = convert_to_utf8($tag);
 		$tag = trim($tag);
 		$tag = str_replace(array(" ","/","-"), "_", $tag);
 		$tag = str_replace(array("\"",","), "", $tag);
-		//$tag = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $tag);
 		$tag = strtolower($tag);
 		return $tag;
 	}
@@ -48,8 +66,8 @@
 			$tags_output = @fopen("2_tags_output.txt", "w");
 			$relations_output = @fopen("3_relations_output.txt", "w");
 			$pub_books_output = @fopen("4_pubbooks_output.txt", "w");
-			$tags_data = array(); //TAG->ID
-			$url_data = array(); //URL->(['ID']->ID,['TAGS']->(T1,T2,T3))
+			$tags_data = array(); //TAG->tag_id
+			$url_data = array(); //URL->( ['ID']->book_id; ['TAGS']->(tag_1,tag_2,tag_3) )
 			$count_book = 0;
 			$count_tag = 0;
 			while(!feof($file_handle))
@@ -61,20 +79,21 @@
 				$url_str = $json_obj->link;
 				$url_tags = array();
 				
-				//FIND TAGS TO BE ADDED TO A BOOKMARK
-				$url_exists = array_key_exists($url_str,$url_data);
+				//Find tags to be added to a bookmark
+				$url_exists = array_key_exists($url_str, $url_data);
 				if(!$url_exists)
-				{
-					$book_id = $count_book+=1;
+				{ 
+					$count_book += 1;
+					$book_id = $count_book;
 				  foreach($json_obj->tags as $tag)
 					{
 						$tag = clean_tag($tag->term);
-						if(array_search($tag,$url_tags)===False)
+						if(array_search($tag, $url_tags) === False)
 						{
 							$url_tags[]=$tag;
 						}
 					}	
-					$url_data[$url_str] = array('ID'=>$book_id,'TAGS'=>$url_tags);
+					$url_data[$url_str] = array('ID'=>$book_id, 'TAGS'=>$url_tags);
 				}
 				else
 				{
@@ -84,21 +103,23 @@
 					foreach($json_obj->tags as $tag)
 					{
 						$tag = clean_tag($tag->term);
-						if(array_search($tag,$book_tags)===False and array_search($tag,$url_tags)===False)
+						if((array_search($tag, $book_tags) === False) and 
+							 (array_search($tag, $url_tags) === False))
 						{
-							$url_tags[]=$tag;
-							$book_tags[]=$tag;
+							$url_tags[] = $tag;
+							$book_tags[] = $tag;
 						}
 					}
-					$url_data[$url_str]['TAGS']=$book_tags;
+					$url_data[$url_str]['TAGS'] = $book_tags;
 				}
-				//ADD NEW TAGS TO A BOOKMARK
+				//Add new TAGS to a  BOOKMARK
 				foreach($url_tags as $tag)
 				{
 					$tag_id = "";
-					if(!array_key_exists($tag,$tags_data))
+					if(!array_key_exists($tag, $tags_data))
 					{
-						$tag_id = $count_tag+=1;
+						$count_tag += 1;
+						$tag_id = $count_tag;
 						$tags_data[$tag] = $tag_id;
 						$tag_entry = "\"" . $tag_id . "\",\"" . $tag . "\",\"" . $date_str . "\"\n";
 						fwrite($tags_output, $tag_entry);
@@ -110,7 +131,7 @@
 					$relation_entry = "\"" . $book_id . "\",\"" . $tag_id . "\",\"" . $date_str . "\"\n";
 					fwrite($relations_output, $relation_entry);
 				}
-				//ADD BOOKMARK IF IT IS NEW
+				//Add BOOKMARK if it is new
 				if(!$url_exists)
 				{
 					$book_title = str_replace("\n", "", $json_obj->title);
