@@ -8,8 +8,8 @@
  */
 
 	/** 
-	 * This callback function is used by "convert_to_utf8" function. It aims to convert character
-   * codes from unicode to UTF-8.
+	 * This callback function is used by "convert_to_utf8" function. It converts character codes from
+   * unicode to UTF-8.
 	 * @param mixed $unicode_char It's expected a string in the format "['\u','0000']" that is the 
 	 *				unicode scape format specially encapsulated by the pattern finder of PHP function
    *				"preg_replace_callback".
@@ -41,8 +41,8 @@
 	{
 		$tag = convert_to_utf8($tag);
 		$tag = trim($tag);
-		$tag = str_replace(array(" ","/","-"), "_", $tag);
 		$tag = str_replace(array("\"",","), "", $tag);
+		$tag = str_replace(array(" ","/","-"), "_", $tag);
 		$tag = strtolower($tag);
 		return $tag;
 	}
