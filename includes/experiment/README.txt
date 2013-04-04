@@ -7,10 +7,13 @@ generate 4 CSV files (each one containing data for a different table) called: 1_
 
   * php create_csv_files.php delicious-rss-1250k getboo_username 2> /dev/null
 
-* Now that you have the 4 CSV files you have to execute "mysql_import.sql" as database root in the 
-"getboo" database. For example: 
+* Now that you have the 4 CSV files you have to:
 
-  * mysql --database=getboo -u root -p < includes/experiment/mysql_import.sql 
+  * copy files to "getboo" database directory (e.g.: /var/lib/mysql/getboo)
+
+  * execute "mysql_import.sql" as database root in the "getboo" database. For example: 
+
+    * mysql --database=getboo -u root -p < includes/experiment/mysql_import.sql 
 
 * WARNING:
 
