@@ -100,8 +100,10 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 				$descCSS = " style=\"border: 1px dashed #ccc; border-width: 0 0 0 1px;\"";
 				$footerCSS = " style=\"border: 1px dashed #ccc; border-width: 0 0 1px 1px;\"";
 			}
-			if($rec_desc != null) // If there is a description
+			if(($rec_desc != null) and ($rec_desc != "NULL"))
+			{
 				echo("<div class=\"tagdesc\"$descCSS>" . $rec_desc . "</div>\n");
+			}
 			echo("<div class=\"tagdesc\"$descCSS><span class=\"tags\">" . $allTagsLinks . "</span>");
 			//<img src=\"images/icons/tag_orange.png\">
 			if($displayUser)
