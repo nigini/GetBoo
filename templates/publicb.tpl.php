@@ -105,7 +105,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 				echo("<div class=\"tagdesc\"$descCSS>" . $rec_desc . "</div>\n");
 			}
 			echo("<div class=\"tagdesc\"$descCSS><span class=\"tags\">" . $allTagsLinks . "</span>");
-			//<img src=\"images/icons/tag_orange.png\">
 			if($displayUser)
 			{
 				$userName = "{$row["name"]}";
@@ -122,8 +121,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 				echo(T_("added") . " " . $time_between);
 			else
 				echo(T_("on") . " " . $date_added);
-			/*if($username == $userName)
-				echo(" / Delete");*/
 			echo("</div>\n");
 	
 			//Comments
