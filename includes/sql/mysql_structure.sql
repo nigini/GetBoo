@@ -94,9 +94,9 @@ CREATE TABLE gb_configs (
 ) ENGINE=MyISAM COMMENT='Configuration variables';
 
 INSERT INTO gb_configs (config_name, config_value, config_description, config_type, config_group, config_choices) VALUES
-('WEBSITE_NAME', '', 'Name of the GetBoo installation', 'string', 1, ''),
+('WEBSITE_NAME', '', 'Social Tagging Site Experiment', 'string', 1, ''),
 ('WEBSITE_LOCALE', '', 'Locale for the translation in use', 'choices', 1, 'en_US,fr_FR,es_ES,cs_CZ,de_DE'),
-('WEBSITE_ROOT', '', 'Root of the installation. Add slash / at the end of the url', 'string', 1, ''),
+('WEBSITE_ROOT', 'login.php', 'Root of the installation. Add slash / at the end of the url', 'string', 1, ''),
 ('WEBSITE_DIR', '', 'Real directory path where the script resides on the server (no localhost or www url)', 'string', 1, ''),
 ('TAGS', '1', 'The users can add and modify their bookmarks to make them public', 'boolean', 1, ''),
 ('DEBUG', '0', 'Functions to debug if you need to test your scripts/add-ons. Not recommended for production mode.', 'boolean', 1, ''),

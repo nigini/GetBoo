@@ -87,13 +87,16 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 						. "\"> [+] </a>");
 				}
 			}
-			echo("<a href=\"redirect.php?id=" . $rec_id . "\" rel=\"nofollow\">". $rec_title . "</a></div>\n");
+			echo("<a href=\"redirect.php?id=" . $rec_id . "\" rel=\"nofollow\" target=\"_blank\">"
+						. $rec_title . "</a></div>\n");
 			if(USE_SCREENSHOT && SCREENSHOT_URL)
 			{
 				//Convert all ampersands to &amp;
 				$screenshot_url = str_replace("&","&amp;", SCREENSHOT_URL);
-				echo("<div style=\"min-height: 80px\"><a href=\"redirect.php?id=" . $rec_id . "\" rel=\"nofollow\">");
-				echo(sprintf("<img width=\"120px\" height=\"90px\" alt=\"\" src=\"" . $screenshot_url . "\" style=\"padding-right: 10px; float: left;\"></a>",$rec_url));
+				echo("<div style=\"min-height: 80px\"><a href=\"redirect.php?id=" . $rec_id 
+							. "\" rel=\"nofollow\">");
+				echo(sprintf("<img width=\"120px\" height=\"90px\" alt=\"\" src=\"" . $screenshot_url 
+							. "\" style=\"padding-right: 10px; float: left;\"></a>",$rec_url));
 			}
 			else
 			{
@@ -111,10 +114,12 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 				if(IS_GETBOO)
 					$isDonor = User::isDonor($userName);
 				if($isDonor)
-					$donorLogo = " <img src=\"images/donor-mini.gif\" alt=\"" . T_("Donor") . "\" title=\"" . T_("Donor") . "\" />";
+					$donorLogo = " <img src=\"images/donor-mini.gif\" alt=\"" . T_("Donor") . "\" title=\"" 
+												. T_("Donor") . "\" />";
 				else
 					$donorLogo = "";
-				echo(T_("by") . " <a href=\"userb.php?uname=" . $userName . "\">" . $userName . "$donorLogo</a> ");
+				echo(T_("by") . " <a href=\"userb.php?uname=" . $userName . "\">" . $userName 
+						. "$donorLogo</a> ");
 			}
 			echo("... ");
 			if($time_between)
