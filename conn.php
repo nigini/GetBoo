@@ -47,6 +47,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	
 	// set the default fetchmode
 	$dblink->setFetchMode(MDB2_FETCHMODE_ASSOC);
+	$dblink->setCharset("utf8");
 	
 	if($dbtype == "pgsql")
 		$dateDiffQuery = "EXTRACT(epoch FROM now() -";
