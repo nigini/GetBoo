@@ -371,7 +371,7 @@ CREATE TABLE gb_tags_hits (
   Time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   Tags varchar(200) NOT NULL,
   PRIMARY KEY  (ID)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 
