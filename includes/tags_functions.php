@@ -669,34 +669,46 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		{
 			$user_books[$count++] = $row;
 		}
-
-		
-
 		return $user_books;
 	}
 	
-    function renameTag($username, $old, $new) {
-	    //TODO: Complete the function for the API tags_rename
-        if (is_null($userid) || is_null($old) || is_null($new))
-            return false;
-
-        // Find bookmarks with old tag
-        $bookmarksInfo =& $bookmarkservice->getBookmarks(0, NULL, $userid, $old);
-        $bookmarks =& $bookmarksInfo['bookmarks'];
-
-        // Delete old tag
-        $this->deleteTag($old);
-
-        // Attach new tags
-        foreach(array_keys($bookmarks) as $key) {
-            $row =& $bookmarks[$key];
-            //Add the tags
+	function renameTag($username, $old, $new) {
+		//TODO: Complete the function for the API tags_rename
+		if (is_null($userid) || is_null($old) || is_null($new))
+		{
+			return false;
+		}
+		// Find bookmarks with old tag
+		$bookmarksInfo =& $bookmarkservice->getBookmarks(0, NULL, $userid, $old);
+		$bookmarks =& $bookmarksInfo['bookmarks'];
+		// Delete old tag
+		$this->deleteTag($old);
+		// Attach new tags
+		foreach(array_keys($bookmarks) as $key)
+		{
+			$row =& $bookmarks[$key];
+			//Add the tags
 			addTags($tags);
 			//Store the tags with the bookmark
 			storeTags($rec_id, $tags);
-            $this->attachTags($row['bId'], $new, $fromApi, NULL, false);
-        }
+			$this->attachTags($row['bId'], $new, $fromApi, NULL, false);
+		}
+		return true;
+	}
 
-        return true;
-    }
+
+  /**
+	 * Auxiliar function that "cleans" strings to complain a tag pattern. It means that no spaces are
+	 * allowed and other word separators (like "/" and "-") are converted to "_". Other characters
+	 * (like """ and ".") are treated as garbage and removed. Among this the result is lowercased.
+	 */
+	function clean_tag($tag)
+	{
+		$tag = trim($tag);
+		$tag = str_replace(array("\"",","), "", $tag);
+		$tag = str_replace(array(" ","/","-"), "_", $tag);
+		$tag = strtolower($tag);
+		return $tag;
+	}
+
 ?>
