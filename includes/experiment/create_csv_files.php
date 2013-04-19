@@ -32,21 +32,6 @@
 		return $str;
 	}
 
-  /**
-	 * Auxiliar function that "cleans" strings to complain a tag pattern. It means that no spaces are
-	 * allowed and other word separators (like "/" and "-") are converted to "_". Other characters
-	 * (like """ and ".") are treated as garbage and removed. Among this the result is lowercased.
-	 */
-	function clean_tag($tag)
-	{
-		$tag = convert_to_utf8($tag);
-		$tag = trim($tag);
-		$tag = str_replace(array("\"",","), "", $tag);
-		$tag = str_replace(array(" ","/","-"), "_", $tag);
-		$tag = strtolower($tag);
-		return $tag;
-	}
-
 
 	if($argc != 3) 
 	{
@@ -56,6 +41,7 @@
 	}
 	else
 	{
+		require('includes/tags_functions.php');
 		$file_name = $argv[1];
 		$user_name = $argv[2];
 		$file_handle = @fopen($file_name, "r");
@@ -87,7 +73,7 @@
 					$book_id = $count_book;
 				  foreach($json_obj->tags as $tag)
 					{
-						$tag = clean_tag($tag->term);
+						$tag = clean_tag(convert_to_utf8($tag->term));
 						if(array_search($tag, $url_tags) === False)
 						{
 							$url_tags[]=$tag;
@@ -102,7 +88,7 @@
 					$book_tags = $url_local_data['TAGS'];
 					foreach($json_obj->tags as $tag)
 					{
-						$tag = clean_tag($tag->term);
+						$tag = clean_tag(convert_to_utf8($tag->term));
 						if((array_search($tag, $book_tags) === False) and 
 							 (array_search($tag, $url_tags) === False))
 						{
