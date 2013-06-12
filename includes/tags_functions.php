@@ -548,7 +548,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
    *         id, title, url, description, name.
    */
 	function getTagsBookmarks($tagNames, $firstResultNumber, $numberOfResults, $userName = "", 
-           $path = "", $datestart = "", $dateend = "", $url = "")
+                            $path = "", $datestart = "", $dateend = "", $url = "")
 	{
 		include($path . 'conn.php');
 		$tagcount = count($tagNames);
@@ -604,7 +604,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			$dbResult = $dblink->query($Query);
 		  $total_books = $dbResult->numRows();
 			$tags_books = array();
-      foreach(range($firstResultNumber, $firstResultNumber+$numberOfResults-1) as $rowNum)
+      foreach(range($firstResultNumber, $firstResultNumber + $numberOfResults - 1) as $rowNum)
       {
         if(!($row = $dbResult->fetchRow(MDB2_FETCHMODE_ASSOC, $rowNum)))
         {
