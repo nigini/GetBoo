@@ -535,7 +535,20 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		return $user_books;
 	}
 
-	function getTagsBookmarks($tagNames, $minTagsNb, $maxTagsNb, $userName = "", $path = "", $datestart = "", $dateend = "", $url = "")
+  /**
+   * Search for the bookmarks that where marked with all the given tags.
+   * @param String[] $tagNames The tags to filter content.
+   * @param int $firstResultNumber A strictly positive number that tells the first bookmark to be
+   *        returned from the result.
+   * @param int $numberOfResults A strinctly positive number that tells the number of bookmarks to
+   *        be returned.
+   * @return mixed[] A two positions array, where the first (int) tells the total number of 
+   *         bookmarks marked with all tags given as parameter. The second position is a nested
+   *         Array with all the resulting rows and the following columns: formatted_time, ADD_DATE,
+   *         id, title, url, description, name.
+   */
+	function getTagsBookmarks($tagNames, $firstResultNumber, $numberOfResults, $userName = "", 
+                            $path = "", $datestart = "", $dateend = "", $url = "")
 	{
 		include($path . 'conn.php');
 		$tagcount = count($tagNames);
@@ -547,10 +560,11 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		$Query3 = ("");
 		$Query4 = ("");
 
-		$Query1 = ("select b.ADD_DATE AS formatted_time, b.ADD_DATE, id, title, url, description, name "); //select the fields
+		$Query1 = ("select b.ADD_DATE AS formatted_time, b.ADD_DATE, id, title, url, description, 
+              name "); //select the fields
 		$Query2 = ("from " . TABLE_PREFIX . "favourites as b"); // from fields
 		$Query3 = ("where (");
-		$Query4 = (") order by b.ADD_DATE desc");// limit " . $minTagsNb . ", " . $maxTagsNb);
+		$Query4 = (") order by b.ADD_DATE desc");
 		
 		for ($i = 0; $i < $tagcount; $i ++)
 		{
@@ -562,15 +576,16 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			}
 			else
 			{
-				$Query2 .= (", " . TABLE_PREFIX . "tags_books as tb" . $i . ", " . TABLE_PREFIX . "tags_added as ta" . $i . " ");
-				
+				$Query2 .= (", " . TABLE_PREFIX . "tags_books as tb" . $i . ", " . TABLE_PREFIX 
+                . "tags_added as ta" . $i . " ");
 				if($i > 0)
 					$Query3 .= "and ";
-				$Query3 .= ("b.id = tb" . $i . ".b_id and tb" . $i . ".b_id = ta" . $i . ".b_id and tb" . $i . ".t_id = '" . $tagID . "' ");
+				$Query3 .= ("b.id = tb" . $i . ".b_id and tb" . $i . ".b_id = ta" . $i . ".b_id and tb" 
+                . $i . ".t_id = '" . $tagID . "' ");
 			}
 		}
 		if($doQuery)
-			{
+		{
 			if($userName != "")
 				$Query3 .= ("and name = '" . $userName . "'"); // Only for a specific user
 				
@@ -586,14 +601,23 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		
 			$Query = $Query1 . $Query2 . $Query3 . $Query4;
 			
-			$dblink->setLimit($maxTagsNb, $minTagsNb);
 			$dbResult = $dblink->query($Query);
-			
-			$tags_books = $dbResult->fetchAll();
+		  $total_books = $dbResult->numRows();
+			$tags_books = array();
+      foreach(range($firstResultNumber, $firstResultNumber + $numberOfResults - 1) as $rowNum)
+      {
+        if(!($row = $dbResult->fetchRow(MDB2_FETCHMODE_ASSOC, $rowNum)))
+        {
+          break;
+        }
+        array_push($tags_books, $row);
+      }
+      return array($total_books, $tags_books);
 		}
 		else
-			$tags_books = null;
-		return $tags_books;
+    {
+		  return array(0, null);
+    }
 	}
 
 	function getSearchBookmarks($keywords, $minTagsNb, $maxTagsNb)

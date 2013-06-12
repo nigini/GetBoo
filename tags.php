@@ -82,7 +82,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		$tagTitle = str_replace(' + ', '+', $tagTitle);
 		echo("<h2>" . T_("Tags") . " -- <span id=\"crumb\">" . $tagTitle . "</span>
 			<script type=\"text/javascript\">if(window.Crumb) Crumb.go('tags.php?tag=')</script></h2>");
-
 		$pageUrl = "tags.php?tag=" . $tagName;
 		include('includes/pagenb.php');
 
@@ -119,12 +118,14 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		}
 
 		$anyBooks = false;
-		//$exists = tagExists($tagName);
 		$countBookmarks = 0;
 
 		if($exists)
 		{
-			$bookmarks = getTagsBookmarks($tagNames, $minTagsNb, $maxTagsNb);
+      $search_result = getTagsBookmarks($tagNames, $minTagsNb, $maxTagsNb);
+      $total_bookmarks = $search_result[0];
+			$bookmarks = $search_result[1];
+			echo("<p class=\"notice\">" . $total_bookmarks . " bookmarks found!</p>");
 
 			//Display the bookmarks
 			$displayUser = true;
@@ -135,10 +136,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			echo("<p class=\"notice\">No bookmarks available</p>");
 		else
 		{
-			//TODO: Need to tweak that. We shouldn't query just to know that!
-			$bookmarkToCome = getTagsBookmarks($tagNames, ($minTagsNb + $maxTagsNb), 1);
-
-			$moreBooks = count($bookmarkToCome) != 0;
+			$moreBooks = $total_bookmarks > $minTagsNb + $maxTagsNb - 1;
 
 			echo("<p class=\"paging\">");
 			if($pageNb > 1)
@@ -164,8 +162,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		    $cache->End($hash);
 		}
 	}
-	else
-	{
+else
+{
 		header('Location: populartags.php');
 	}
 ?>

@@ -148,8 +148,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 				$moreBooks = false;
 				if($tagName != "")
 				{
-					$bookmarks = getTagsBookmarks($tagNames, $minTagsNb, $maxTagsNb, $userName);
-					$bookmarkToCome = getTagsBookmarks($tagNames, ($minTagsNb + $maxTagsNb), 1, $userName);
+          //TODO(nigini): There is a way of not calling this methods two time now!
+					$bookmarks = getTagsBookmarks($tagNames, $minTagsNb, $maxTagsNb, $userName)[1];
+					$bookmarkToCome = getTagsBookmarks($tagNames, ($minTagsNb + $maxTagsNb), 1, $userName)[1];
 					$moreBooks = count($bookmarkToCome) != 0;
 				}
 				else
